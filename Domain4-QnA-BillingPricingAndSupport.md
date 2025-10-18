@@ -1,4 +1,4 @@
-# Billing, Pricing, and Support
+# Domain 4 - Billing, Pricing, and Support
 
 **Total Questions: 132** 
 
@@ -8,7 +8,7 @@
 
 You have set up consolidated billing for several AWS accounts. One of the accounts has purchased a number of reserved instances for 3 years. Which of the following is true regarding this scenario?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. The Reserved Instance discounts can only be shared with the master account.
+&nbsp;&nbsp;&nbsp;&nbsp;A. The Reserved Instance discounts can only be shared with the master account.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. All accounts can receive the hourly cost benefit of the Reserved Instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. The purchased instances will have better performance than On-demand instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. There are no cost benefits from using consolidated billing; It is for informational purposes only.
@@ -26,7 +26,7 @@ You have set up consolidated billing for several AWS accounts. One of the accoun
 
 A company has an AWS Enterprise Support plan. They want quick and efficient guidance with their billing and account inquiries. Which of the following should the company use?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Health Dashboard.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Health Dashboard.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Support Concierge.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Customer Service.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Operations Support.
@@ -44,7 +44,7 @@ A company has an AWS Enterprise Support plan. They want quick and efficient guid
 
 What do you gain from setting up consolidated billing for five different AWS accounts under another master account?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS services' costs will be reduced to half the original price.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS services' costs will be reduced to half the original price.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. The consolidated billing feature is just for organizational purpose.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Each AWS account gets volume discounts.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Each AWS account gets five times the free-tier services capacity.
@@ -62,7 +62,7 @@ What do you gain from setting up consolidated billing for five different AWS acc
 
 A startup company is operating on limited funds and is extremely concerned about cost overruns. Which of the below options can be used to notify the company when their monthly AWS bill exceeds $2000?
  (Choose TWO)
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Setup a CloudWatch billing alarm that triggers an SNS notification when the threshold is exceeded.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Setup a CloudWatch billing alarm that triggers an SNS notification when the threshold is exceeded.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Configure the Amazon Simple Email Service to send billing alerts to their email address on a daily basis.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Configure the AWS Budgets Service to alert the company when the threshold is exceeded.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Configure AWS CloudTrail to automatically delete all AWS resources when the threshold is exceeded.
@@ -81,7 +81,7 @@ A startup company is operating on limited funds and is extremely concerned about
 
 You want to run a questionnaire application for only one day (without interruption), which Amazon EC2 purchase option should you use?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Reserved instances.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Reserved instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Spot instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Dedicated instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. On-demand instances.
@@ -99,7 +99,7 @@ You want to run a questionnaire application for only one day (without interrupti
 
 You are working on a project that involves creating thumbnails of millions of images. Consistent uptime is not an issue, and continuous processing is not required. Which EC2 buying option would be the most cost-effective?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Reserved Instances.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Reserved Instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. On-demand Instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Dedicated Instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Spot Instances.
@@ -117,7 +117,7 @@ You are working on a project that involves creating thumbnails of millions of im
 
 Which of the following is NOT correct regarding Amazon EC2 On-demand instances?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. You have to pay a start-up fee when launching a new instance for the first time.
+&nbsp;&nbsp;&nbsp;&nbsp;A. You have to pay a start-up fee when launching a new instance for the first time.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. The on-demand instances follow the AWS pay-as-you-go pricing model.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. With on-demand instances, no longer-term commitments or upfront payments are needed.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. When using on-demand Linux instances, you are charged per second based on an hourly rate.
@@ -135,7 +135,7 @@ Which of the following is NOT correct regarding Amazon EC2 On-demand instances?
 
 A company is introducing a new product to their customers, and is expecting a surge in traffic to their web application. As part of their Enterprise Support plan, which of the following provides the company with architectural and scaling guidance?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Knowledge Center.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Knowledge Center.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Health Dashboard.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Infrastructure Event Management.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Support Concierge Service.
@@ -153,7 +153,7 @@ A company is introducing a new product to their customers, and is expecting a su
 
 Which of the following EC2 instance purchasing options supports the Bring Your Own License (BYOL) model for almost every BYOL scenario?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Dedicated Instances.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Dedicated Instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Dedicated Hosts.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. On-demand Instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Reserved Instances.
@@ -171,7 +171,7 @@ Which of the following EC2 instance purchasing options supports the Bring Your O
 
 A company is migrating an application that is running non-interruptible workloads for a three-year time frame. Which pricing construct would provide the MOST cost-effective solution?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EC2 Spot Instances.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EC2 Spot Instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon EC2 Dedicated Instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon EC2 On-Demand Instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon EC2 Reserved Instances.
@@ -189,7 +189,7 @@ A company is migrating an application that is running non-interruptible workload
 
 Which AWS support plan provides access to a dedicated Technical Account Manager?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Basic Support
+&nbsp;&nbsp;&nbsp;&nbsp;A. Basic Support
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Developer Support
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Business Support
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Enterprise Support
@@ -207,7 +207,7 @@ Which AWS support plan provides access to a dedicated Technical Account Manager?
 
 What is the BEST tool to estimate monthly AWS costs before deployment?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Cost Explorer
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Pricing Calculator
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Budgets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Trusted Advisor
@@ -225,7 +225,7 @@ What is the BEST tool to estimate monthly AWS costs before deployment?
 
 A company wants to save 75% on EC2 costs for interruptible batch processing. Which option should they choose?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Reserved Instances
+&nbsp;&nbsp;&nbsp;&nbsp;A. Reserved Instances
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. On-Demand Instances
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Spot Instances
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Savings Plans
@@ -243,7 +243,7 @@ A company wants to save 75% on EC2 costs for interruptible batch processing. Whi
 
 Which service provides detailed cost and usage reports delivered to S3?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Budgets
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Budgets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Cost & Usage Reports
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Pricing Calculator
@@ -261,7 +261,7 @@ Which service provides detailed cost and usage reports delivered to S3?
 
 What benefit does the AWS Free Tier provide?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Free Enterprise Support
+&nbsp;&nbsp;&nbsp;&nbsp;A. Free Enterprise Support
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Always free services
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 12 months free usage limits
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All of the above
@@ -279,7 +279,7 @@ What benefit does the AWS Free Tier provide?
 
 Which EC2 pricing model offers up to 90% discount compared to On-Demand?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Reserved Instances
+&nbsp;&nbsp;&nbsp;&nbsp;A. Reserved Instances
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Savings Plans
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Spot Instances
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Dedicated Hosts
@@ -297,7 +297,7 @@ Which EC2 pricing model offers up to 90% discount compared to On-Demand?
 
 What is the maximum discount for 3-year Reserved Instances with All Upfront payment?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 40%
+&nbsp;&nbsp;&nbsp;&nbsp;A. 40%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 55%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 72%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 75%
@@ -315,7 +315,7 @@ What is the maximum discount for 3-year Reserved Instances with All Upfront paym
 
 Which tool provides recommendations to reduce costs?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Cost Explorer
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Trusted Advisor
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Budgets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All of the above
@@ -333,7 +333,7 @@ Which tool provides recommendations to reduce costs?
 
 What is AWS Savings Plans?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Flexible commitment across EC2, Lambda, Fargate
+&nbsp;&nbsp;&nbsp;&nbsp;A. Flexible commitment across EC2, Lambda, Fargate
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Only for EC2 Reserved Instances
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Spot Instance replacement
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Free tier extension
@@ -351,7 +351,7 @@ What is AWS Savings Plans?
 
 Which support plan includes Infrastructure Event Management?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Developer
+&nbsp;&nbsp;&nbsp;&nbsp;A. Developer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Enterprise On-Ramp
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Enterprise
@@ -369,7 +369,7 @@ Which support plan includes Infrastructure Event Management?
 
 What is the billing increment for Windows EC2 instances?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Per second
+&nbsp;&nbsp;&nbsp;&nbsp;A. Per second
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Per minute
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Per hour
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Per month
@@ -387,7 +387,7 @@ What is the billing increment for Windows EC2 instances?
 
 Which service helps track costs by tags?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Cost Explorer
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Budgets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Cost & Usage Reports
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All of the above
@@ -405,7 +405,7 @@ Which service helps track costs by tags?
 
 What is the AWS Free Tier limit for S3 storage?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 5 GB Standard
+&nbsp;&nbsp;&nbsp;&nbsp;A. 5 GB Standard
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 10 GB Standard
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 20 GB Standard
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Unlimited
@@ -423,7 +423,7 @@ What is the AWS Free Tier limit for S3 storage?
 
 Which pricing model requires no upfront payment?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Reserved Instances (All Upfront)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Reserved Instances (All Upfront)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Reserved Instances (No Upfront)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Savings Plans (Partial Upfront)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Spot Instances
@@ -441,7 +441,7 @@ Which pricing model requires no upfront payment?
 
 What is AWS Support Concierge?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Billing/account guidance for Enterprise
+&nbsp;&nbsp;&nbsp;&nbsp;A. Billing/account guidance for Enterprise
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Technical TAM
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 24/7 phone support
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Developer forums
@@ -459,7 +459,7 @@ What is AWS Support Concierge?
 
 Which tool compares on-premises vs AWS costs?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Pricing Calculator
+&nbsp;&nbsp;&nbsp;&nbsp;A. Pricing Calculator
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. TCO Calculator
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Budgets
@@ -477,7 +477,7 @@ Which tool compares on-premises vs AWS costs?
 
 What is the minimum commitment for Compute Savings Plans?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 1 month
+&nbsp;&nbsp;&nbsp;&nbsp;A. 1 month
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 1 year
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 3 years
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. No minimum
@@ -495,7 +495,7 @@ What is the minimum commitment for Compute Savings Plans?
 
 Which service sends cost alerts via email?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Budgets
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Budgets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. CloudWatch Alarms
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Both A and B
@@ -513,7 +513,7 @@ Which service sends cost alerts via email?
 
 What is the free tier for Lambda?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 1 million requests/month
+&nbsp;&nbsp;&nbsp;&nbsp;A. 1 million requests/month
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 400,000 GB-seconds/month
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Both A and B
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Unlimited
@@ -531,7 +531,7 @@ What is the free tier for Lambda?
 
 Which support plan has 24/7 phone/chat?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Basic
+&nbsp;&nbsp;&nbsp;&nbsp;A. Basic
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Developer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Enterprise
@@ -549,7 +549,7 @@ Which support plan has 24/7 phone/chat?
 
 What is EC2 Instance Savings Plans?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Specific instance family commitment
+&nbsp;&nbsp;&nbsp;&nbsp;A. Specific instance family commitment
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Any compute service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Spot replacement
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Free tier
@@ -567,7 +567,7 @@ What is EC2 Instance Savings Plans?
 
 Which report provides line-item billing detail?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Monthly Bill
+&nbsp;&nbsp;&nbsp;&nbsp;A. Monthly Bill
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Cost & Usage Reports
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Budgets
@@ -585,7 +585,7 @@ Which report provides line-item billing detail?
 
 What is the discount for 1-year Reserved Instance (Partial Upfront)?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 40%
+&nbsp;&nbsp;&nbsp;&nbsp;A. 40%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 50%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 60%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 72%
@@ -603,7 +603,7 @@ What is the discount for 1-year Reserved Instance (Partial Upfront)?
 
 Which plan includes Well-Architected reviews?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Business
+&nbsp;&nbsp;&nbsp;&nbsp;A. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Enterprise On-Ramp
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Enterprise
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All above
@@ -621,7 +621,7 @@ Which plan includes Well-Architected reviews?
 
 What is AWS Cost Categories?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Group costs by custom dimensions
+&nbsp;&nbsp;&nbsp;&nbsp;A. Group costs by custom dimensions
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Budget creation
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Alert system
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Report generator
@@ -639,7 +639,7 @@ What is AWS Cost Categories?
 
 Which service stops unused resources to save costs?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Instance Scheduler
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Instance Scheduler
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Budgets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Trusted Advisor
@@ -657,7 +657,7 @@ Which service stops unused resources to save costs?
 
 What is the free tier for EC2?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 750 hours t2.micro/month
+&nbsp;&nbsp;&nbsp;&nbsp;A. 750 hours t2.micro/month
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 1000 hours t3.micro/month
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 500 hours m5.large/month
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Unlimited
@@ -675,7 +675,7 @@ What is the free tier for EC2?
 
 Which provides 99.99% SLA for single AZ RDS?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Basic Support
+&nbsp;&nbsp;&nbsp;&nbsp;A. Basic Support
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Business Support
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Enterprise Support
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. No SLA
@@ -693,7 +693,7 @@ Which provides 99.99% SLA for single AZ RDS?
 
 What is the discount range for SageMaker Savings Plans?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 20-40%
+&nbsp;&nbsp;&nbsp;&nbsp;A. 20-40%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 50-64%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 66-72%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Up to 90%
@@ -711,7 +711,7 @@ What is the discount range for SageMaker Savings Plans?
 
 Which tool forecasts future costs?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
+&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Budgets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Pricing Calculator
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. TCO Calculator
@@ -729,7 +729,7 @@ Which tool forecasts future costs?
 
 What is the billing minimum for Spot Instances?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 1 minute
+&nbsp;&nbsp;&nbsp;&nbsp;A. 1 minute
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 1 second
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 1 hour
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. No minimum
@@ -747,7 +747,7 @@ What is the billing minimum for Spot Instances?
 
 Which support plan has <15 min response time?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Developer
+&nbsp;&nbsp;&nbsp;&nbsp;A. Developer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Enterprise
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All above
@@ -765,7 +765,7 @@ Which support plan has <15 min response time?
 
 What are Cost Allocation Tags?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Track costs by project/team
+&nbsp;&nbsp;&nbsp;&nbsp;A. Track costs by project/team
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Security tags
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Performance tags
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Compliance tags
@@ -783,7 +783,7 @@ What are Cost Allocation Tags?
 
 Which provides credits for SLA violations?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Basic Support
+&nbsp;&nbsp;&nbsp;&nbsp;A. Basic Support
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Developer Support
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Business Support
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Enterprise Support
@@ -801,7 +801,7 @@ Which provides credits for SLA violations?
 
 What is the free tier duration?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 6 months
+&nbsp;&nbsp;&nbsp;&nbsp;A. 6 months
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 12 months
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 24 months
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Lifetime
@@ -819,7 +819,7 @@ What is the free tier duration?
 
 Which Reserved Instance payment option has highest discount?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. No Upfront
+&nbsp;&nbsp;&nbsp;&nbsp;A. No Upfront
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Partial Upfront
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. All Upfront
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Monthly
@@ -837,7 +837,7 @@ Which Reserved Instance payment option has highest discount?
 
 What is AWS Cost Anomaly Detection?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. ML-based unusual spending alerts
+&nbsp;&nbsp;&nbsp;&nbsp;A. ML-based unusual spending alerts
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Budget alerts
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Forecast tool
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Report generator
@@ -855,7 +855,7 @@ What is AWS Cost Anomaly Detection?
 
 Which service auto-scales to minimize costs?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Auto Scaling
+&nbsp;&nbsp;&nbsp;&nbsp;A. Auto Scaling
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Spot Fleet
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Savings Plans
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Reserved Instances
@@ -873,7 +873,7 @@ Which service auto-scales to minimize costs?
 
 What is the Developer Support response time?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. <24 hours
+&nbsp;&nbsp;&nbsp;&nbsp;A. <24 hours
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. <12 hours
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. <1 hour
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 24/7 instant
@@ -891,7 +891,7 @@ What is the Developer Support response time?
 
 Which provides RI marketplace?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Sell unused RIs
+&nbsp;&nbsp;&nbsp;&nbsp;A. Sell unused RIs
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Buy used RIs
 &nbsp>&nbsp;&nbsp;&nbsp;C. Both A and B
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. None
@@ -910,7 +910,7 @@ Which provides RI marketplace?
 
 What is the free tier limit for DynamoDB?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 25 GB storage
+&nbsp;&nbsp;&nbsp;&nbsp;A. 25 GB storage
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 200 million requests
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Both A and B
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Unlimited reads
@@ -928,7 +928,7 @@ What is the free tier limit for DynamoDB?
 
 Which plan includes 3 Well-Architected reviews/year?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Business
+&nbsp;&nbsp;&nbsp;&nbsp;A. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Enterprise On-Ramp
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Enterprise
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Developer
@@ -946,7 +946,7 @@ Which plan includes 3 Well-Architected reviews/year?
 
 What is AWS Compute Optimizer?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Rightsizing recommendations
+&nbsp;&nbsp;&nbsp;&nbsp;A. Rightsizing recommendations
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Cost forecasts
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Budget alerts
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Tag manager
@@ -964,7 +964,7 @@ What is AWS Compute Optimizer?
 
 Which has 99.99% S3 SLA?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. All customers
+&nbsp;&nbsp;&nbsp;&nbsp;A. All customers
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Business Support
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Enterprise Support
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Developer Support
@@ -982,7 +982,7 @@ Which has 99.99% S3 SLA?
 
 What is the minimum Spot bid price?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. $0.01
+&nbsp;&nbsp;&nbsp;&nbsp;A. $0.01
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Current Spot price
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. On-Demand price
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. No minimum
@@ -1000,7 +1000,7 @@ What is the minimum Spot bid price?
 
 Which service shows RI utilization?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
+&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. RI Dashboard
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Budgets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Trusted Advisor
@@ -1018,7 +1018,7 @@ Which service shows RI utilization?
 
 What is AWS Budgets action?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Apply IAM policies
+&nbsp;&nbsp;&nbsp;&nbsp;A. Apply IAM policies
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Stop EC2 instances
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Send notifications only
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Create budgets
@@ -1036,7 +1036,7 @@ What is AWS Budgets action?
 
 Which has lowest effective cost for steady workloads?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. On-Demand
+&nbsp;&nbsp;&nbsp;&nbsp;A. On-Demand
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Spot
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 1-year RI
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 3-year RI All Upfront
@@ -1054,7 +1054,7 @@ Which has lowest effective cost for steady workloads?
 
 What is Enterprise Support hourly rate?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Fixed monthly
+&nbsp;&nbsp;&nbsp;&nbsp;A. Fixed monthly
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Usage-based
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. $0 for first $0-10K
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Per ticket
@@ -1072,7 +1072,7 @@ What is Enterprise Support hourly rate?
 
 Which tracks Reserved Instance coverage?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
+&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Budgets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. CUR
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All above
@@ -1090,7 +1090,7 @@ Which tracks Reserved Instance coverage?
 
 What is the free tier for RDS?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 750 hours db.t2.micro
+&nbsp;&nbsp;&nbsp;&nbsp;A. 750 hours db.t2.micro
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 20 GB storage
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 20M I/O
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All above
@@ -1108,7 +1108,7 @@ What is the free tier for RDS?
 
 Which plan includes TAM?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Business
+&nbsp;&nbsp;&nbsp;&nbsp;A. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Developer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Enterprise On-Ramp
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Enterprise
@@ -1126,7 +1126,7 @@ Which plan includes TAM?
 
 What is Spot Block duration?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 1-6 hours
+&nbsp;&nbsp;&nbsp;&nbsp;A. 1-6 hours
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Until interrupted
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 24 hours
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 1 month
@@ -1144,7 +1144,7 @@ What is Spot Block duration?
 
 Which shows cost by service?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Monthly Bill PDF
+&nbsp;&nbsp;&nbsp;&nbsp;A. Monthly Bill PDF
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Budgets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Trusted Advisor
@@ -1162,7 +1162,7 @@ Which shows cost by service?
 
 What is the discount for EC2 3-year No Upfront RI?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 55%
+&nbsp;&nbsp;&nbsp;&nbsp;A. 55%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 62%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 69%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 75%
@@ -1180,7 +1180,7 @@ What is the discount for EC2 3-year No Upfront RI?
 
 Which support case has <1 hour response?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Low
+&nbsp;&nbsp;&nbsp;&nbsp;A. Low
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Medium
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. High
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Enterprise only
@@ -1198,7 +1198,7 @@ Which support case has <1 hour response?
 
 What is AWS Cost and Usage Report format?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. PDF
+&nbsp;&nbsp;&nbsp;&nbsp;A. PDF
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. CSV to S3
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Email
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Console dashboard
@@ -1216,7 +1216,7 @@ What is AWS Cost and Usage Report format?
 
 Which free tier service has no limits?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. S3
+&nbsp;&nbsp;&nbsp;&nbsp;A. S3
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Lambda
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. DynamoDB
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. None
@@ -1234,7 +1234,7 @@ Which free tier service has no limits?
 
 What is RI modification?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Change instance type/size/zone
+&nbsp;&nbsp;&nbsp;&nbsp;A. Change instance type/size/zone
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Cancel RI
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Sell RI
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All above
@@ -1252,7 +1252,7 @@ What is RI modification?
 
 Which plan includes concierge?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Business
+&nbsp;&nbsp;&nbsp;&nbsp;A. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Developer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Enterprise
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Basic
@@ -1270,7 +1270,7 @@ Which plan includes concierge?
 
 What is the free tier for EBS?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 30 GB
+&nbsp;&nbsp;&nbsp;&nbsp;A. 30 GB
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 20 GB
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 1 GB
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 100 GB
@@ -1288,7 +1288,7 @@ What is the free tier for EBS?
 
 Which provides RI recommendations?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
+&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Trusted Advisor
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Both
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Budgets
@@ -1306,7 +1306,7 @@ Which provides RI recommendations?
 
 What is Spot interruption notice?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 30 seconds before termination
+&nbsp;&nbsp;&nbsp;&nbsp;A. 30 seconds before termination
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 2 minutes
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 5 minutes
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 24 hours
@@ -1324,7 +1324,7 @@ What is Spot interruption notice?
 
 Which shows amortized RI costs?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
+&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Monthly Bill
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. CUR
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All above
@@ -1342,7 +1342,7 @@ Which shows amortized RI costs?
 
 What is Business Support response time?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. <12 hours
+&nbsp;&nbsp;&nbsp;&nbsp;A. <12 hours
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. <24 hours
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. <1 hour
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 24/7 instant
@@ -1360,7 +1360,7 @@ What is Business Support response time?
 
 Which free forever service?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. S3 (5GB)
+&nbsp;&nbsp;&nbsp;&nbsp;A. S3 (5GB)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Lambda (1M requests)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. DynamoDB (25GB)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All above
@@ -1378,7 +1378,7 @@ Which free forever service?
 
 What is RI Scope?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Regional vs Zonal
+&nbsp;&nbsp;&nbsp;&nbsp;A. Regional vs Zonal
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Instance family
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Payment option
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All above
@@ -1396,7 +1396,7 @@ What is RI Scope?
 
 Which tracks cost by linked account?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Consolidated billing
+&nbsp;&nbsp;&nbsp;&nbsp;A. Consolidated billing
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Both
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Budgets only
@@ -1414,7 +1414,7 @@ Which tracks cost by linked account?
 
 What is the discount for 1-year All Upfront RI?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 40%
+&nbsp;&nbsp;&nbsp;&nbsp;A. 40%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 50%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 60%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 75%
@@ -1432,7 +1432,7 @@ What is the discount for 1-year All Upfront RI?
 
 Which plan includes GameDay exercises?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Business
+&nbsp;&nbsp;&nbsp;&nbsp;A. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Enterprise On-Ramp
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Enterprise
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Developer
@@ -1450,7 +1450,7 @@ Which plan includes GameDay exercises?
 
 What is the free tier for VPC?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 1000 NAT Gateway hours
+&nbsp;&nbsp;&nbsp;&nbsp;A. 1000 NAT Gateway hours
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 200M VPC Flow Log records
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Both
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Unlimited Gateways
@@ -1468,7 +1468,7 @@ What is the free tier for VPC?
 
 Which shows unused EBS discounts?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Trusted Advisor
+&nbsp;&nbsp;&nbsp;&nbsp;A. Trusted Advisor
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Budgets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. CUR
@@ -1486,7 +1486,7 @@ Which shows unused EBS discounts?
 
 What is Spot Fleet?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Diversified Spot pool requests
+&nbsp;&nbsp;&nbsp;&nbsp;A. Diversified Spot pool requests
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Single Spot request
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. RI replacement
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. On-Demand alternative
@@ -1504,7 +1504,7 @@ What is Spot Fleet?
 
 Which support has white-glove onboarding?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Business
+&nbsp;&nbsp;&nbsp;&nbsp;A. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Enterprise On-Ramp
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Enterprise
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Developer
@@ -1522,7 +1522,7 @@ Which support has white-glove onboarding?
 
 What is the billing for Elastic IP when not attached?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Free
+&nbsp;&nbsp;&nbsp;&nbsp;A. Free
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. $0.005/hour
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. $0.01/hour
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Per GB
@@ -1540,7 +1540,7 @@ What is the billing for Elastic IP when not attached?
 
 Which provides RI coverage reports?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
+&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Trusted Advisor
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Both
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Pricing Calculator
@@ -1558,7 +1558,7 @@ Which provides RI coverage reports?
 
 What is the free tier for CloudWatch?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 10 metrics
+&nbsp;&nbsp;&nbsp;&nbsp;A. 10 metrics
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 10 alarms
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 1M API requests
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All above
@@ -1576,7 +1576,7 @@ What is the free tier for CloudWatch?
 
 Which plan includes Support Concierge?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Business
+&nbsp;&nbsp;&nbsp;&nbsp;A. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Developer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Enterprise
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Basic
@@ -1594,7 +1594,7 @@ Which plan includes Support Concierge?
 
 What is the maximum Spot savings?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 50%
+&nbsp;&nbsp;&nbsp;&nbsp;A. 50%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 75%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 90%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 100%
@@ -1612,7 +1612,7 @@ What is the maximum Spot savings?
 
 Which shows monthly bill PDF?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Billing Console
+&nbsp;&nbsp;&nbsp;&nbsp;A. Billing Console
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. CUR
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Budgets
@@ -1630,7 +1630,7 @@ Which shows monthly bill PDF?
 
 What is 3-year Partial Upfront RI discount?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 60%
+&nbsp;&nbsp;&nbsp;&nbsp;A. 60%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 65%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 70%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 75%
@@ -1648,7 +1648,7 @@ What is 3-year Partial Upfront RI discount?
 
 Which support plan is free?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Basic
+&nbsp;&nbsp;&nbsp;&nbsp;A. Basic
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Developer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Enterprise
@@ -1666,7 +1666,7 @@ Which support plan is free?
 
 What is the free tier for EFS?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 5 GB Standard
+&nbsp;&nbsp;&nbsp;&nbsp;A. 5 GB Standard
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 10 GB Standard
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. None
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 1 GB
@@ -1684,7 +1684,7 @@ What is the free tier for EFS?
 
 Which provides automatic RI renewals?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
+&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. RI Dashboard
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Budgets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. None
@@ -1702,7 +1702,7 @@ Which provides automatic RI renewals?
 
 What is Business Support cost?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. $29/month
+&nbsp;&nbsp;&nbsp;&nbsp;A. $29/month
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 3% of spend
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. $100/month
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Usage-based
@@ -1720,7 +1720,7 @@ What is Business Support cost?
 
 Which tracks Savings Plans utilization?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
+&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. RI Dashboard
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Budgets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Trusted Advisor
@@ -1738,7 +1738,7 @@ Which tracks Savings Plans utilization?
 
 What is the free tier for ElastiCache?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 750 hours
+&nbsp;&nbsp;&nbsp;&nbsp;A. 750 hours
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. None
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 100 hours
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 1 GB
@@ -1756,7 +1756,7 @@ What is the free tier for ElastiCache?
 
 Which has <30 min response for critical?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Business
+&nbsp;&nbsp;&nbsp;&nbsp;A. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Developer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Enterprise
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Basic
@@ -1774,7 +1774,7 @@ Which has <30 min response for critical?
 
 What is the discount for 1-year No Upfront RI?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 30%
+&nbsp;&nbsp;&nbsp;&nbsp;A. 30%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 40%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 50%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 60%
@@ -1792,7 +1792,7 @@ What is the discount for 1-year No Upfront RI?
 
 Which service schedules resource shutdown?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Instance Scheduler
+&nbsp;&nbsp;&nbsp;&nbsp;A. Instance Scheduler
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Budget Actions
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Trusted Advisor
@@ -1810,7 +1810,7 @@ Which service schedules resource shutdown?
 
 What is Developer Support cost?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. $29/month
+&nbsp;&nbsp;&nbsp;&nbsp;A. $29/month
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 3% of spend
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Free
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. $100/month
@@ -1828,7 +1828,7 @@ What is Developer Support cost?
 
 Which shows cost anomalies?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Anomaly Detection
+&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Anomaly Detection
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Budgets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Trusted Advisor
@@ -1846,7 +1846,7 @@ Which shows cost anomalies?
 
 What is the free tier for SNS?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 1M publishes
+&nbsp;&nbsp;&nbsp;&nbsp;A. 1M publishes
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 100K HTTP deliveries
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 1K email deliveries
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All above
@@ -1864,7 +1864,7 @@ What is the free tier for SNS?
 
 Which RI type applies across Regions?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Regional
+&nbsp;&nbsp;&nbsp;&nbsp;A. Regional
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Zonal
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Convertible
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Standard
@@ -1882,7 +1882,7 @@ Which RI type applies across Regions?
 
 What is Enterprise On-Ramp cost?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 3% minimum $1,500
+&nbsp;&nbsp;&nbsp;&nbsp;A. 3% minimum $1,500
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 5% minimum $2,500
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. $29/month
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Free
@@ -1900,7 +1900,7 @@ What is Enterprise On-Ramp cost?
 
 Which tracks EBS volume optimization?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Trusted Advisor
+&nbsp;&nbsp;&nbsp;&nbsp;A. Trusted Advisor
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Budgets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. CUR
@@ -1918,7 +1918,7 @@ Which tracks EBS volume optimization?
 
 What is the free tier for SQS?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 1M requests
+&nbsp;&nbsp;&nbsp;&nbsp;A. 1M requests
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 40K retrievals
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 100K queue hours
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All above
@@ -1936,7 +1936,7 @@ What is the free tier for SQS?
 
 Which provides 99.5% EC2 SLA?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. All customers
+&nbsp;&nbsp;&nbsp;&nbsp;A. All customers
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Business Support
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Enterprise Support
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. No SLA
@@ -1954,7 +1954,7 @@ Which provides 99.5% EC2 SLA?
 
 What is the maximum RI term?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 1 year
+&nbsp;&nbsp;&nbsp;&nbsp;A. 1 year
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 2 years
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 3 years
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 5 years
@@ -1972,7 +1972,7 @@ What is the maximum RI term?
 
 Which support includes Operations TAM?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Business
+&nbsp;&nbsp;&nbsp;&nbsp;A. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Enterprise On-Ramp
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Enterprise
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Developer
@@ -1990,7 +1990,7 @@ Which support includes Operations TAM?
 
 What is the free tier for CloudFront?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 1 TB data transfer
+&nbsp;&nbsp;&nbsp;&nbsp;A. 1 TB data transfer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 10M HTTP requests
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 2M HTTPS requests
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All above
@@ -2008,7 +2008,7 @@ What is the free tier for CloudFront?
 
 Which shows Savings Plans recommendations?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
+&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Trusted Advisor
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Both
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Budgets
@@ -2026,7 +2026,7 @@ Which shows Savings Plans recommendations?
 
 What is the cost of unused Elastic IP?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Free
+&nbsp;&nbsp;&nbsp;&nbsp;A. Free
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. $0.005/hour
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. $0.01/hour
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. $0.10/hour
@@ -2044,7 +2044,7 @@ What is the cost of unused Elastic IP?
 
 Which plan has 99.99% SLA credits?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Basic
+&nbsp;&nbsp;&nbsp;&nbsp;A. Basic
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Developer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Enterprise
@@ -2062,7 +2062,7 @@ Which plan has 99.99% SLA credits?
 
 What is the free tier for API Gateway?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 1M REST calls
+&nbsp;&nbsp;&nbsp;&nbsp;A. 1M REST calls
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 750K WebSocket messages
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Both
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Unlimited
@@ -2080,7 +2080,7 @@ What is the free tier for API Gateway?
 
 Which provides automatic scaling recommendations?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Compute Optimizer
+&nbsp;&nbsp;&nbsp;&nbsp;A. Compute Optimizer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Trusted Advisor
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All above
@@ -2098,7 +2098,7 @@ Which provides automatic scaling recommendations?
 
 What is the discount for 2-year RI?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Not available
+&nbsp;&nbsp;&nbsp;&nbsp;A. Not available
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 50%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 60%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 65%
@@ -2116,7 +2116,7 @@ What is the discount for 2-year RI?
 
 Which tracks Data Transfer costs?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
+&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. CUR
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Both
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Budgets
@@ -2134,7 +2134,7 @@ Which tracks Data Transfer costs?
 
 What is Basic Support?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Free, forums/documentation
+&nbsp;&nbsp;&nbsp;&nbsp;A. Free, forums/documentation
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. $29/month
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 3% of spend
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. TAM included
@@ -2152,7 +2152,7 @@ What is Basic Support?
 
 Which shows underutilized RDS?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Trusted Advisor
+&nbsp;&nbsp;&nbsp;&nbsp;A. Trusted Advisor
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Compute Optimizer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All above
@@ -2170,7 +2170,7 @@ Which shows underutilized RDS?
 
 What is the free tier for Redshift?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 750 hours dc2.large
+&nbsp;&nbsp;&nbsp;&nbsp;A. 750 hours dc2.large
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. None
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 1 TB queries
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 100 GB storage
@@ -2188,7 +2188,7 @@ What is the free tier for Redshift?
 
 Which provides 24/7 email support?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Basic
+&nbsp;&nbsp;&nbsp;&nbsp;A. Basic
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Developer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Enterprise
@@ -2206,7 +2206,7 @@ Which provides 24/7 email support?
 
 What is the cost of NAT Gateway?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. $0.045/hour + $0.045/GB
+&nbsp;&nbsp;&nbsp;&nbsp;A. $0.045/hour + $0.045/GB
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Free
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. $0.01/hour
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Per instance
@@ -2224,7 +2224,7 @@ What is the cost of NAT Gateway?
 
 Which shows Lambda cost optimization?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Compute Optimizer
+&nbsp;&nbsp;&nbsp;&nbsp;A. Compute Optimizer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Trusted Advisor
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All above
@@ -2242,7 +2242,7 @@ Which shows Lambda cost optimization?
 
 What is the free tier for Kinesis?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 100K PUT records
+&nbsp;&nbsp;&nbsp;&nbsp;A. 100K PUT records
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. None
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 1 shard-hour
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 50 GB ingested
@@ -2260,7 +2260,7 @@ What is the free tier for Kinesis?
 
 Which support includes monthly business reviews?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Business
+&nbsp;&nbsp;&nbsp;&nbsp;A. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Enterprise On-Ramp
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Enterprise
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Developer
@@ -2278,7 +2278,7 @@ Which support includes monthly business reviews?
 
 What is the discount for Savings Plans vs RI?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Same
+&nbsp;&nbsp;&nbsp;&nbsp;A. Same
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 5% less
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 10% less
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. More flexible
@@ -2296,7 +2296,7 @@ What is the discount for Savings Plans vs RI?
 
 Which tracks Elastic Load Balancer costs?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
+&nbsp;&nbsp;&nbsp;&nbsp;A. Cost Explorer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Trusted Advisor
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Both
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Budgets
@@ -2314,7 +2314,7 @@ Which tracks Elastic Load Balancer costs?
 
 What is the free tier for VPC Endpoints?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 100,000 requests
+&nbsp;&nbsp;&nbsp;&nbsp;A. 100,000 requests
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 1 GB data
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Both
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Unlimited
@@ -2332,7 +2332,7 @@ What is the free tier for VPC Endpoints?
 
 Which provides third-party billing support?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Concierge
+&nbsp;&nbsp;&nbsp;&nbsp;A. Concierge
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. TAM
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Partner Network
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All above
@@ -2350,7 +2350,7 @@ Which provides third-party billing support?
 
 What is the cost of S3 data transfer out (first 100GB)?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Free
+&nbsp;&nbsp;&nbsp;&nbsp;A. Free
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. $0.09/GB
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. $0.02/GB
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. $0.01/GB
@@ -2368,7 +2368,7 @@ What is the cost of S3 data transfer out (first 100GB)?
 
 Which support plan is recommended for production workloads?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Basic
+&nbsp;&nbsp;&nbsp;&nbsp;A. Basic
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Developer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Enterprise
