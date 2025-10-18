@@ -8,18 +8,17 @@
 
 You have noticed that several critical Amazon EC2 instances have been terminated. Which of the following AWS services would help you determine who took this action?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Inspector.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS CloudTrail.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Trusted Advisor.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;D. EC2 Instance Usage Report.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Inspector.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS CloudTrail.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Trusted Advisor.
+&nbsp;&nbsp;&nbsp;&nbsp;D. EC2 Instance Usage Report.
 
 <details>
 <summary>Click to reveal answer.</summary>
   
 **Correct Answer:** B
-
 > **Explanation:** AWS CloudTrail logs all API calls and actions in your AWS account, allowing you to track who terminated the instances by reviewing the event history. Amazon Inspector is for vulnerability assessment, Trusted Advisor for optimization, and EC2 Usage Report for billing info.
-</details>
+> </details>
 
 ---
 
