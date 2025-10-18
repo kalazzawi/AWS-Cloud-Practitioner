@@ -14,7 +14,7 @@ You have noticed that several critical Amazon EC2 instances have been terminated
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** B
-<br>
+<br><br>
 > **Explanation:** AWS CloudTrail logs all API calls and actions in your AWS account, allowing you to track who terminated the instances by reviewing the event history. Amazon Inspector is for vulnerability assessment, Trusted Advisor for optimization, and EC2 Usage Report for billing info.
 </details>
 
@@ -30,7 +30,7 @@ Which statement is true regarding the AWS Shared Responsibility Model?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** The shared responsibility model defines that AWS manages security of the cloud (hardware, infrastructure), while customers manage security in the cloud (data, applications). Responsibilities vary by service; for example, in EC2 (IaaS), customers patch the OS, but in RDS (managed), AWS does. Option B is true for IaaS, but not complete; C is false for EC2; D is false, AWS handles managed services security.
 </details>
 
@@ -46,7 +46,7 @@ An organization has a large number of technical employees who operate their AWS 
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** C
-<br>
+<br><br>
 > **Explanation:** IAM user groups allow grouping users and assigning permissions via policies to the group, simplifying management for teams. Roles are for temporary access, users are individual accounts, Organizations is for multi-account management.
 </details>
 
@@ -63,7 +63,7 @@ What should you do in order to keep the data on EBS volumes safe? (Choose TWO)
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** B, C
-<br>
+<br><br>
 > **Explanation:** EBS snapshots provide point-in-time backups for data recovery, and encryption at rest protects data from unauthorized access. Option A is not customer responsibility, D is not scalable, E is AWS responsibility.
 </details>
 
@@ -79,7 +79,7 @@ What does the “Principle of Least Privilege” refer to?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** The principle of least privilege is a security best practice that limits users' access rights to the minimum permissions they need to perform their work, reducing the risk of accidental or malicious misuse. Options B, C, D are contrary to this principle.
 </details>
 
@@ -96,7 +96,7 @@ Hundreds of thousands of DDoS attacks are recorded every month worldwide. What s
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A, D
-<br>
+<br><br>
 > **Explanation:** AWS Shield provides managed DDoS protection, and AWS WAF is a web application firewall that helps protect against common web exploits like SQL injection and cross-site scripting, which can lead to DDoS. Config is for configuration, Cognito for authentication, KMS for encryption.
 </details>
 
@@ -113,7 +113,7 @@ A company has moved to AWS recently. Which of the following AWS Services will he
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A, B
-<br>
+<br><br>
 > **Explanation:** Trusted Advisor checks for best practices in security, and Amazon Inspector assesses applications for vulnerabilities and deviations from best practices. SNS is for notifications, CloudWatch for monitoring, Concierge is for billing support in Enterprise plan.
 </details>
 
@@ -129,7 +129,7 @@ What is the AWS feature that provides an additional level of security above the 
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** D
-<br>
+<br><br>
 > **Explanation:** AWS Multi-Factor Authentication (MFA) adds an extra layer by requiring a second authentication factor, like a code from a device, beyond username and password. Encrypted keys are for data, email verification is for account setup, KMS is for key management.
 </details>
 
@@ -146,7 +146,7 @@ According to the AWS Shared responsibility model, which of the following are the
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** B, E
-<br>
+<br><br>
 > **Explanation:** Customers are responsible for data security in transit and patching applications on EC2. Option A and C are AWS responsibilities, D is AWS for the host, customer for the guest OS.
 </details>
 
@@ -162,7 +162,7 @@ Which of the following helps a customer view the Amazon EC2 billing activity for
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** D
-<br>
+<br><br>
 > **Explanation:** AWS Cost & Usage Reports provide comprehensive billing data including EC2 usage for the past month, delivered to S3. Budgets is for alerts, Pricing Calculator for estimates, Systems Manager for operations.
 </details>
 
@@ -178,7 +178,7 @@ Your company wants to ensure that all EC2 instances are launched from approved A
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** AWS Config can track resource configurations and ensure EC2 instances use approved AMIs through conformance packs and rules. Trusted Advisor provides recommendations, Inspector scans for vulnerabilities, Systems Manager manages instances but doesn't enforce AMI policies.
 </details>
 
@@ -194,7 +194,7 @@ Which AWS service helps you identify which users have made configuration changes
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** B
-<br>
+<br><br>
 > **Explanation:** AWS CloudTrail records API calls including who made configuration changes. Config records configuration states but not who made changes, CloudWatch monitors metrics/logs, Trusted Advisor provides recommendations.
 </details>
 
@@ -210,7 +210,7 @@ A company needs to encrypt data at rest in S3 buckets. Which service should they
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** AWS Key Management Service (KMS) provides keys for encrypting data at rest in S3. Certificate Manager is for SSL/TLS, Secrets Manager for credentials, IAM for access control.
 </details>
 
@@ -226,7 +226,7 @@ What is the PRIMARY benefit of using AWS Shield Standard?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** B
-<br>
+<br><br>
 > **Explanation:** AWS Shield Standard provides always-on DDoS protection at no additional charge for all AWS customers. WAF is separate, encryption is KMS, scanning is Inspector.
 </details>
 
@@ -242,7 +242,7 @@ Which service helps you assess whether your AWS environment complies with securi
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** AWS Trusted Advisor provides real-time guidance across security best practices. Inspector assesses vulnerabilities, Config tracks compliance, CloudTrail logs activity.
 </details>
 
@@ -258,7 +258,7 @@ Which of the following is the customer's responsibility under the AWS Shared Res
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** C
-<br>
+<br><br>
 > **Explanation:** Customers are responsible for data encryption, while AWS handles infrastructure.
 </details>
 
@@ -273,7 +273,7 @@ Which AWS service provides a virtual private network connection to the AWS cloud
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** B
-<br>
+<br><br>
 > **Explanation:** AWS VPN provides secure IPSec VPN connections from on-premises to AWS.
 </details>
 
@@ -289,7 +289,7 @@ What is an IAM policy?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** IAM policies are JSON documents that define access permissions for users, groups, and roles.
 </details>
 
@@ -305,7 +305,7 @@ Which service monitors for malicious activity in AWS accounts?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** GuardDuty uses ML to analyze logs for threats like reconnaissance or crypto mining.
 </details>
 
@@ -321,7 +321,7 @@ What is the recommended way to secure the AWS root account?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** Root account should have MFA and no access keys; use IAM for daily tasks.
 </details>
 
@@ -337,7 +337,7 @@ Which service provides centralized key management?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** KMS manages encryption keys for data at rest and in transit.
 </details>
 
@@ -353,7 +353,7 @@ What is AWS Artifact used for?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** Artifact provides on-demand access to AWS compliance documentation.
 </details>
 
@@ -369,7 +369,7 @@ Which IAM best practice should be followed?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** Groups simplify permission management by assigning policies to groups.
 </details>
 
@@ -385,7 +385,7 @@ What is Amazon Macie?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** Macie discovers and protects sensitive data in S3 using ML.
 </details>
 
@@ -401,7 +401,7 @@ Which service provides automated vulnerability management for EC2?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** Inspector assesses EC2 and Lambda for vulnerabilities and deviations.
 </details>
 
@@ -417,7 +417,7 @@ What is the function of security groups in VPC?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** Security groups act as stateful firewalls at the instance level.
 </details>
 
@@ -433,7 +433,7 @@ What is a NACL?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** Network ACLs are stateless firewalls at the subnet level.
 </details>
 
@@ -449,7 +449,7 @@ Which service provides secrets storage?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** D
-<br>
+<br><br>
 > **Explanation:** Secrets Manager and Parameter Store (in Systems Manager) store secrets securely.
 </details>
 
@@ -465,7 +465,7 @@ What is AWS Cognito?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** Cognito provides user sign-up, sign-in, and access control for apps.
 </details>
 
@@ -481,7 +481,7 @@ Which compliance program does AWS support?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** D
-<br>
+<br><br>
 > **Explanation:** AWS supports multiple compliance certifications including HIPAA, PCI, SOC.
 </details>
 
@@ -497,7 +497,7 @@ What is the AWS Abuse team for?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** Report abuse like spam or malware to the AWS Abuse team.
 </details>
 
@@ -513,7 +513,7 @@ Which IAM entity should be used for temporary access?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** C
-<br>
+<br><br>
 > **Explanation:** IAM roles provide temporary access without long-term credentials.
 </details>
 
@@ -529,7 +529,7 @@ What is AWS Directory Service?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** C
-<br>
+<br><br>
 > **Explanation:** Directory Service provides managed Microsoft AD or Simple AD.
 </details>
 
@@ -545,7 +545,7 @@ Which service provides DDoS protection at Layer 7?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** B
-<br>
+<br><br>
 > **Explanation:** WAF protects against Layer 7 attacks like SQL injection.
 </details>
 
@@ -561,7 +561,7 @@ What is the default encryption for S3?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** D
-<br>
+<br><br>
 > **Explanation:** S3 does not encrypt by default; you must enable SSE.
 </details>
 
@@ -577,7 +577,7 @@ Which tool checks for public S3 buckets?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** Trusted Advisor checks for unrestricted S3 bucket access.
 </details>
 
@@ -593,7 +593,7 @@ What is AWS Firewall Manager?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** Firewall Manager centralizes WAF, Shield, and security groups across accounts.
 </details>
 
@@ -609,7 +609,7 @@ Which service provides SSL/TLS certificates?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** ACM provisions and manages SSL/TLS certificates for AWS services.
 </details>
 
@@ -625,7 +625,7 @@ What is the purpose of VPC flow logs?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** VPC flow logs capture IP traffic information for troubleshooting.
 </details>
 
@@ -641,7 +641,7 @@ Which compliance standard is for payment card data?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** PCI DSS is for handling credit card information securely.
 </details>
 
@@ -657,7 +657,7 @@ What is Amazon GuardDuty's data source?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** D
-<br>
+<br><br>
 > **Explanation:** GuardDuty analyzes multiple logs for threat detection.
 </details>
 
@@ -673,7 +673,7 @@ Which IAM feature allows cross-account access?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** Roles can be assumed by users from other accounts for cross-account access.
 </details>
 
@@ -689,7 +689,7 @@ What is AWS Security Hub?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** Security Hub aggregates findings from various AWS security services.
 </details>
 
@@ -705,7 +705,7 @@ Which service provides automated code reviews for security?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** CodeGuru Reviewer detects security vulnerabilities in code.
 </details>
 
@@ -721,7 +721,7 @@ What is the difference between security groups and NACLs?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** Security groups are stateful (response traffic allowed), NACLs are stateless (explicit rules needed).
 </details>
 
@@ -737,7 +737,7 @@ Which KMS key type is customer-managed?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** C
-<br>
+<br><br>
 > **Explanation:** CMKs are created and managed by customers in KMS.
 </details>
 
@@ -753,7 +753,7 @@ What is AWS SSO?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** AWS SSO (now IAM Identity Center) provides central access to multiple accounts and apps.
 </details>
 
@@ -769,7 +769,7 @@ Which service detects PII in S3?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** Macie classifies sensitive data like PII using ML.
 </details>
 
@@ -785,7 +785,7 @@ What is the root user in AWS?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** A
-<br>
+<br><br>
 > **Explanation:** The root user has complete access and should be secured with MFA.
 </details>
 
@@ -801,7 +801,7 @@ Which policy type restricts resource actions?
 <details><summary>Click to reveal answer.</summary>
 <br>
 **Correct Answer:** D
-<br>
+<br><br>
 > **Explanation:** These policies limit permissions in different contexts.
 </details>
 
