@@ -16,7 +16,8 @@ AWS allows users to manage their resources using a web based user interface. Wha
 
 **Correct Answer:** D
 
-**Explanation:** The AWS Management Console is a web-based user interface that allows users to interact with AWS services graphically without the need for coding. It is accessible via a web browser and provides a user-friendly way to manage resources. In contrast, the AWS CLI is a command-line tool for managing services via scripts, AWS API is the underlying application programming interface for programmatic interactions, and AWS SDK is a set of libraries for integrating AWS services into applications in various programming languages.
+> [!NOTE]
+> **Explanation:** The AWS Management Console is a web-based user interface that allows users to interact with AWS services graphically without the need for coding. It is accessible via a web browser and provides a user-friendly way to manage resources. In contrast, the AWS CLI is a command-line tool for managing services via scripts, AWS API is the underlying application programming interface for programmatic interactions, and AWS SDK is a set of libraries for integrating AWS services into applications in various programming languages.
 </details>
 
 ---
