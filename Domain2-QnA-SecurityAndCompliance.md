@@ -49,10 +49,11 @@ An organization has a large number of technical employees who operate their AWS 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. IAM users.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. IAM user groups.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Organizations.
+
 <details><summary>Click to reveal answer.</summary>
 <br>
+
 **Correct Answer:** C
-<br><br>
 > **Explanation:** IAM user groups allow grouping users and assigning permissions via policies to the group, simplifying management for teams. Roles are for temporary access, users are individual accounts, Organizations is for multi-account management.
 </details>
 
