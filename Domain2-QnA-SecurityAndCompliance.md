@@ -33,11 +33,11 @@ Which statement is true regarding the AWS Shared Responsibility Model?
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Security of the managed services is the responsibility of the customer.
 
 <details>
-  <summary>Click to reveal answer.</summary>
-  <br>
-  **Correct Answer:** A
-  <br>
-  > **Explanation:** The shared responsibility model defines that AWS manages security of the cloud (hardware, infrastructure), while customers manage security in the cloud (data, applications). Responsibilities vary by service; for example, in EC2 (IaaS), customers patch the OS, but in RDS (managed), AWS does. Option B is true for IaaS, but not complete; C is false for EC2; D is false, AWS handles managed services security.
+<summary>Click to reveal answer.</summary>
+<br>
+  
+**Correct Answer:** A
+> **Explanation:** The shared responsibility model defines that AWS manages security of the cloud (hardware, infrastructure), while customers manage security in the cloud (data, applications). Responsibilities vary by service; for example, in EC2 (IaaS), customers patch the OS, but in RDS (managed), AWS does. Option B is true for IaaS, but not complete; C is false for EC2; D is false, AWS handles managed services security.
 </details>
 
 ---
