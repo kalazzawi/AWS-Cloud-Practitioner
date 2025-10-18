@@ -8,7 +8,7 @@
 
 A company has developed an eCommerce web application in AWS. What should they do to ensure that the application has the highest level of availability?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Deploy the application across multiple Availability Zones and Edge locations.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Deploy the application across multiple Availability Zones and Edge locations.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Deploy the application across multiple Availability Zones and subnets.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Deploy the application across multiple Regions and Availability Zones.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Deploy the application across multiple VPC's and subnets.
@@ -26,7 +26,7 @@ A company has developed an eCommerce web application in AWS. What should they do
 
 What does AWS Snowball provide? (Choose TWO)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Built-in computing capabilities that allow customers to process data locally.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Built-in computing capabilities that allow customers to process data locally.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. A catalog of third-party software solutions that customers need to build solutions and run their businesses.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. A hybrid cloud storage between on-premises environments and the AWS Cloud.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. An Exabyte-scale data transfer service that allows you to move extremely large amounts of data to AWS.
@@ -45,7 +45,7 @@ What does AWS Snowball provide? (Choose TWO)
 
 A Japanese company hosts their applications on Amazon EC2 instances in the Tokyo Region. The company has opened new branches in the United States, and the US users are complaining of high latency. What can the company do to reduce latency for the users in the US while minimizing costs?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Applying the Amazon Connect latency-based routing policy.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Applying the Amazon Connect latency-based routing policy.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Registering a new US domain name to serve the users in the US.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Building a new data center in the US and implementing a hybrid model.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Deploying new Amazon EC2 instances in a Region located in the US.
@@ -64,7 +64,7 @@ A Japanese company hosts their applications on Amazon EC2 instances in the Tokyo
 
 A company has decided to migrate its Oracle database to AWS. Which AWS service can help achieve this without negatively impacting the functionality of the source database?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS OpsWorks.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS OpsWorks.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Database Migration Service.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Server Migration Service.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Application Discovery Service.
@@ -82,7 +82,7 @@ A company has decided to migrate its Oracle database to AWS. Which AWS service c
 
 What does Amazon CloudFront use to distribute content to global users with low latency?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Global Accelerator.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Global Accelerator.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Regions.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Edge Locations.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Availability Zones.
@@ -100,7 +100,7 @@ What does Amazon CloudFront use to distribute content to global users with low l
 
 The identification process of an online financial services company requires that new users must complete an online interview with their security team. The completed recorded interviews are only required in the event of a legal issue or a regulatory compliance breach. What is the most cost-effective service to store the recorded videos?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. S3 Intelligent-Tiering.
+&nbsp;&nbsp;&nbsp;&nbsp;A. S3 Intelligent-Tiering.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Marketplace.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon S3 Glacier Deep Archive.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon EBS.
@@ -118,7 +118,7 @@ The identification process of an online financial services company requires that
 
 Which service provides DNS in the AWS cloud?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Route 53.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Route 53.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Config.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon CloudFront.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon EMR.
@@ -136,7 +136,7 @@ Which service provides DNS in the AWS cloud?
 
 A company is deploying a new two-tier web application in AWS. Where should the most frequently accessed data be stored so that the application's response time is optimal?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS OpsWorks.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS OpsWorks.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Storage Gateway.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon EBS volume.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon ElastiCache.
@@ -154,7 +154,7 @@ A company is deploying a new two-tier web application in AWS. Where should the m
 
 Which of the following can be described as a global content delivery network (CDN) service?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS VPN.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS VPN.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Direct Connect.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Regions.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon CloudFront.
@@ -172,7 +172,7 @@ Which of the following can be described as a global content delivery network (CD
 
 Which service provides object-level storage in AWS?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EBS.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EBS.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon Instance Store.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon EFS.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon S3.
@@ -190,7 +190,7 @@ Which service provides object-level storage in AWS?
 
 Which AWS service automatically scales compute capacity based on incoming requests?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EC2 Auto Scaling
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EC2 Auto Scaling
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Lambda
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon ECS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon EKS
@@ -208,7 +208,7 @@ Which AWS service automatically scales compute capacity based on incoming reques
 
 A company needs to process streaming data in real-time. Which service is best suited?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon S3
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon S3
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon Kinesis
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon RDS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon EBS
@@ -226,7 +226,7 @@ A company needs to process streaming data in real-time. Which service is best su
 
 Which service provides a fully managed Hadoop framework?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EMR
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EMR
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Batch
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Glue
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Athena
@@ -244,7 +244,7 @@ Which service provides a fully managed Hadoop framework?
 
 What is the PRIMARY use case for Amazon SQS?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Object storage
+&nbsp;&nbsp;&nbsp;&nbsp;A. Object storage
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Message queuing
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. DNS routing
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Content delivery
@@ -262,7 +262,7 @@ What is the PRIMARY use case for Amazon SQS?
 
 Which service provides a virtual private cloud networking environment?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon VPC
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon VPC
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Direct Connect
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Route 53
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Transit Gateway
@@ -280,7 +280,7 @@ Which service provides a virtual private cloud networking environment?
 
 Which service is used for batch processing jobs?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Batch
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Batch
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon EMR
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Lambda
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon ECS
@@ -298,7 +298,7 @@ Which service is used for batch processing jobs?
 
 What is the PRIMARY function of Amazon Elastic Block Store (EBS)?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Object storage
+&nbsp;&nbsp;&nbsp;&nbsp;A. Object storage
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Block storage for EC2
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. File storage
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Archival storage
@@ -316,7 +316,7 @@ What is the PRIMARY function of Amazon Elastic Block Store (EBS)?
 
 Which database service provides the highest performance for transactional workloads?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon RDS
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon RDS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon DynamoDB
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Aurora
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Redshift
@@ -334,7 +334,7 @@ Which database service provides the highest performance for transactional worklo
 
 What is Amazon Elastic File System (EFS)?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Block storage
+&nbsp;&nbsp;&nbsp;&nbsp;A. Block storage
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Object storage
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Scalable file storage
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Archival storage
@@ -352,7 +352,7 @@ What is Amazon Elastic File System (EFS)?
 
 Which service provides serverless container execution?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon ECS
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon ECS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Fargate
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon EKS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Batch
@@ -370,7 +370,7 @@ Which service provides serverless container execution?
 
 What is the PRIMARY use case for Amazon Simple Notification Service (SNS)?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Message queuing
+&nbsp;&nbsp;&nbsp;&nbsp;A. Message queuing
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Push notifications
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Data streaming
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. File storage
@@ -388,7 +388,7 @@ What is the PRIMARY use case for Amazon Simple Notification Service (SNS)?
 
 Which service allows querying data in S3 using SQL?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Athena
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Athena
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon Redshift
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Glue
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon QuickSight
@@ -406,7 +406,7 @@ Which service allows querying data in S3 using SQL?
 
 What is Amazon Elastic Container Service (ECS)?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Serverless compute
+&nbsp;&nbsp;&nbsp;&nbsp;A. Serverless compute
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Container orchestration
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Kubernetes service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Batch processing
@@ -424,7 +424,7 @@ What is Amazon Elastic Container Service (ECS)?
 
 Which service provides managed Apache Kafka?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon MSK
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon MSK
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon MQ
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Kinesis
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Batch
@@ -442,7 +442,7 @@ Which service provides managed Apache Kafka?
 
 What is the PRIMARY benefit of Amazon RDS Multi-AZ?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Read replicas
+&nbsp;&nbsp;&nbsp;&nbsp;A. Read replicas
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Automatic failover
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Performance scaling
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Cost reduction
@@ -460,7 +460,7 @@ What is the PRIMARY benefit of Amazon RDS Multi-AZ?
 
 Which service is used for ETL workloads?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Glue
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Glue
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon EMR
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Batch
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Kinesis
@@ -478,7 +478,7 @@ Which service is used for ETL workloads?
 
 What is Amazon Simple Storage Service (S3) Select?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Query data in place
+&nbsp;&nbsp;&nbsp;&nbsp;A. Query data in place
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Data transfer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. File sharing
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Backup service
@@ -496,7 +496,7 @@ What is Amazon Simple Storage Service (S3) Select?
 
 Which service provides managed Elasticsearch?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon OpenSearch Service
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon OpenSearch Service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon CloudSearch
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Kendra
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Glue
@@ -514,7 +514,7 @@ Which service provides managed Elasticsearch?
 
 What is AWS App Runner?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Serverless web app service
+&nbsp;&nbsp;&nbsp;&nbsp;A. Serverless web app service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Container service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. CI/CD pipeline
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Database service
@@ -532,7 +532,7 @@ What is AWS App Runner?
 
 Which service provides graph database?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Neptune
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Neptune
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon DynamoDB
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon RDS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Redshift
@@ -550,7 +550,7 @@ Which service provides graph database?
 
 What is Amazon Timestream?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Time series database
+&nbsp;&nbsp;&nbsp;&nbsp;A. Time series database
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Relational database
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. NoSQL database
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Data warehouse
@@ -568,7 +568,7 @@ What is Amazon Timestream?
 
 Which service provides managed Redis/Memcached?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon ElastiCache
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon ElastiCache
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon DynamoDB
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon RDS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon OpenSearch
@@ -586,7 +586,7 @@ Which service provides managed Redis/Memcached?
 
 What is AWS Ground Station?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Satellite ground station service
+&nbsp;&nbsp;&nbsp;&nbsp;A. Satellite ground station service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. IoT service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Networking service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Compute service
@@ -604,7 +604,7 @@ What is AWS Ground Station?
 
 Which service provides serverless GraphQL APIs?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS AppSync
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS AppSync
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon API Gateway
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Neptune
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Amplify
@@ -622,7 +622,7 @@ Which service provides serverless GraphQL APIs?
 
 What is Amazon Managed Grafana?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Monitoring visualization
+&nbsp;&nbsp;&nbsp;&nbsp;A. Monitoring visualization
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Log analytics
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Data warehouse
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. ETL service
@@ -640,7 +640,7 @@ What is Amazon Managed Grafana?
 
 Which service provides quantum computing?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Braket
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Braket
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Outposts
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Local Zones
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Wavelength
@@ -658,7 +658,7 @@ Which service provides quantum computing?
 
 What is AWS Outposts?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. On-premises AWS infrastructure
+&nbsp;&nbsp;&nbsp;&nbsp;A. On-premises AWS infrastructure
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Hybrid cloud storage
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Edge computing
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Data transfer
@@ -676,7 +676,7 @@ What is AWS Outposts?
 
 Which service provides low-latency edge computing for 5G?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Wavelength
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Wavelength
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Local Zones
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Outposts
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Snowball
@@ -694,7 +694,7 @@ Which service provides low-latency edge computing for 5G?
 
 What is AWS Local Zones?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Edge locations for low latency
+&nbsp;&nbsp;&nbsp;&nbsp;A. Edge locations for low latency
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. On-premises racks
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Data transfer devices
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Satellite service
@@ -712,7 +712,7 @@ What is AWS Local Zones?
 
 Which service provides ML model training?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon SageMaker
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon SageMaker
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon Rekognition
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Lex
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Comprehend
@@ -730,7 +730,7 @@ Which service provides ML model training?
 
 What is Amazon Forecast?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Time series forecasting
+&nbsp;&nbsp;&nbsp;&nbsp;A. Time series forecasting
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Image recognition
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Speech recognition
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Text analysis
@@ -748,7 +748,7 @@ What is Amazon Forecast?
 
 Which service provides computer vision?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Rekognition
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Rekognition
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon Textract
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Transcribe
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Polly
@@ -766,7 +766,7 @@ Which service provides computer vision?
 
 What is Amazon Textract?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Document text extraction
+&nbsp;&nbsp;&nbsp;&nbsp;A. Document text extraction
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Speech to text
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Text to speech
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Translation
@@ -784,7 +784,7 @@ What is Amazon Textract?
 
 Which service provides conversational AI?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Lex
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Lex
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon Connect
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Chime
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Pinpoint
@@ -802,7 +802,7 @@ Which service provides conversational AI?
 
 What is Amazon Translate?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Real-time language translation
+&nbsp;&nbsp;&nbsp;&nbsp;A. Real-time language translation
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Speech recognition
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Text analysis
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Document analysis
@@ -820,7 +820,7 @@ What is Amazon Translate?
 
 Which service provides business intelligence?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon QuickSight
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon QuickSight
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon Athena
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Redshift
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Glue
@@ -838,7 +838,7 @@ Which service provides business intelligence?
 
 What is Amazon Managed Blockchain?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Hyperledger Fabric and Ethereum
+&nbsp;&nbsp;&nbsp;&nbsp;A. Hyperledger Fabric and Ethereum
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Database service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Messaging service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Storage service
@@ -856,7 +856,7 @@ What is Amazon Managed Blockchain?
 
 Which service provides IoT device management?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS IoT Core
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS IoT Core
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS IoT Device Defender
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS IoT Analytics
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All of the above
@@ -874,7 +874,7 @@ Which service provides IoT device management?
 
 What is Amazon Augmented Reality and Virtual Reality (AR/VR)?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Sumerian
+&nbsp;&nbsp;&nbsp;&nbsp;A. Sumerian
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. SageMaker
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Kinesis Video Streams
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All of the above
@@ -892,7 +892,7 @@ What is Amazon Augmented Reality and Virtual Reality (AR/VR)?
 
 Which service provides game development?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon GameLift
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon GameLift
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon Lumberyard
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Sumerian
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All of the above
