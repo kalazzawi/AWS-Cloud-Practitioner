@@ -7,7 +7,7 @@
 ### Question 1
 
 You have noticed that several critical Amazon EC2 instances have been terminated. Which of the following AWS services would help you determine who took this action?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Amazon Inspector.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Inspector.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS CloudTrail.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Trusted Advisor.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. EC2 Instance Usage Report.
@@ -23,7 +23,7 @@ You have noticed that several critical Amazon EC2 instances have been terminated
 ### Question 2
 
 Which statement is true regarding the AWS Shared Responsibility Model?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Responsibilities vary depending on the services used.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Responsibilities vary depending on the services used.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Security of the IaaS services is the responsibility of AWS.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Patching the guest OS is always the responsibility of AWS.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Security of the managed services is the responsibility of the customer.
@@ -39,7 +39,7 @@ Which statement is true regarding the AWS Shared Responsibility Model?
 ### Question 3
 
 An organization has a large number of technical employees who operate their AWS Cloud infrastructure. What does AWS provide to help organize them into teams and then assign the appropriate permissions for each team?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; IAM roles.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. IAM roles.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. IAM users.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. IAM user groups.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Organizations.
@@ -55,7 +55,7 @@ An organization has a large number of technical employees who operate their AWS 
 ### Question 4
 
 What should you do in order to keep the data on EBS volumes safe? (Choose TWO)
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Regularly update firmware on EBS devices.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Regularly update firmware on EBS devices.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Create EBS snapshots.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Ensure that EBS data is encrypted at rest.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Store a backup daily in an external drive.
@@ -72,7 +72,7 @@ What should you do in order to keep the data on EBS volumes safe? (Choose TWO)
 ### Question 5
 
 What does the “Principle of Least Privilege” refer to?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; You should grant your users only the permissions they need when they need them and nothing more.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. You should grant your users only the permissions they need when they need them and nothing more.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. All IAM users should have at least the necessary permissions to access the core AWS services.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. All trusted IAM users should have access to any AWS service in the respective AWS account.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. IAM users should not be granted any permissions; to keep your account safe.
@@ -88,7 +88,7 @@ What does the “Principle of Least Privilege” refer to?
 ### Question 6
 
 Hundreds of thousands of DDoS attacks are recorded every month worldwide. What service does AWS provide to help protect AWS Customers from these attacks? (Choose TWO)
-<br>&nbsp;&nbsp;&nbsp;&nbsp; AWS Shield.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Shield.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Config.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Cognito.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS WAF.
@@ -105,7 +105,7 @@ Hundreds of thousands of DDoS attacks are recorded every month worldwide. What s
 ### Question 7
 
 A company has moved to AWS recently. Which of the following AWS Services will help ensure that they have the proper security settings? (Choose TWO)
-<br>&nbsp;&nbsp;&nbsp;&nbsp; AWS Trusted Advisor.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Trusted Advisor.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon Inspector.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon SNS.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon CloudWatch.
@@ -122,7 +122,7 @@ A company has moved to AWS recently. Which of the following AWS Services will he
 ### Question 8
 
 What is the AWS feature that provides an additional level of security above the default authentication mechanism of usernames and passwords?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Encrypted keys.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Encrypted keys.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Email verification.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS KMS.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS MFA.
@@ -138,7 +138,7 @@ What is the AWS feature that provides an additional level of security above the 
 ### Question 9
 
 According to the AWS Shared responsibility model, which of the following are the responsibility of the customer? (Choose TWO)
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Managing environmental events of AWS data centers.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Managing environmental events of AWS data centers.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Protecting the confidentiality of data in transit in Amazon S3.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Controlling physical access to AWS Regions.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Ensuring that the underlying EC2 host is configured properly.
@@ -155,7 +155,7 @@ According to the AWS Shared responsibility model, which of the following are the
 ### Question 10
 
 Which of the following helps a customer view the Amazon EC2 billing activity for the past month?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; AWS Budgets.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Budgets.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Pricing Calculator.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Systems Manager.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Cost & Usage Reports.
@@ -171,7 +171,7 @@ Which of the following helps a customer view the Amazon EC2 billing activity for
 ### Question 11
 
 Your company wants to ensure that all EC2 instances are launched from approved AMIs only. Which service helps accomplish this?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; AWS Config
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Config
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Trusted Advisor
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Inspector
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Systems Manager
@@ -187,7 +187,7 @@ Your company wants to ensure that all EC2 instances are launched from approved A
 ### Question 12
 
 Which AWS service helps you identify which users have made configuration changes to your AWS resources?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; AWS Config
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Config
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS CloudTrail
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon CloudWatch
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Trusted Advisor
@@ -203,7 +203,7 @@ Which AWS service helps you identify which users have made configuration changes
 ### Question 13
 
 A company needs to encrypt data at rest in S3 buckets. Which service should they use?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; AWS KMS
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS KMS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Certificate Manager
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Secrets Manager
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS IAM
@@ -219,7 +219,7 @@ A company needs to encrypt data at rest in S3 buckets. Which service should they
 ### Question 14
 
 What is the PRIMARY benefit of using AWS Shield Standard?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Web application firewall
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Web application firewall
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. DDoS protection
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Encryption at rest
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Vulnerability scanning
@@ -235,7 +235,7 @@ What is the PRIMARY benefit of using AWS Shield Standard?
 ### Question 15
 
 Which service helps you assess whether your AWS environment complies with security best practices?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; AWS Trusted Advisor
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Trusted Advisor
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon Inspector
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Config
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS CloudTrail
@@ -251,7 +251,7 @@ Which service helps you assess whether your AWS environment complies with securi
 ### Question 16
 
 Which of the following is the customer's responsibility under the AWS Shared Responsibility Model?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Patching underlying infrastructure
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Patching underlying infrastructure
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Physical security of data centers
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Configuring server-side encryption on S3
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Managing network infrastructure
@@ -266,7 +266,7 @@ Which of the following is the customer's responsibility under the AWS Shared Res
 
 ### Question 17
 Which AWS service provides a virtual private network connection to the AWS cloud?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; AWS Direct Connect
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Direct Connect
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS VPN
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Connect
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Global Accelerator
@@ -282,7 +282,7 @@ Which AWS service provides a virtual private network connection to the AWS cloud
 ### Question 18
 
 What is an IAM policy?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; JSON document defining permissions
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. JSON document defining permissions
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. User authentication method
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Role assumption process
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Group membership list
@@ -298,7 +298,7 @@ What is an IAM policy?
 ### Question 19
 
 Which service monitors for malicious activity in AWS accounts?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Amazon GuardDuty
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon GuardDuty
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Shield
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Inspector
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS WAF
@@ -314,7 +314,7 @@ Which service monitors for malicious activity in AWS accounts?
 ### Question 20
 
 What is the recommended way to secure the AWS root account?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Enable MFA and avoid access keys
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Enable MFA and avoid access keys
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Use for daily operations
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Share credentials with admins
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Create multiple root users
@@ -330,7 +330,7 @@ What is the recommended way to secure the AWS root account?
 ### Question 21
 
 Which service provides centralized key management?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; AWS KMS
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS KMS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Secrets Manager
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Certificate Manager
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS IAM
@@ -346,7 +346,7 @@ Which service provides centralized key management?
 ### Question 22
 
 What is AWS Artifact used for?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Compliance reports
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Compliance reports
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Cost reports
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Usage reports
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Performance reports
@@ -362,7 +362,7 @@ What is AWS Artifact used for?
 ### Question 23
 
 Which IAM best practice should be followed?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Use groups for permissions
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Use groups for permissions
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Attach policies to users directly
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Use root for all tasks
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Share access keys
@@ -378,7 +378,7 @@ Which IAM best practice should be followed?
 ### Question 24
 
 What is Amazon Macie?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Data classification and protection
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Data classification and protection
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Vulnerability scanner
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Firewall service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Logging service
@@ -394,7 +394,7 @@ What is Amazon Macie?
 ### Question 25
 
 Which service provides automated vulnerability management for EC2?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Amazon Inspector
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Inspector
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS GuardDuty
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Config
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Shield
@@ -410,7 +410,7 @@ Which service provides automated vulnerability management for EC2?
 ### Question 26
 
 What is the function of security groups in VPC?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Stateful firewall for instances
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Stateful firewall for instances
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Stateless firewall for subnets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Encryption for traffic
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Routing tables
@@ -426,7 +426,7 @@ What is the function of security groups in VPC?
 ### Question 27
 
 What is a NACL?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Stateless firewall for subnets
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Stateless firewall for subnets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Stateful firewall for instances
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Key management service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. User authentication
@@ -442,7 +442,7 @@ What is a NACL?
 ### Question 28
 
 Which service provides secrets storage?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; AWS Secrets Manager
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Secrets Manager
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS KMS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Parameter Store
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Both A and C
@@ -458,7 +458,7 @@ Which service provides secrets storage?
 ### Question 29
 
 What is AWS Cognito?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; User authentication service
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. User authentication service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Encryption service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Monitoring service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Database service
@@ -474,7 +474,7 @@ What is AWS Cognito?
 ### Question 30
 
 Which compliance program does AWS support?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; HIPAA
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. HIPAA
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. PCI DSS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. SOC 2
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All of the above
@@ -490,7 +490,7 @@ Which compliance program does AWS support?
 ### Question 31
 
 What is the AWS Abuse team for?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Reporting misuse of AWS resources
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Reporting misuse of AWS resources
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Billing inquiries
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Technical support
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Compliance audits
@@ -506,7 +506,7 @@ What is the AWS Abuse team for?
 ### Question 32
 
 Which IAM entity should be used for temporary access?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Users
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Users
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Groups
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Roles
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Policies
@@ -522,7 +522,7 @@ Which IAM entity should be used for temporary access?
 ### Question 33
 
 What is AWS Directory Service?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Managed Active Directory
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Managed Active Directory
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. User management
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Both A and B
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Encryption service
@@ -538,7 +538,7 @@ What is AWS Directory Service?
 ### Question 34
 
 Which service provides DDoS protection at Layer 7?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; AWS Shield Advanced
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Shield Advanced
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS WAF
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon GuardDuty
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Firewall Manager
@@ -554,7 +554,7 @@ Which service provides DDoS protection at Layer 7?
 ### Question 35
 
 What is the default encryption for S3?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; SSE-S3
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. SSE-S3
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. SSE-KMS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. SSE-C
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. None
@@ -570,7 +570,7 @@ What is the default encryption for S3?
 ### Question 36
 
 Which tool checks for public S3 buckets?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; AWS Trusted Advisor
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Trusted Advisor
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon Inspector
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Config
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Macie
@@ -586,7 +586,7 @@ Which tool checks for public S3 buckets?
 ### Question 37
 
 What is AWS Firewall Manager?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Central management for WAF rules
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Central management for WAF rules
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Network firewall
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Host firewall
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. VPN manager
@@ -602,7 +602,7 @@ What is AWS Firewall Manager?
 ### Question 38
 
 Which service provides SSL/TLS certificates?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; AWS Certificate Manager
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Certificate Manager
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS KMS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Secrets Manager
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS IAM
@@ -618,7 +618,7 @@ Which service provides SSL/TLS certificates?
 ### Question 39
 
 What is the purpose of VPC flow logs?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Monitor network traffic
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Monitor network traffic
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Audit API calls
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Encrypt data
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Manage users
@@ -634,7 +634,7 @@ What is the purpose of VPC flow logs?
 ### Question 40
 
 Which compliance standard is for payment card data?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; PCI DSS
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. PCI DSS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. HIPAA
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. GDPR
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. SOC 1
@@ -650,7 +650,7 @@ Which compliance standard is for payment card data?
 ### Question 41
 
 What is Amazon GuardDuty's data source?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; VPC Flow Logs
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. VPC Flow Logs
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. CloudTrail logs
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. DNS logs
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All of the above
@@ -666,7 +666,7 @@ What is Amazon GuardDuty's data source?
 ### Question 42
 
 Which IAM feature allows cross-account access?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Roles
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Roles
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Policies
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Groups
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Users
@@ -682,7 +682,7 @@ Which IAM feature allows cross-account access?
 ### Question 43
 
 What is AWS Security Hub?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Centralized security findings
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Centralized security findings
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Vulnerability scanner
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Firewall
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Encryption tool
@@ -698,7 +698,7 @@ What is AWS Security Hub?
 ### Question 44
 
 Which service provides automated code reviews for security?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Amazon CodeGuru
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon CodeGuru
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon Inspector
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS CodePipeline
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS CodeBuild
@@ -714,7 +714,7 @@ Which service provides automated code reviews for security?
 ### Question 45
 
 What is the difference between security groups and NACLs?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; SG stateful, NACL stateless
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. SG stateful, NACL stateless
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. SG at subnet, NACL at instance
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. SG deny rules, NACL allow only
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. SG for outbound, NACL for inbound
@@ -730,7 +730,7 @@ What is the difference between security groups and NACLs?
 ### Question 46
 
 Which KMS key type is customer-managed?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; AWS-owned
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS-owned
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS-managed
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Customer managed keys (CMK)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Data keys
@@ -746,7 +746,7 @@ Which KMS key type is customer-managed?
 ### Question 47
 
 What is AWS SSO?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Single Sign-On for AWS accounts
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Single Sign-On for AWS accounts
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. User authentication
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Role assumption
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Directory service
@@ -762,7 +762,7 @@ What is AWS SSO?
 ### Question 48
 
 Which service detects PII in S3?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Amazon Macie
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Macie
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon GuardDuty
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Security Hub
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Config
@@ -778,7 +778,7 @@ Which service detects PII in S3?
 ### Question 49
 
 What is the root user in AWS?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Account owner with full access
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Account owner with full access
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. IAM admin user
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Billing user
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Support user
@@ -794,7 +794,7 @@ What is the root user in AWS?
 ### Question 50
 
 Which policy type restricts resource actions?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; Permissions boundary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Permissions boundary
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. SCP in Organizations
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Session policy
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All of the above
