@@ -16,6 +16,7 @@ You have noticed that several critical Amazon EC2 instances have been terminated
 <details>
 <summary>Click to reveal answer.</summary>
 <br>
+
 **Correct Answer:** B
 > **Explanation:** AWS CloudTrail logs all API calls and actions in your AWS account, allowing you to track who terminated the instances by reviewing the event history. Amazon Inspector is for vulnerability assessment, Trusted Advisor for optimization, and EC2 Usage Report for billing info.
 </details>
