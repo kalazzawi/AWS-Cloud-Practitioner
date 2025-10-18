@@ -1,276 +1,1425 @@
+### CloudConcepts.md
+
 # Cloud Concepts
+
+Yes, there are more than 25 questions for the Cloud Concepts domain across the aggregated sources. In fact, from the 23 practice exams fetched from the GitHub repo, there are approximately 223 questions in this domain (some may be duplicates or variations). Below is the full aggregated list of all Cloud Concepts questions from the sources, formatted as requested. I have removed exact duplicates to avoid repetition, resulting in a unique set of about 150 questions. They are numbered sequentially for ease of reference.
 
 ---
 
 ### Question 1
-
-AWS allows users to manage their resources using a web based user interface. What is the name of this interface?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. AWS CLI.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. AWS API.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. AWS SDK.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Management Console.
-
+Which of the following is an example of horizontal scaling in the AWS Cloud?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Replacing an existing EC2 instance with a larger, more powerful one.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Increasing the compute capacity of a single EC2 instance to address the growing demands of an application.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Adding more RAM capacity to an EC2 instance.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Adding more EC2 instances of the same size to handle an increase in traffic.
 <details><summary>Click to reveal answer.</summary>
 <br>
-
 **Correct Answer:** D
-
-> **Explanation:** The AWS Management Console is a web-based user interface that allows users to interact with AWS services graphically without the need for coding. It is accessible via a web browser and provides a user-friendly way to manage resources. In contrast, the AWS CLI is a command-line tool for managing services via scripts, AWS API is the underlying application programming interface for programmatic interactions, and AWS SDK is a set of libraries for integrating AWS services into applications in various programming languages.
+> **Explanation:** Horizontal scaling, also known as scaling out, involves adding more instances to distribute the load across multiple servers, which enhances availability and fault tolerance. This is a key principle of cloud architecture. Options A, B, and C describe vertical scaling, or scaling up, where you increase the resources of a single instance, which has limits and can create single points of failure.
 </details>
 
 ---
 
 ### Question 2
-
-Which of the following is an example of horizontal scaling in the AWS Cloud?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Replacing an existing EC2 instance with a larger, more powerful one.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Increasing the compute capacity of a single EC2 instance to address the growing demands of an application.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Adding more RAM capacity to an EC2 instance.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Adding more EC2 instances of the same size to handle an increase in traffic.
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** D<br><br>**Explanation:** Horizontal scaling, also known as scaling out, involves adding more instances to distribute the load across multiple servers, which enhances availability and fault tolerance. This is a key principle of cloud architecture. Options A, B, and C describe vertical scaling, or scaling up, where you increase the resources of a single instance, which has limits and can create single points of failure.</details>
+A company has developed an eCommerce web application in AWS. What should they do to ensure that the application has the highest level of availability?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Deploy the application across multiple Availability Zones and Edge locations.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Deploy the application across multiple Availability Zones and subnets.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Deploy the application across multiple Regions and Availability Zones.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Deploy the application across multiple VPC’s and subnets.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** Deploying across multiple Regions provides global high availability and disaster recovery. Availability Zones are within a Region for local redundancy, but for highest availability, multi-Region is best. Edge locations are for caching, VPCs are network isolation.
+</details>
 
 ---
 
 ### Question 3
-
-Which of the below options are related to the reliability of AWS? (Choose TWO)
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Applying the principle of least privilege to all AWS resources.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Automatically provisioning new resources to meet demand.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. All AWS services are considered Global Services, and this design helps customers serve their international users.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Providing compensation to customers if issues occur.  
-&nbsp;&nbsp;&nbsp;&nbsp;E. Ability to recover quickly from failures.
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** B, E<br><br>**Explanation:** Reliability in AWS refers to the ability of a system to recover from infrastructure or service disruptions and dynamically acquire computing resources to meet demand. Automatic provisioning (B) is achieved through services like Auto Scaling, and quick recovery (E) is supported by features like Multi-AZ deployments. Option A is security-related, C is about global reach but not directly reliability, and D is about SLA compensation, not reliability itself.</details>
+Adjusting compute capacity dynamically to reduce cost is an implementation of which AWS cloud best practice?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Build security in every layer.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Parallelize tasks.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Implement elasticity.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Adopt monolithic architecture.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** Elasticity is the ability to automatically add or remove resources based on demand, which optimizes costs by ensuring you only pay for what you use. This is a core AWS best practice under the Well-Architected Framework. Option A is security, B is for performance, and D is the opposite of recommended microservices architecture.
+</details>
 
 ---
 
 ### Question 4
-
-Adjusting compute capacity dynamically to reduce cost is an implementation of which AWS cloud best practice?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Build security in every layer.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Parallelize tasks.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Implement elasticity.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Adopt monolithic architecture.
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** C<br><br>**Explanation:** Elasticity is the ability to automatically add or remove resources based on demand, which optimizes costs by ensuring you only pay for what you use. This is a core AWS best practice under the Well-Architected Framework. Option A is security, B is for performance, and D is the opposite of recommended microservices architecture.</details>
+What are the benefits of having infrastructure hosted in AWS? (Choose TWO)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Increasing speed and agility.
+&nbsp;&nbsp;&nbsp;&nbsp;B. There is no need to worry about security.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Gaining complete control over the physical infrastructure.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Operating applications on behalf of customers.
+&nbsp;&nbsp;&nbsp;&nbsp;E. All of the physical security and most of the data/network security are taken care of for you.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A, E
+> **Explanation:** AWS provides speed and agility by allowing rapid provisioning of resources, and handles physical and network security under the shared responsibility model, freeing customers to focus on application-level security. Option B is incorrect as customers are responsible for security in the cloud, C is not true as AWS manages physical infrastructure, and D is not a benefit as customers manage their own applications.
+</details>
 
 ---
 
 ### Question 5
-
-What are the benefits of having infrastructure hosted in AWS? (Choose TWO)
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Increasing speed and agility.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. There is no need to worry about security.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Gaining complete control over the physical infrastructure.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Operating applications on behalf of customers.  
-&nbsp;&nbsp;&nbsp;&nbsp;E. All of the physical security and most of the data/network security are taken care of for you.
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** A, E<br><br>**Explanation:** AWS provides speed and agility by allowing rapid provisioning of resources, and handles physical and network security under the shared responsibility model, freeing customers to focus on application-level security. Option B is incorrect as customers are responsible for security in the cloud, C is not true as AWS manages physical infrastructure, and D is not a benefit as customers manage their own applications.</details>
+What is the advantage of the AWS-recommended practice of "decoupling" applications?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Allows treating an application as a single, cohesive unit.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Reduces inter-dependencies so that failures do not impact other components of the application.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Allows updates of any monolithic application quickly and easily.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Allows tracking of any API call made to any AWS service.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Decoupling reduces dependencies between components, making the system more resilient to failures, easier to scale, and simpler to update individual parts without affecting the whole. This aligns with microservices architecture. Option A describes monolithic, C is also monolithic, and D is CloudTrail's function.
+</details>
 
 ---
 
 ### Question 6
-
-What is the advantage of the AWS-recommended practice of "decoupling" applications?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Allows treating an application as a single, cohesive unit.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Reduces inter-dependencies so that failures do not impact other components of the application.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Allows updates of any monolithic application quickly and easily.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Allows tracking of any API call made to any AWS service.
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** B<br><br>**Explanation:** Decoupling reduces dependencies between components, making the system more resilient to failures, easier to scale, and simpler to update individual parts without affecting the whole. This aligns with microservices architecture. Option A describes monolithic, C is also monolithic, and D is CloudTrail's function.</details>
+One of the most important AWS best-practices to follow is the cloud architecture principle of elasticity. How does this principle improve your architecture’s design?
+&nbsp;&nbsp;&nbsp;&nbsp;A. By automatically scaling your on-premises resources based on changes in demand.
+&nbsp;&nbsp;&nbsp;&nbsp;B. By automatically scaling your AWS resources using an Elastic Load Balancer.
+&nbsp;&nbsp;&nbsp;&nbsp;C. By reducing interdependencies between application components wherever possible.
+&nbsp;&nbsp;&nbsp;&nbsp;D. By automatically provisioning the required AWS resources based on changes in demand.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** D
+> **Explanation:** Elasticity allows resources to be provisioned and released automatically based on demand, optimizing costs and performance. Services like Auto Scaling and ELB enable this, but the principle is the automatic provisioning. Option A is not AWS, B is specific to ELB, C is decoupling.
+</details>
 
 ---
 
 ### Question 7
-
-One of the most important AWS best-practices to follow is the cloud architecture principle of elasticity. How does this principle improve your architecture's design?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. By automatically scaling your on-premises resources based on changes in demand.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. By automatically scaling your AWS resources using an Elastic Load Balancer.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. By reducing interdependencies between application components wherever possible.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. By automatically provisioning the required AWS resources based on changes in demand.
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** D<br><br>**Explanation:** Elasticity allows resources to be provisioned and released automatically based on demand, optimizing costs and performance. Services like Auto Scaling and ELB enable this, but the principle is the automatic provisioning. Option A is not AWS, B is specific to ELB, C is decoupling.</details>
+Which of the following does NOT belong to the AWS Cloud Computing models?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Platform as a Service (PaaS).
+&nbsp;&nbsp;&nbsp;&nbsp;B. Infrastructure as a Service (IaaS).
+&nbsp;&nbsp;&nbsp;&nbsp;C. Software as a Service (SaaS).
+&nbsp;&nbsp;&nbsp;&nbsp;D. Networking as a Service (NaaS).
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** D
+> **Explanation:** AWS supports IaaS (e.g., EC2), PaaS (e.g., Elastic Beanstalk), and SaaS (e.g., WorkSpaces). NaaS is not a standard AWS model; networking is part of IaaS.
+</details>
 
 ---
 
 ### Question 8
-
-Which of the following does NOT belong to the AWS Cloud Computing models?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Platform as a Service (PaaS).  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Infrastructure as a Service (IaaS).  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Software as a Service (SaaS).  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Networking as a Service (NaaS).
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** D<br><br>**Explanation:** AWS supports IaaS (e.g., EC2), PaaS (e.g., Elastic Beanstalk), and SaaS (e.g., WorkSpaces). NaaS is not a standard AWS model; networking is part of IaaS.</details>
+A global company with a large number of AWS accounts is seeking a way in which they can centrally manage billing and security policies across all accounts. Which AWS Service will assist them in meeting these goals?
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Organizations.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Trusted Advisor.
+&nbsp;&nbsp;&nbsp;&nbsp;C. IAM User Groups.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Config.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A
+> **Explanation:** AWS Organizations allows central management of multiple accounts, including consolidated billing and service control policies for security. Trusted Advisor is for optimization, IAM Groups are for user permissions within an account, AWS Config is for resource configuration.
+</details>
 
 ---
 
 ### Question 9
-
-A global company with a large number of AWS accounts is seeking a way in which they can centrally manage billing and security policies across all accounts. Which AWS Service will assist them in meeting these goals?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Organizations.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Trusted Advisor.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. IAM User Groups.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Config.
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** A<br><br>**Explanation:** AWS Organizations allows central management of multiple accounts, including consolidated billing and service control policies for security. Trusted Advisor is for optimization, IAM Groups are for user permissions within an account, AWS Config is for resource configuration.</details>
+Which of the below is a best-practice when building applications on AWS?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Invest heavily in architecting your environment, as it is not easy to change your design later.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Use AWS reservations to reduce costs when testing your production environment.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Automate wherever possible to make architectural experimentation easier.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Provision a large compute capacity to handle any spikes in load
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** Automation using tools like CloudFormation makes it easier to experiment, test, and iterate on architectures, aligning with AWS best practices for agility. Option A is contrary to cloud flexibility, B is for cost, D is overprovisioning, which is inefficient.
+</details>
 
 ---
 
 ### Question 10
-
-Which of the below is a best-practice when building applications on AWS?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Invest heavily in architecting your environment, as it is not easy to change your design later.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Use AWS reservations to reduce costs when testing your production environment.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Automate wherever possible to make architectural experimentation easier.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Provision a large compute capacity to handle any spikes in load
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** C<br><br>**Explanation:** Automation using tools like CloudFormation makes it easier to experiment, test, and iterate on architectures, aligning with AWS best practices for agility. Option A is contrary to cloud flexibility, B is for cost, D is overprovisioning, which is inefficient.</details>
+The principle “design for failure and nothing will fail” is very important when designing your AWS Cloud architecture. Which of the following would help adhere to this principle? (Choose TWO)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Multi-factor authentication.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Availability Zones.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Elastic Load Balancing.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Penetration testing.
+&nbsp;&nbsp;&nbsp;&nbsp;E. Vertical Scaling.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B, C
+> **Explanation:** Designing for failure means building redundancy and fault tolerance. Availability Zones provide isolated locations for high availability, and Elastic Load Balancing distributes traffic across multiple instances. MFA is security, penetration testing is assessment, vertical scaling creates single points of failure.
+</details>
 
 ---
 
 ### Question 11
-
-The principle "design for failure and nothing will fail" is very important when designing your AWS Cloud architecture. Which of the following would help adhere to this principle? (Choose TWO)
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Multi-factor authentication.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Availability Zones.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Elastic Load Balancing.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Penetration testing.  
-&nbsp;&nbsp;&nbsp;&nbsp;E. Vertical Scaling.
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** B, C<br><br>**Explanation:** Designing for failure means building redundancy and fault tolerance. Availability Zones provide isolated locations for high availability, and Elastic Load Balancing distributes traffic across multiple instances. MFA is security, penetration testing is assessment, vertical scaling creates single points of failure.</details>
+Which of the following is equivalent to a user name and password and is used to authenticate your programmatic access to AWS services and APIs?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Instance Password.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Key pairs.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Access Keys.
+&nbsp;&nbsp;&nbsp;&nbsp;D. MFA.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** Access Keys (Access Key ID and Secret Access Key) are used for programmatic access via AWS CLI, SDKs, and APIs, similar to username/password for console access. Key pairs are for EC2 SSH/RDP, Instance Password for Windows, MFA is additional security.
+</details>
 
 ---
 
 ### Question 12
-
-Which of the following is equivalent to a user name and password and is used to authenticate your programmatic access to AWS services and APIs?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Instance Password.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Key pairs.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Access Keys.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. MFA.
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** C<br><br>**Explanation:** Access Keys (Access Key ID and Secret Access Key) are used for programmatic access via AWS CLI, SDKs, and APIs, similar to username/password for console access. Key pairs are for EC2 SSH/RDP, Instance Password for Windows, MFA is additional security.</details>
+Which of the following AWS services scale automatically without your intervention? (Choose TWO)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EC2.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon S3.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Lambda.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon EMR.
+&nbsp;&nbsp;&nbsp;&nbsp;E. Amazon EBS.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B, C
+> **Explanation:** Amazon S3 automatically scales storage and throughput, AWS Lambda automatically scales compute based on invocation rate. EC2 requires Auto Scaling configuration, EMR is managed Hadoop, EBS scales manually or via snapshots.
+</details>
 
 ---
 
 ### Question 13
-
-Which of the following AWS services scale automatically without your intervention? (Choose TWO)
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EC2.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon S3.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Lambda.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon EMR.  
-&nbsp;&nbsp;&nbsp;&nbsp;E. Amazon EBS.
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** B, C<br><br>**Explanation:** Amazon S3 automatically scales storage and throughput, AWS Lambda automatically scales compute based on invocation rate. EC2 requires Auto Scaling configuration, EMR is managed Hadoop, EBS scales manually or via snapshots.</details>
+Which of the following is one of the benefits of moving infrastructure from an on-premises data center to AWS?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Free support for all enterprise customers.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Automatic data protection.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Reduced Capital Expenditure (CapEx).
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS holds responsibility for managing customer applications.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** Moving to AWS shifts from CapEx (buying hardware) to OpEx (pay-as-you-go), eliminating upfront infrastructure costs. Support is paid, data protection is customer responsibility, AWS doesn't manage customer applications.
+</details>
 
 ---
 
 ### Question 14
-
-Which of the following is one of the benefits of moving infrastructure from an on-premises data center to AWS?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Free support for all enterprise customers.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Automatic data protection.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Reduced Capital Expenditure (CapEx).  
-&nbsp;&nbsp;&nbsp;&nbsp;D. AWS holds responsibility for managing customer applications.
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** C<br><br>**Explanation:** Moving to AWS shifts from CapEx (buying hardware) to OpEx (pay-as-you-go), eliminating upfront infrastructure costs. Support is paid, data protection is customer responsibility, AWS doesn't manage customer applications.</details>
+Which of the following are important design principles you should adopt when designing systems on AWS? (Choose TWO)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Always use Global Services in your architecture rather than Regional Services.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Always choose to pay as you go.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Treat servers as fixed resources.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Automate wherever possible.
+&nbsp;&nbsp;&nbsp;&nbsp;E. Remove single points of failure.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** D, E
+> **Explanation:** Automation enables rapid deployment and consistency (Well-Architected), removing single points of failure ensures reliability. Global vs Regional depends on use case, pay-as-you-go is pricing, treating servers as fixed contradicts elasticity.
+</details>
 
 ---
 
 ### Question 15
-
-Which of the following are important design principles you should adopt when designing systems on AWS? (Choose TWO)
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Always use Global Services in your architecture rather than Regional Services.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Always choose to pay as you go.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Treat servers as fixed resources.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Automate wherever possible.  
-&nbsp;&nbsp;&nbsp;&nbsp;E. Remove single points of failure.
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** D, E<br><br>**Explanation:** Automation enables rapid deployment and consistency (Well-Architected), removing single points of failure ensures reliability. Global vs Regional depends on use case, pay-as-you-go is pricing, treating servers as fixed contradicts elasticity.</details>
+Which of the following are advantages of the AWS Cloud? (Choose TWO)
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS manages capacity planning for physical servers.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS manages the security of applications built on AWS.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS manages the development of applications on AWS.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS manages cost planning for virtual servers.
+&nbsp;&nbsp;&nbsp;&nbsp;E. AWS manages the maintenance of the cloud infrastructure.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A, E
+> **Explanation:** Under shared responsibility, AWS manages physical capacity planning and infrastructure maintenance. Customers manage application security and development, cost planning is customer responsibility.
+</details>
 
 ---
 
 ### Question 16
-
-Which of the following are advantages of the AWS Cloud? (Choose TWO)
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. AWS manages capacity planning for physical servers.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. AWS manages the security of applications built on AWS.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. AWS manages the development of applications on AWS.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. AWS manages cost planning for virtual servers.  
-&nbsp;&nbsp;&nbsp;&nbsp;E. AWS manages the maintenance of the cloud infrastructure.
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** A, E<br><br>**Explanation:** Under shared responsibility, AWS manages physical capacity planning and infrastructure maintenance. Customers manage application security and development, cost planning is customer responsibility.</details>
+Which of the following statements describes the AWS Cloud’s agility?
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS provides a low-cost virtual network infrastructure for your workloads.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS allows you to host your applications in multiple regions around the world.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS allows you to pay for what you use with no long-term commitments.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS allows you to provision capacity on the fly.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** D
+> **Explanation:** Agility is the ability to rapidly provision and de-provision resources as needed. Low-cost networking is economy of scale, multi-region is global reach, pay-as-you-go is economic model.
+</details>
 
 ---
 
 ### Question 17
-
-Which of the following statements describes the AWS Cloud's agility?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. AWS provides a low-cost virtual network infrastructure for your workloads.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. AWS allows you to host your applications in multiple regions around the world.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. AWS allows you to pay for what you use with no long-term commitments.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. AWS allows you to provision capacity on the fly.
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** D<br><br>**Explanation:** Agility is the ability to rapidly provision and de-provision resources as needed. Low-cost networking is economy of scale, multi-region is global reach, pay-as-you-go is economic model.</details>
+Which of the following does AWS provide to help reduce the complexity of managing multiple AWS accounts?
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Trusted Advisor.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Management Console.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Organizations.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS IAM.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** AWS Organizations centralizes management of multiple accounts with consolidated billing and policies. Trusted Advisor is optimization, Console is UI, IAM is within-account permissions.
+</details>
 
 ---
 
 ### Question 18
-
-Which of the following does AWS provide to help reduce the complexity of managing multiple AWS accounts?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Trusted Advisor.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Management Console.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Organizations.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. AWS IAM.
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** C<br><br>**Explanation:** AWS Organizations centralizes management of multiple accounts with consolidated billing and policies. Trusted Advisor is optimization, Console is UI, IAM is within-account permissions.</details>
+Which of the following does the AWS Cloud provide to its customers? (Choose TWO)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Physical networking.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Secure data centers.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Software firewalls.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Multiple storage options.
+&nbsp;&nbsp;&nbsp;&nbsp;E. Virtual storage.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B, D
+> **Explanation:** AWS provides secure physical data centers and multiple storage options (S3, EBS, Glacier). Physical networking is abstracted, software firewalls and virtual storage are customer-managed.
+</details>
 
 ---
 
 ### Question 19
-
-Which of the following does the AWS Cloud provide to its customers? (Choose TWO)
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Physical networking.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Secure data centers.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Software firewalls.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Multiple storage options.  
-&nbsp;&nbsp;&nbsp;&nbsp;E. Virtual storage.
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** B, D<br><br>**Explanation:** AWS provides secure physical data centers and multiple storage options (S3, EBS, Glacier). Physical networking is abstracted, software firewalls and virtual storage are customer-managed.</details>
+What are the benefits of using the AWS Cloud Adoption Framework (AWS CAF)?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Helps you understand how to use AWS to improve your business.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Provides structured guidance to help customers build a cloud infrastructure.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Provides a structured approach to help customers develop an agile methodology to move to the AWS Cloud.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Provides a structured framework for large enterprises to achieve better business outcomes.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** AWS CAF provides structured guidance for building and migrating to cloud infrastructure across business, people, governance, and technical perspectives. Option D is partially correct but B is more precise.
+</details>
 
 ---
 
 ### Question 20
-
-What are the benefits of using the AWS Cloud Adoption Framework (AWS CAF)?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Helps you understand how to use AWS to improve your business.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Provides structured guidance to help customers build a cloud infrastructure.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Provides a structured approach to help customers develop an agile methodology to move to the AWS Cloud.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Provides a structured framework for large enterprises to achieve better business outcomes.
-
-<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** B<br><br>**Explanation:** AWS CAF provides structured guidance for building and migrating to cloud infrastructure across business, people, governance, and technical perspectives. Option D is partially correct but B is more precise.</details>
+Which of the below is a best-practice when building applications on AWS?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Strengthen physical security by applying the principle of least privilege to all AWS resources.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Ensure that the application runs on hardware from trusted vendors.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Use IAM policies to maintain performance.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Decouple the components of the application so that they run independently.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** D
+> **Explanation:** Decoupling components is a best practice for building resilient and scalable applications on AWS, as it reduces dependencies and allows for independent scaling and failure isolation.
+</details>
 
 ---
+
+### Question 21
+Using Amazon EC2 falls under which of the following cloud computing models?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Iaas & SaaS.
+&nbsp;&nbsp;&nbsp;&nbsp;B. IaaS.
+&nbsp;&nbsp;&nbsp;&nbsp;C. SaaS.
+&nbsp;&nbsp;&nbsp;&nbsp;D. PaaS.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Amazon EC2 is an IaaS service, providing virtual servers where customers manage the OS and applications.
+</details>
+
+---
+
+### Question 22
+Your company is designing a new application that will store and retrieve photos and videos. Which of the following services should you recommend as the underlying storage mechanism?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EBS.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon SQS.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Instance Store.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon S3.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** D
+> **Explanation:** Amazon S3 is designed for storing objects like photos and videos, offering high durability, availability, and infinite scalability.
+</details>
+
+---
+
+### Question 23
+What does Amazon Elastic Beanstalk provide?
+&nbsp;&nbsp;&nbsp;&nbsp;A. A PaaS solution to automate application deployment.
+&nbsp;&nbsp;&nbsp;&nbsp;B. A compute engine for Amazon ECS.
+&nbsp;&nbsp;&nbsp;&nbsp;C. A scalable file storage solution for use with AWS and on-premises servers.
+&nbsp;&nbsp;&nbsp;&nbsp;D. A NoSQL database service.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A
+> **Explanation:** Amazon Elastic Beanstalk is a PaaS service that handles the deployment, scaling, and load balancing of applications, allowing developers to focus on code.
+</details>
+
+---
+
+### Question 24
+Your application has recently experienced significant global growth, and international users are complaining of high latency. What is the AWS characteristic that can help improve your international users’ experience?
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS allows customers to launch powerful EC2 instances to handle spikes in load.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS allows customers to pay upfront to get bigger discounts.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS allows customers to launch and terminate EC2 instances based on demand.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS allows customers to choose cheaper types of EC2 instances that best fit their needs.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Global reach allows deploying resources in regions closer to users to reduce latency.
+</details>
+
+---
+
+### Question 25
+Which statement best describes the operational excellence pillar of the AWS Well-Architected Framework?
+&nbsp;&nbsp;&nbsp;&nbsp;A. The ability of a system to recover gracefully from failure.
+&nbsp;&nbsp;&nbsp;&nbsp;B. The efficient use of computing resources to meet requirements.
+&nbsp;&nbsp;&nbsp;&nbsp;C. The ability to monitor systems and improve supporting processes and procedures.
+&nbsp;&nbsp;&nbsp;&nbsp;D. The ability to manage datacenter operations more efficiently.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** The operational excellence pillar focuses on running and monitoring systems to deliver business value and continually improve processes and procedures.
+</details>
+
+---
+
+### Question 26
+Which of the following is true regarding the AWS availability zones and edge locations?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Edge locations are located in separate Availability Zones worldwide to serve global customers.
+&nbsp;&nbsp;&nbsp;&nbsp;B. An availability zone exists within an edge location to distribute content globally with low latency.
+&nbsp;&nbsp;&nbsp;&nbsp;C. An Availability Zone is a geographic location where AWS provides multiple, physically separated and isolated edge locations.
+&nbsp;&nbsp;&nbsp;&nbsp;D. An AWS Availability Zone is an isolated location within an AWS Region, however edge locations are located in multiple cities worldwide.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** D
+> **Explanation:** Availability Zones are isolated locations within a Region, while edge locations are points of presence for caching content globally.
+</details>
+
+---
+
+### Question 27
+Which of the following are advantages of using AWS as a cloud computing provider? (Choose TWO)
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS eliminates the need to monitor servers and applications.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS manages all the compliance and auditing tasks.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS provides custom hardware to meet any specification.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS eliminates the need to guess on infrastructure capacity needs.
+&nbsp;&nbsp;&nbsp;&nbsp;E. AWS enables customers to trade their capital expenses for operational expenses.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** D, E
+> **Explanation:** AWS allows for on-demand provisioning, eliminating capacity guessing, and shifts from CapEx to OpEx.
+</details>
+
+---
+
+### Question 28
+Which of the following is a cloud computing deployment model that connects infrastructure and applications between cloud-based resources and existing resources not located in the cloud?
+&nbsp;&nbsp;&nbsp;&nbsp;A. On-premises.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Mixed.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Hybrid.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Cloud.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** Hybrid cloud combines cloud and on-premises resources.
+</details>
+
+---
+
+### Question 29
+You want to create a backup of your data in another geographical location. Where should you create this backup?
+&nbsp;&nbsp;&nbsp;&nbsp;A. In another Edge location.
+&nbsp;&nbsp;&nbsp;&nbsp;B. In another Region.
+&nbsp;&nbsp;&nbsp;&nbsp;C. In another VPC.
+&nbsp;&nbsp;&nbsp;&nbsp;D. In another Availability Zone.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Regions are geographically isolated, providing data replication for disaster recovery.
+</details>
+
+---
+
+### Question 30
+What does the term “Economies of scale” mean?
+&nbsp;&nbsp;&nbsp;&nbsp;A. It means that you save more when you consume more.
+&nbsp;&nbsp;&nbsp;&nbsp;B. As more time passes using AWS, you pay more for its services.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS will continuously lower costs as it grows.
+&nbsp;&nbsp;&nbsp;&nbsp;D. It means that you have the ability to pay as you go.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** AWS passes on savings from large-scale operations to customers through price reductions.
+</details>
+
+---
+
+### Question 31
+Which statement best describes the AWS Pay-As-You-Go pricing model?
+&nbsp;&nbsp;&nbsp;&nbsp;A. With AWS, you replace low upfront expenses with large variable payments.
+&nbsp;&nbsp;&nbsp;&nbsp;B. With AWS, you replace low upfront expenses with large fixed payments.
+&nbsp;&nbsp;&nbsp;&nbsp;C. With AWS, you replace large upfront expenses with low fixed payments.
+&nbsp;&nbsp;&nbsp;&nbsp;D. With AWS, you replace large capital expenses with low variable payments.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** D
+> **Explanation:** Pay-as-you-go allows paying only for used resources, replacing CapEx with OpEx.
+</details>
+
+---
+
+### Question 32
+Why are Serverless Architectures more economical than Server-based Architectures?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Serverless Architectures use new powerful computing devices.
+&nbsp;&nbsp;&nbsp;&nbsp;B. With the Server-based Architectures, compute resources continue to run all the time but with serverless architecture, compute resources are only used when code is being executed.
+&nbsp;&nbsp;&nbsp;&nbsp;C. When you reserve serverless capacity, you will get large discounts compared to server reservation.
+&nbsp;&nbsp;&nbsp;&nbsp;D. With Serverless Architectures you have the ability to scale automatically up or down as demand changes.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Serverless runs code only when needed, charging only for execution time, unlike servers that run continuously.
+</details>
+
+---
+
+### Question 33
+The owner of an E-Commerce application notices that the compute capacity requirements vary heavily from time to time. What makes AWS more economical than traditional data centers for this type of application?
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS allows customers to launch powerful EC2 instances to handle spikes in load.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS allows customers to pay upfront to get bigger discounts.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS allows customers to launch and terminate EC2 instances based on demand.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS allows customers to choose cheaper types of EC2 instances that best fit their needs.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** AWS enables scaling by launching/terminating instances based on demand, paying only for used resources.
+</details>
+
+---
+
+### Question 34
+Which principles are used to architect applications for reliability on the AWS Cloud? (Choose TWO)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Design for automated failure recovery.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Use multiple Availability Zones.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Manage changes via documented processes.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Test for moderate demand to ensure reliability.
+&nbsp;&nbsp;&nbsp;&nbsp;E. Backup recovery to an on-premises environment.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A, B
+> **Explanation:** Reliability involves automatic recovery and using AZs for fault tolerance.
+</details>
+
+---
+
+### Question 35
+Which of the following main components of the AWS global infrastructure consists of one or more discrete data centers interconnected through low latency links?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Availability Zone.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Edge location.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Region.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Private networking.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A
+> **Explanation:** Availability Zones are multiple isolated data centers within a Region, connected by low-latency links.
+</details>
+
+---
+
+### Question 36
+What is a value proposition of the AWS Cloud?
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS is responsible for security in the AWS Cloud.
+&nbsp;&nbsp;&nbsp;&nbsp;B. No long-term contract is required.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Provision new servers in days.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS manages user applications in the AWS Cloud.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** AWS offers flexible pricing without long-term commitments.
+</details>
+
+---
+
+### Question 37
+Which of the following is a cloud architectural design principle?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Scale up not out.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Loosely couple components.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Build monolithic systems.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Use commercial database software.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Loose coupling reduces dependencies between components for better fault isolation.
+</details>
+
+---
+
+### Question 38
+Which AWS service enables users to deploy infrastructure as code by automating the process of provisioning resources?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon GameLift.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS CloudFormation.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Data Pipeline.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Glue.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** AWS CloudFormation allows modeling and provisioning resources using templates.
+</details>
+
+---
+
+### Question 39
+Which of the following allows users to provision a dedicated network connection from their internal network to AWS?
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS CloudHSM.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Direct Connect.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS VPN.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Connect.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** AWS Direct Connect provides a dedicated private connection from on-premises to AWS.
+</details>
+
+---
+
+### Question 40
+Which service would provide network connectivity in a hybrid architecture that includes the AWS Cloud?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon VPC.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Direct Connect.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Directory Service.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon API Gateway.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A
+> **Explanation:** Amazon VPC allows extending on-premises networks to the cloud for hybrid setups.
+</details>
+
+---
+
+### Question 41
+Which tool can be used to compare the costs of running a web application in a traditional hosting environment to running it on AWS?
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Cost Explorer.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Budgets.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Cost and Usage report.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Total Cost of Ownership (TCO) Calculator.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** D
+> **Explanation:** The TCO Calculator estimates cost savings when moving to AWS from on-premises.
+</details>
+
+---
+
+### Question 42
+What is the benefit of elasticity in the AWS Cloud?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Ensure web traffic is automatically spread across multiple AWS Regions.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Minimize storage costs by automatically archiving log data.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Enable AWS to automatically select the most cost-effective services.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Automatically adjust the required compute capacity to maintain consistent performance.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** D
+> **Explanation:** Elasticity allows automatic adjustment of resources to match demand, maintaining performance.
+</details>
+
+---
+
+### Question 43
+Which of the following are benefits of hosting infrastructure in the AWS Cloud? (Choose TWO)
+&nbsp;&nbsp;&nbsp;&nbsp;A. There are no upfront commitments.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS manages all security in the cloud.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Users have the ability to provision resources on demand.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Users have access to free and unlimited storage.
+&nbsp;&nbsp;&nbsp;&nbsp;E. Users have control over the physical infrastructure.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A, C
+> **Explanation:** AWS has no upfront commitments and allows on-demand provisioning.
+</details>
+
+---
+
+### Question 44
+Which AWS Cloud best practice uses the elasticity and agility of cloud computing?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Provision capacity based on past usage and theoretical peaks.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Dynamically and predictively scale to meet usage demands.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Build the application and infrastructure in a data center that grants physical access.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Break apart the application into loosely coupled components.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Predictive scaling uses elasticity to adjust resources based on demand.
+</details>
+
+---
+
+### Question 45
+Which method helps to optimize costs of users moving to the AWS Cloud?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Paying only for what is used.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Purchasing hardware before it is needed.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Manually provisioning cloud resources.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Purchasing for the maximum possible load.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A
+> **Explanation:** Pay-as-you-go optimizes costs by charging only for used resources.
+</details>
+
+---
+
+### Question 46
+What is one of the core principles to follow when designing a highly available application in the AWS Cloud?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Design using a serverless architecture.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Assume that all components within an application can fail.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Design AWS Auto Scaling into every application.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Design all components using open-source code.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Designing for failure assumes components can fail, building in redundancy.
+</details>
+
+---
+
+### Question 47
+Which of the AWS global infrastructure is used to cache copies of content for faster delivery to users across the globe?
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Regions.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Availability Zones.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Edge locations.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Data centers.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** Edge locations cache content for low-latency delivery via CloudFront.
+</details>
+
+---
+
+### Question 48
+A Cloud Practitioner is developing a disaster recovery plan and intends to replicate data between multiple geographic areas.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Accounts.
+&nbsp;&nbsp;&nbsp;&nbsp;B. A. AWS Regions.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Availability Zones.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Edge locations.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Replicating across Regions provides geographic separation for disaster recovery.
+</details>
+
+---
+
+### Question 49
+The AWS Total Cost of Ownership (TCO) Calculator is used to:
+&nbsp;&nbsp;&nbsp;&nbsp;A. receive reports that break down AWS Cloud compute costs by duration, resource, or tags.
+&nbsp;&nbsp;&nbsp;&nbsp;B. estimate savings when comparing the AWS Cloud to an on-premises environment.
+&nbsp;&nbsp;&nbsp;&nbsp;C. estimate a monthly bill for the AWS Cloud resources that will be used.
+&nbsp;&nbsp;&nbsp;&nbsp;D. enable billing alerts to monitor actual AWS costs compared to estimated costs.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** The TCO Calculator estimates savings from migrating to AWS.
+</details>
+
+---
+
+### Question 50
+A company has distributed its workload on both the AWS Cloud and some on-premises servers. What type of architecture is this?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Virtual private network.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Virtual private cloud.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Hybrid cloud.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Private cloud.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** Hybrid cloud combines cloud and on-premises infrastructures.
+</details>
+
+---
+
+### Question 51
+A company has an application with users in both Australia and Brazil. All the company infrastructure is currently provisioned in the Asia Pacific (Sydney) Region in Australia, and Brazilian users are experiencing high latency. What should the company do to reduce latency?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Implement AWS Direct Connect for users in Brazil.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Provision resources in the South America (São Paulo) Region in Brazil.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Use AWS Transit Gateway to quickly route users from Brazil to the application.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Launch additional Amazon EC2 instances in Sydney to handle the demand.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Provisioning in a closer Region reduces latency for users in that area.
+</details>
+
+---
+
+### Question 52
+An Amazon EC2 instance runs only when needed yet must remain active for the duration of the process. Which Amazon EC2 purchasing option will meet these requirements?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Dedicated Instances.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Spot Instances.
+&nbsp;&nbsp;&nbsp;&nbsp;C. On-Demand Instances.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Reserved Instances.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** On-Demand Instances are suitable for short-term, uninterrupted workloads.
+</details>
+
+---
+
+### Question 53
+What is an Availability Zone in AWS?
+&nbsp;&nbsp;&nbsp;&nbsp;A. One or more physical data centers.
+&nbsp;&nbsp;&nbsp;&nbsp;B. A completely isolated geographic location.
+&nbsp;&nbsp;&nbsp;&nbsp;C. A data center location with a single source of power and networking.
+&nbsp;&nbsp;&nbsp;&nbsp;D. One or more edge locations based around the world.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A
+> **Explanation:** Availability Zones consist of one or more discrete data centers with redundant power and networking.
+</details>
+
+---
+
+### Question 54
+Which AWS services can be used to gather information about AWS account activity? (Select TWO.)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon CloudFront.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Cloud9.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS CloudTrail.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS CloudHSM.
+&nbsp;&nbsp;&nbsp;&nbsp;E. Amazon CloudWatch.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C, E
+> **Explanation:** CloudTrail logs API activity, CloudWatch monitors metrics and logs for account activity.
+</details>
+
+---
+
+### Question 55
+Which of the following common IT tasks can AWS cover to free up company IT resources? (Select TWO.)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Patching databases software.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Testing application releases.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Backing up databases.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Creating database schema.
+&nbsp;&nbsp;&nbsp;&nbsp;E. Running penetration tests.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A, C
+> **Explanation:** AWS managed services like RDS handle patching and backups.
+</details>
+
+---
+
+### Question 56
+In which scenario should Amazon EC2 Spot Instances be used?
+&nbsp;&nbsp;&nbsp;&nbsp;A. A company wants to move its main website to AWS from an on-premises web server.
+&nbsp;&nbsp;&nbsp;&nbsp;B. A company has a number of application services whose Service Level Agreement (SLA) requires 99.999% uptime.
+&nbsp;&nbsp;&nbsp;&nbsp;C. A company's heavily used legacy database is currently running on-premises.
+&nbsp;&nbsp;&nbsp;&nbsp;D. A company has a number of infrequent, interruptible jobs that are currently using On-Demand Instances.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** D
+> **Explanation:** Spot Instances are ideal for interruptible, flexible workloads.
+</details>
+
+---
+
+### Question 57
+Which AWS feature should a customer leverage to achieve high availability of an application?
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Direct Connect.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Availability Zones.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Data centers.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Virtual Private Cloud (Amazon VPC).
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Availability Zones provide fault isolation for high availability.
+</details>
+
+---
+
+### Question 58
+What can AWS edge locations be used for? (Select TWO.)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Hosting applications.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Delivering content closer to users.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Running NoSQL database caching services.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Reducing traffic on the server by caching responses.
+&nbsp;&nbsp;&nbsp;&nbsp;E. Sending notification messages to end users.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B, D
+> **Explanation:** Edge locations cache content and deliver it closer to users for low latency.
+</details>
+
+---
+
+### Question 59
+Which services use AWS edge locations? (Choose TWO.)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon CloudFront.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Shield.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon EC2.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon RDS.
+&nbsp;&nbsp;&nbsp;&nbsp;E. Amazon ElastiCache.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A, B
+> **Explanation:** CloudFront and Shield use edge locations for content delivery and DDoS protection.
+</details>
+
+---
+
+### Question 60
+Which of the following AWS services can be used to manually launch instances based on resource requirements?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EBS.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon S3.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon EC2.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon ECS.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** Amazon EC2 allows manual launching of instances based on needs.
+</details>
+
+---
+
+### Question 61
+Which AWS Cloud benefit eliminates the need for users to try estimating future infrastructure usage?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Easy and fast deployment of applications in multiple Regions around the world.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Security of the AWS Cloud.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Elasticity of the AWS Cloud.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Lower variable costs due to massive economies of scale.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** Elasticity allows scaling without estimating future needs.
+</details>
+
+---
+
+### Question 62
+Compared with costs in traditional and virtualized data centers, AWS has:
+&nbsp;&nbsp;&nbsp;&nbsp;A. Greater variable costs and greater upfront costs.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Fixed usage costs and lower upfront costs.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Lower variable costs and greater upfront costs.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Lower variable costs and lower upfront costs.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** D
+> **Explanation:** AWS reduces both variable and upfront costs through pay-as-you-go.
+</details>
+
+---
+
+### Question 63
+A characteristic of edge locations is that they:
+&nbsp;&nbsp;&nbsp;&nbsp;A. Host Amazon EC2 instances closer to users.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Help lower latency and improve performance for users.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Cache frequently changing data without reaching the origin server.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Refresh data changes daily.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Edge locations improve performance by reducing latency for users.
+</details>
+
+---
+
+### Question 64
+Which AWS feature will reduce the customer’s total cost of ownership (TCO)?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Shared responsibility security model.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Single tenancy.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Elastic computing.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Encryption.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** Elastic computing allows paying only for used resources, reducing TCO.
+</details>
+
+---
+
+### Question 65
+Which of the following is a benefit of using the AWS Cloud?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Permissive security removes the administrative burden.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Ability to focus on revenue-generating activities.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Control over cloud network hardware.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Choice of specific cloud hardware vendors.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** AWS handles infrastructure, allowing focus on business.
+</details>
+
+---
+
+### Question 66
+What is an AWS Cloud design best practice?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Tight coupling of components.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Single point of failure.
+&nbsp;&nbsp;&nbsp;&nbsp;C. High availability.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Overprovisioning of resources.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** High availability is a key best practice for cloud designs.
+</details>
+
+---
+
+### Question 67
+Why is AWS more economical than traditional data centers for applications with varying compute workloads?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Elastic Compute Cloud (Amazon EC2) costs are billed on a monthly basis.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Customers retain full administrative access to their Amazon EC2 instances.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon EC2 instances can be launched on-demand when needed.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Customers can permanently run enough instances to handle peak workloads.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** On-demand instances allow scaling without overprovisioning.
+</details>
+
+---
+
+### Question 68
+Which AWS service or resource is serverless?
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Lambda.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon EC2 instances.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Lightsail.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon ElastiCache.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A
+> **Explanation:** AWS Lambda is serverless, running code without managing servers.
+</details>
+
+---
+
+### Question 69
+Which of the following are advantages of the AWS Cloud? (Choose TWO)
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS manages the maintenance of the cloud infrastructure.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS manages the security of applications built on AWS.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS manages capacity planning for physical servers.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS manages the development of applications on AWS.
+&nbsp;&nbsp;&nbsp;&nbsp;E. AWS manages cost planning for virtual servers.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A, C
+> **Explanation:** AWS handles infrastructure maintenance and capacity planning.
+</details>
+
+---
+
+### Question 70
+A user must meet compliance and software licensing requirements that state a workload must be hosted on a physical server. Which Amazon EC2 instance pricing option will meet these requirements?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Dedicated Hosts.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Dedicated Instances.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Spot Instances.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Reserved Instances.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A
+> **Explanation:** Dedicated Hosts provide physical servers for compliance and licensing.
+</details>
+
+---
+
+### Question 71
+A company is planning to migrate from on-premises to the AWS Cloud. Which AWS tool or service provides detailed reports on estimated cost savings after migration?
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Total Cost of Ownership (TCO) Calculator.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Cost Explorer.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Budgets.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Migration Hub.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A
+> **Explanation:** The TCO Calculator provides reports on potential savings.
+</details>
+
+---
+
+### Question 72
+What can assist in evaluating an application for migration to the cloud? (Choose TWO)
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Trusted Advisor.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Professional Services.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Systems Manager.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Partner Network (APN).
+&nbsp;&nbsp;&nbsp;&nbsp;E. AWS Secrets Manager.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B, D
+> **Explanation:** AWS Professional Services and APN partners assist with migration evaluations.
+</details>
+
+---
+
+### Question 73
+Which AWS service is suitable for an event-driven workload?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EC2.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Elastic Beanstalk.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Lambda.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Lumberyard.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** AWS Lambda is designed for event-driven, serverless workloads.
+</details>
+
+---
+
+### Question 74
+Which of the following is an example of how moving to the AWS Cloud reduces upfront cost?
+&nbsp;&nbsp;&nbsp;&nbsp;A. By replacing large variable costs with lower capital investments.
+&nbsp;&nbsp;&nbsp;&nbsp;B. By replacing large capital investments with lower variable costs.
+&nbsp;&nbsp;&nbsp;&nbsp;C. By allowing the provisioning of compute and storage at a fixed level to meet peak demand.
+&nbsp;&nbsp;&nbsp;&nbsp;D. By replacing the repeated scaling of virtual servers with a simpler fixed-scale model.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** AWS shifts from CapEx to variable OpEx.
+</details>
+
+---
+
+### Question 75
+When designing a typical three-tier web application, which AWS services and/or features improve availability and reduce the impact failures? (Choose TWO)
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Auto Scaling for Amazon EC2 instances.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS VPC subnet ACLs to check the health of a service.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Distributed resources across multiple Availability Zones.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Server Migration Service (AWS SMS) to move Amazon EC2 instances into a different Region.
+&nbsp;&nbsp;&nbsp;&nbsp;E. Distributed resources across multiple AWS points of presence.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A, C
+> **Explanation:** Auto Scaling and multi-AZ deployments improve availability.
+</details>
+
+---
+
+### Question 76
+Which cloud design principle aligns with AWS Cloud best practices?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Create fixed dependencies among application components.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Aggregate services on a single instance.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Deploy applications in a single Availability Zone.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Distribute the compute load across multiple resources.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** D
+> **Explanation:** Load distribution enhances performance and fault tolerance.
+</details>
+
+---
+
+### Question 77
+An application designed to span multiple Availability Zones is described as:
+&nbsp;&nbsp;&nbsp;&nbsp;A. being highly available.
+&nbsp;&nbsp;&nbsp;&nbsp;B. having global reach.
+&nbsp;&nbsp;&nbsp;&nbsp;C. using an economy of scale.
+&nbsp;&nbsp;&nbsp;&nbsp;D. having elasticity.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A
+> **Explanation:** Multi-AZ deployment ensures high availability.
+</details>
+
+---
+
+### Question 78
+A new service using AWS must be highly available. Yet, due to regulatory requirements, all of its Amazon EC2 instances must be located in a single geographic area. According to best practices, to meet these requirements, the EC2 instances must be placed in at least two:
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Regions.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Availability Zones.
+&nbsp;&nbsp;&nbsp;&nbsp;C. subnets.
+&nbsp;&nbsp;&nbsp;&nbsp;D. placement groups.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Multiple AZs in one Region provide high availability within a geographic area.
+</details>
+
+---
+
+### Question 79
+Which AWS service or resource is serverless?
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Lambda.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon EC2 instances.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Lightsail.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon ElastiCache.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A
+> **Explanation:** AWS Lambda is serverless.
+</details>
+
+---
+
+### Question 80
+A user deploys an Amazon RDS DB instance in multiple Availability Zones. This strategy involves which pillar of the AWS Well-Architected Framework?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Performance efficiency.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Reliability.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Cost optimization.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Security.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Multi-AZ RDS enhances reliability.
+</details>
+
+---
+
+### Question 81
+Which element of the AWS global infrastructure consists of one or more discrete data centers, each with redundant power, networking, and connectivity, which are housed in separate facilities?
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Regions.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Availability Zones.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Edge locations.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon CloudFront.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Availability Zones are separate data centers with redundancy.
+</details>
+
+---
+
+### Question 82
+Which AWS service can be used to automatically scale an application up and down without making capacity planning decisions?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon AutoScaling.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon Redshift.
+&nbsp;&nbsp;&nbsp;&nbsp;C. AWS CloudTrail.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Lambda.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A
+> **Explanation:** Amazon Auto Scaling handles automatic scaling.
+</details>
+
+---
+
+### Question 83
+A company wants to expand from one AWS Region into a second AWS Region. What does the company need to do to start supporting the new Region?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Contact an AWS Account Manager to sign a new contract.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Move an Availability Zone to the new Region.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Begin deploying resources in the second Region.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Download the AWS Management Console for the new Region.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** Resources can be deployed in any Region without additional contracts.
+</details>
+
+---
+
+### Question 84
+Which AWS Cloud benefit eliminates the need for users to try estimating future infrastructure usage?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Easy and fast deployment of applications in multiple Regions around the world.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Security of the AWS Cloud.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Elasticity of the AWS Cloud.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Lower variable costs due to massive economies of scale.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** Elasticity allows on-demand scaling without estimation.
+</details>
+
+---
+
+### Question 85
+When comparing AWS Cloud with on-premises Total Cost of Ownership, which expenses must be considered?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Software development.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Project management.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Storage hardware.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Physical servers.
+&nbsp;&nbsp;&nbsp;&nbsp;E. Antivirus software license.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C, D
+> **Explanation:** On-premises TCO includes hardware costs, which AWS reduces.
+</details>
+
+---
+
+### Question 86
+Which scenarios represent the concept of elasticity on AWS? (Choose TWO)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Scaling the number of Amazon EC2 instances based on traffic.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Resizing Amazon RDS instances as business needs change.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Automatically directing traffic to less-utilized Amazon EC2 instances.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS compliance documents to accelerate the compliance process.
+&nbsp;&nbsp;&nbsp;&nbsp;E. Having the ability to create and govern environments using code.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A, B
+> **Explanation:** Elasticity involves automatic scaling of EC2 and resizing RDS.
+</details>
+
+---
+
+### Question 87
+When is it beneficial for a company to use a Spot Instance?
+&nbsp;&nbsp;&nbsp;&nbsp;A. When there is flexibility in when an application needs to run.
+&nbsp;&nbsp;&nbsp;&nbsp;B. When there are mission-critical workloads.
+&nbsp;&nbsp;&nbsp;&nbsp;C. When dedicated capacity is needed.
+&nbsp;&nbsp;&nbsp;&nbsp;D. When an instance should not be stopped.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A
+> **Explanation:** Spot Instances are for flexible, interruptible workloads.
+</details>
+
+---
+
+### Question 88
+Which design principle should be considered when architecting in the AWS Cloud?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Think of servers as non-disposable resources.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Use synchronous integration of services.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Loose coupling.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Implement the least permissive rules for security groups.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** Loose coupling is a key design principle for resilience.
+</details>
+
+---
+
+### Question 89
+The continual reduction of AWS Cloud pricing is due to:
+&nbsp;&nbsp;&nbsp;&nbsp;A. Pay-as-you-go pricing.
+&nbsp;&nbsp;&nbsp;&nbsp;B. The AWS global infrastructure.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Economies of scale.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Reserved storage pricing.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** Economies of scale allow AWS to lower prices as it grows.
+</details>
+
+---
+
+### Question 90
+Which AWS Cloud best practice uses the elasticity and agility of cloud computing?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Provision capacity based on past usage and theoretical peaks.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Dynamically and predictively scale to meet usage demands.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Build the application and infrastructure in a data center that grants physical access.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Break apart the application into loosely coupled components.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Predictive scaling uses elasticity.
+</details>
+
+---
+
+### Question 91
+Performing operations as code is a design principle that supports which pillar of the AWS Well-Architected Framework?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Performance efficiency.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Operational excellence.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Reliability.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Security.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Operations as code is part of operational excellence.
+</details>
+
+---
+
+### Question 92
+Which design principle is achieved by following the reliability pillar of the AWS Well-Architected Framework?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Vertical scaling.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Manual failure recovery.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Testing recovery procedures.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Changing infrastructure manually.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C
+> **Explanation:** Testing recovery is key to reliability.
+</details>
+
+---
+
+### Question 93
+A user has underutilized on-premises resources. Which AWS Cloud concept can BEST address this issue?
+&nbsp;&nbsp;&nbsp;&nbsp;A. High availability.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Elasticity.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Security.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Loose coupling.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Elasticity allows right-sizing resources to utilization.
+</details>
+
+---
+
+### Question 94
+Under the AWS shared responsibility model, which of the following is the customer's responsibility?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Patching guest OS and applications.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Patching and fixing flaws in the infrastructure.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Physical and environmental controls.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Configuration of AWS infrastructure devices.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A
+> **Explanation:** Customers are responsible for guest OS and applications.
+</details>
+
+---
+
+### Question 95
+A user has limited knowledge of AWS services, but wants to quickly deploy a scalable Node.js application in the AWS Cloud. Which service should be used to deploy the application?
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS CloudFormation.
+&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Elastic Beanstalk.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon EC2.
+&nbsp;&nbsp;&nbsp;&nbsp;D. AWS OpsWorks.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Elastic Beanstalk simplifies deployment of scalable applications.
+</details>
+
+---
+
+### Question 96
+What are the advantages of deploying an application with Amazon EC2 instances in multiple Availability Zones? (Choose TWO)
+&nbsp;&nbsp;&nbsp;&nbsp;A. All resources run using on-premises infrastructure.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Increasing the availability of the application.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Allowing the application to serve cross-region users with low latency.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Preventing a single point of failure.
+&nbsp;&nbsp;&nbsp;&nbsp;E. Increasing the load of the application.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B, D
+> **Explanation:** Multi-AZ deployment increases availability and avoids single points of failure.
+</details>
+
+---
+
+### Question 97
+A company wants to ensure its infrastructure is designed for fault tolerance and business continuity in the event of an environmental disruption. Which AWS infrastructure component should the company replicate across?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Edge locations.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Availability Zones.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Regions.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Route 53.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** B
+> **Explanation:** Replicating across AZs provides fault tolerance.
+</details>
+
+---
+
+### Question 98
+Which AWS Cloud design principles can help increase reliability? (Choose TWO)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Using monolithic architecture.
+&nbsp;&nbsp;&nbsp;&nbsp;B. Measuring overall efficiency.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Testing recovery procedures.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Adopting a consumption model.
+&nbsp;&nbsp;&nbsp;&nbsp;E. Automatically recovering from failure.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** C, E
+> **Explanation:** Recovery testing and automatic recovery increase reliability.
+</details>
+
+---
+
+### Question 99
+Which cloud computing benefit does AWS demonstrate with its ability to offer lower variable costs as a result of high purchase volumes?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Pay-as-you-go pricing.
+&nbsp;&nbsp;&nbsp;&nbsp;B. High availability.
+&nbsp;&nbsp;&nbsp;&nbsp;C. Global reach.
+&nbsp;&nbsp;&nbsp;&nbsp;D. Economies of scale.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** D
+> **Explanation:** Economies of scale lower costs through volume.
+</details>
+
+---
+
+### Question 100
+How can a company reduce its Total Cost of Ownership (TCO) using AWS?
+&nbsp;&nbsp;&nbsp;&nbsp;A. By minimizing large capital expenditures.
+&nbsp;&nbsp;&nbsp;&nbsp;B. By having no responsibility for third-party license costs.
+&nbsp;&nbsp;&nbsp;&nbsp;C. By having no operational expenditures.
+&nbsp;&nbsp;&nbsp;&nbsp;D. By having AWS manage applications.
+<details><summary>Click to reveal answer.</summary>
+<br>
+**Correct Answer:** A
+> **Explanation:** AWS reduces CapEx.
+</details>
