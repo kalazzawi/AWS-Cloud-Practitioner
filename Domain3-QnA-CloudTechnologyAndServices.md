@@ -24,8 +24,8 @@ A company has developed an eCommerce web application in AWS. What should they do
 
 ### Question 2
 
-What does AWS Snowball provide?
- (Choose TWO)
+What does AWS Snowball provide? (Choose TWO)
+
 <br>&nbsp;&nbsp;&nbsp;&nbsp;A. Built-in computing capabilities that allow customers to process data locally.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. A catalog of third-party software solutions that customers need to build solutions and run their businesses.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. A hybrid cloud storage between on-premises environments and the AWS Cloud.
