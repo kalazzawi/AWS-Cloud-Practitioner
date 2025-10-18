@@ -12,7 +12,7 @@ AWS allows users to manage their resources using a web based user interface. Wha
 &nbsp;&nbsp;&nbsp;&nbsp;D. AWS Management Console.
 
 <details><summary>Click to reveal answer.</summary>
-
+<br>
 
 **Correct Answer:** D
 
