@@ -45,7 +45,8 @@ Which statement is true regarding the AWS Shared Responsibility Model?
 ### Question 3
 
 An organization has a large number of technical employees who operate their AWS Cloud infrastructure. What does AWS provide to help organize them into teams and then assign the appropriate permissions for each team?
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. IAM roles.
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. IAM roles.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. IAM users.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. IAM user groups.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Organizations.
