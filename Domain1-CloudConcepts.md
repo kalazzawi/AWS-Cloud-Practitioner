@@ -2,8 +2,6 @@
 
 # Cloud Concepts
 
-Yes, there are more than 25 questions for the Cloud Concepts domain across the aggregated sources. In fact, from the 23 practice exams fetched from the GitHub repo, there are approximately 223 questions in this domain (some may be duplicates or variations). Below is the full aggregated list of all Cloud Concepts questions from the sources, formatted as requested. I have removed exact duplicates to avoid repetition, resulting in a unique set of about 150 questions. They are numbered sequentially for ease of reference.
-
 ---
 
 ### Question 1
