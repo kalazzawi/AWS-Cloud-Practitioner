@@ -8,7 +8,7 @@
 
 Which of the following is an example of horizontal scaling in the AWS Cloud?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Replacing an existing EC2 instance with a larger, more powerful one.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Replacing an existing EC2 instance with a larger, more powerful one.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Increasing the compute capacity of a single EC2 instance to address the growing demands of an application.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Adding more RAM capacity to an EC2 instance.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Adding more EC2 instances of the same size to handle an increase in traffic.
@@ -26,7 +26,7 @@ Which of the following is an example of horizontal scaling in the AWS Cloud?
 
 A company has developed an eCommerce web application in AWS. What should they do to ensure that the application has the highest level of availability?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Deploy the application across multiple Availability Zones and Edge locations.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Deploy the application across multiple Availability Zones and Edge locations.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Deploy the application across multiple Availability Zones and subnets.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Deploy the application across multiple Regions and Availability Zones.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Deploy the application across multiple VPC’s and subnets.
@@ -44,7 +44,7 @@ A company has developed an eCommerce web application in AWS. What should they do
 
 Adjusting compute capacity dynamically to reduce cost is an implementation of which AWS cloud best practice?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Build security in every layer.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Build security in every layer.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Parallelize tasks.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Implement elasticity.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Adopt monolithic architecture.
@@ -62,7 +62,7 @@ Adjusting compute capacity dynamically to reduce cost is an implementation of wh
 
 What are the benefits of having infrastructure hosted in AWS? (Choose TWO)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Increasing speed and agility.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Increasing speed and agility.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. There is no need to worry about security.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Gaining complete control over the physical infrastructure.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Operating applications on behalf of customers.
@@ -81,7 +81,7 @@ What are the benefits of having infrastructure hosted in AWS? (Choose TWO)
 
 What is the advantage of the AWS-recommended practice of "decoupling" applications?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Allows treating an application as a single, cohesive unit.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Allows treating an application as a single, cohesive unit.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Reduces inter-dependencies so that failures do not impact other components of the application.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Allows updates of any monolithic application quickly and easily.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Allows tracking of any API call made to any AWS service.
@@ -99,7 +99,7 @@ What is the advantage of the AWS-recommended practice of "decoupling" applicatio
 
 One of the most important AWS best-practices to follow is the cloud architecture principle of elasticity. How does this principle improve your architecture’s design?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. By automatically scaling your on-premises resources based on changes in demand.
+&nbsp;&nbsp;&nbsp;&nbsp;A. By automatically scaling your on-premises resources based on changes in demand.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. By automatically scaling your AWS resources using an Elastic Load Balancer.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. By reducing interdependencies between application components wherever possible.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. By automatically provisioning the required AWS resources based on changes in demand.
@@ -117,7 +117,7 @@ One of the most important AWS best-practices to follow is the cloud architecture
 
 Which of the following does NOT belong to the AWS Cloud Computing models?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Platform as a Service (PaaS).
+&nbsp;&nbsp;&nbsp;&nbsp;A. Platform as a Service (PaaS).
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Infrastructure as a Service (IaaS).
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Software as a Service (SaaS).
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Networking as a Service (NaaS).
@@ -135,7 +135,7 @@ Which of the following does NOT belong to the AWS Cloud Computing models?
 
 A global company with a large number of AWS accounts is seeking a way in which they can centrally manage billing and security policies across all accounts. Which AWS Service will assist them in meeting these goals?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Organizations.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Organizations.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Trusted Advisor.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. IAM User Groups.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Config.
@@ -153,7 +153,7 @@ A global company with a large number of AWS accounts is seeking a way in which t
 
 Which of the below is a best-practice when building applications on AWS?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Invest heavily in architecting your environment, as it is not easy to change your design later.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Invest heavily in architecting your environment, as it is not easy to change your design later.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Use AWS reservations to reduce costs when testing your production environment.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Automate wherever possible to make architectural experimentation easier.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Provision a large compute capacity to handle any spikes in load
@@ -171,7 +171,7 @@ Which of the below is a best-practice when building applications on AWS?
 
 The principle “design for failure and nothing will fail” is very important when designing your AWS Cloud architecture. Which of the following would help adhere to this principle? (Choose TWO)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Multi-factor authentication.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Multi-factor authentication.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Availability Zones.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Elastic Load Balancing.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Penetration testing.
@@ -190,7 +190,7 @@ The principle “design for failure and nothing will fail” is very important w
 
 Which of the following is equivalent to a user name and password and is used to authenticate your programmatic access to AWS services and APIs?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Instance Password.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Instance Password.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Key pairs.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Access Keys.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. MFA.
@@ -208,7 +208,7 @@ Which of the following is equivalent to a user name and password and is used to 
 
 Which of the following AWS services scale automatically without your intervention? (Choose TWO)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EC2.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EC2.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon S3.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Lambda.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon EMR.
@@ -227,7 +227,7 @@ Which of the following AWS services scale automatically without your interventio
 
 Which of the following is one of the benefits of moving infrastructure from an on-premises data center to AWS?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Free support for all enterprise customers.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Free support for all enterprise customers.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Automatic data protection.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Reduced Capital Expenditure (CapEx).
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS holds responsibility for managing customer applications.
@@ -245,7 +245,7 @@ Which of the following is one of the benefits of moving infrastructure from an o
 
 Which of the following are important design principles you should adopt when designing systems on AWS? (Choose TWO)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Always use Global Services in your architecture rather than Regional Services.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Always use Global Services in your architecture rather than Regional Services.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Always choose to pay as you go.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Treat servers as fixed resources.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Automate wherever possible.
@@ -264,7 +264,7 @@ Which of the following are important design principles you should adopt when des
 
 Which of the following are advantages of the AWS Cloud? (Choose TWO)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS manages capacity planning for physical servers.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS manages capacity planning for physical servers.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS manages the security of applications built on AWS.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS manages the development of applications on AWS.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS manages cost planning for virtual servers.
@@ -283,7 +283,7 @@ Which of the following are advantages of the AWS Cloud? (Choose TWO)
 
 Which of the following statements describes the AWS Cloud’s agility?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS provides a low-cost virtual network infrastructure for your workloads.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS provides a low-cost virtual network infrastructure for your workloads.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS allows you to host your applications in multiple regions around the world.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS allows you to pay for what you use with no long-term commitments.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS allows you to provision capacity on the fly.
@@ -301,7 +301,7 @@ Which of the following statements describes the AWS Cloud’s agility?
 
 Which of the following does AWS provide to help reduce the complexity of managing multiple AWS accounts?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Trusted Advisor.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Trusted Advisor.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Management Console.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Organizations.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS IAM.
@@ -319,7 +319,7 @@ Which of the following does AWS provide to help reduce the complexity of managin
 
 Which of the following does the AWS Cloud provide to its customers? (Choose TWO)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Physical networking.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Physical networking.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Secure data centers.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Software firewalls.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Multiple storage options.
@@ -338,7 +338,7 @@ Which of the following does the AWS Cloud provide to its customers? (Choose TWO)
 
 What are the benefits of using the AWS Cloud Adoption Framework (AWS CAF)?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Helps you understand how to use AWS to improve your business.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Helps you understand how to use AWS to improve your business.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Provides structured guidance to help customers build a cloud infrastructure.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Provides a structured approach to help customers develop an agile methodology to move to the AWS Cloud.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Provides a structured framework for large enterprises to achieve better business outcomes.
@@ -356,7 +356,7 @@ What are the benefits of using the AWS Cloud Adoption Framework (AWS CAF)?
 
 Which of the below is a best-practice when building applications on AWS?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Strengthen physical security by applying the principle of least privilege to all AWS resources.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Strengthen physical security by applying the principle of least privilege to all AWS resources.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Ensure that the application runs on hardware from trusted vendors.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Use IAM policies to maintain performance.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Decouple the components of the application so that they run independently.
@@ -374,7 +374,7 @@ Which of the below is a best-practice when building applications on AWS?
 
 Using Amazon EC2 falls under which of the following cloud computing models?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Iaas & SaaS.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Iaas & SaaS.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. IaaS.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. SaaS.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. PaaS.
@@ -392,7 +392,7 @@ Using Amazon EC2 falls under which of the following cloud computing models?
 
 Your company is designing a new application that will store and retrieve photos and videos. Which of the following services should you recommend as the underlying storage mechanism?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EBS.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EBS.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon SQS.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Instance Store.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon S3.
@@ -410,7 +410,7 @@ Your company is designing a new application that will store and retrieve photos 
 
 What does Amazon Elastic Beanstalk provide?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. A PaaS solution to automate application deployment.
+&nbsp;&nbsp;&nbsp;&nbsp;A. A PaaS solution to automate application deployment.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. A compute engine for Amazon ECS.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. A scalable file storage solution for use with AWS and on-premises servers.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. A NoSQL database service.
@@ -428,7 +428,7 @@ What does Amazon Elastic Beanstalk provide?
 
 Your application has recently experienced significant global growth, and international users are complaining of high latency. What is the AWS characteristic that can help improve your international users’ experience?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS allows customers to launch powerful EC2 instances to handle spikes in load.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS allows customers to launch powerful EC2 instances to handle spikes in load.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS allows customers to pay upfront to get bigger discounts.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS allows customers to launch and terminate EC2 instances based on demand.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS allows customers to choose cheaper types of EC2 instances that best fit their needs.
@@ -446,7 +446,7 @@ Your application has recently experienced significant global growth, and interna
 
 Which statement best describes the operational excellence pillar of the AWS Well-Architected Framework?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. The ability of a system to recover gracefully from failure.
+&nbsp;&nbsp;&nbsp;&nbsp;A. The ability of a system to recover gracefully from failure.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. The efficient use of computing resources to meet requirements.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. The ability to monitor systems and improve supporting processes and procedures.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. The ability to manage datacenter operations more efficiently.
@@ -464,7 +464,7 @@ Which statement best describes the operational excellence pillar of the AWS Well
 
 Which of the following is true regarding the AWS availability zones and edge locations?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Edge locations are located in separate Availability Zones worldwide to serve global customers.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Edge locations are located in separate Availability Zones worldwide to serve global customers.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. An availability zone exists within an edge location to distribute content globally with low latency.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. An Availability Zone is a geographic location where AWS provides multiple, physically separated and isolated edge locations.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. An AWS Availability Zone is an isolated location within an AWS Region, however edge locations are located in multiple cities worldwide.
@@ -482,7 +482,7 @@ Which of the following is true regarding the AWS availability zones and edge loc
 
 Which of the following are advantages of using AWS as a cloud computing provider? (Choose TWO)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS eliminates the need to monitor servers and applications.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS eliminates the need to monitor servers and applications.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS manages all the compliance and auditing tasks.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS provides custom hardware to meet any specification.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS eliminates the need to guess on infrastructure capacity needs.
@@ -501,7 +501,7 @@ Which of the following are advantages of using AWS as a cloud computing provider
 
 Which of the following is a cloud computing deployment model that connects infrastructure and applications between cloud-based resources and existing resources not located in the cloud?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. On-premises.
+&nbsp;&nbsp;&nbsp;&nbsp;A. On-premises.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Mixed.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Hybrid.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Cloud.
@@ -519,7 +519,7 @@ Which of the following is a cloud computing deployment model that connects infra
 
 You want to create a backup of your data in another geographical location. Where should you create this backup?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. In another Edge location.
+&nbsp;&nbsp;&nbsp;&nbsp;A. In another Edge location.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. In another Region.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. In another VPC.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. In another Availability Zone.
@@ -537,7 +537,7 @@ You want to create a backup of your data in another geographical location. Where
 
 What does the term “Economies of scale” mean?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. It means that you save more when you consume more.
+&nbsp;&nbsp;&nbsp;&nbsp;A. It means that you save more when you consume more.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. As more time passes using AWS, you pay more for its services.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS will continuously lower costs as it grows.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. It means that you have the ability to pay as you go.
@@ -555,7 +555,7 @@ What does the term “Economies of scale” mean?
 
 Which statement best describes the AWS Pay-As-You-Go pricing model?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. With AWS, you replace low upfront expenses with large variable payments.
+&nbsp;&nbsp;&nbsp;&nbsp;A. With AWS, you replace low upfront expenses with large variable payments.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. With AWS, you replace low upfront expenses with large fixed payments.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. With AWS, you replace large upfront expenses with low fixed payments.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. With AWS, you replace large capital expenses with low variable payments.
@@ -573,7 +573,7 @@ Which statement best describes the AWS Pay-As-You-Go pricing model?
 
 Why are Serverless Architectures more economical than Server-based Architectures?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Serverless Architectures use new powerful computing devices.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Serverless Architectures use new powerful computing devices.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. With the Server-based Architectures, compute resources continue to run all the time but with serverless architecture, compute resources are only used when code is being executed.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. When you reserve serverless capacity, you will get large discounts compared to server reservation.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. With Serverless Architectures you have the ability to scale automatically up or down as demand changes.
@@ -591,7 +591,7 @@ Why are Serverless Architectures more economical than Server-based Architectures
 
 The owner of an E-Commerce application notices that the compute capacity requirements vary heavily from time to time. What makes AWS more economical than traditional data centers for this type of application?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS allows customers to launch powerful EC2 instances to handle spikes in load.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS allows customers to launch powerful EC2 instances to handle spikes in load.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS allows customers to pay upfront to get bigger discounts.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS allows customers to launch and terminate EC2 instances based on demand.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS allows customers to choose cheaper types of EC2 instances that best fit their needs.
@@ -609,7 +609,7 @@ The owner of an E-Commerce application notices that the compute capacity require
 
 Which principles are used to architect applications for reliability on the AWS Cloud? (Choose TWO)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Design for automated failure recovery.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Design for automated failure recovery.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Use multiple Availability Zones.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Manage changes via documented processes.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Test for moderate demand to ensure reliability.
@@ -628,7 +628,7 @@ Which principles are used to architect applications for reliability on the AWS C
 
 Which of the following main components of the AWS global infrastructure consists of one or more discrete data centers interconnected through low latency links?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Availability Zone.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Availability Zone.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Edge location.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Region.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Private networking.
@@ -646,7 +646,7 @@ Which of the following main components of the AWS global infrastructure consists
 
 What is a value proposition of the AWS Cloud?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS is responsible for security in the AWS Cloud.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS is responsible for security in the AWS Cloud.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. No long-term contract is required.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Provision new servers in days.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS manages user applications in the AWS Cloud.
@@ -664,7 +664,7 @@ What is a value proposition of the AWS Cloud?
 
 Which of the following is a cloud architectural design principle?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Scale up not out.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Scale up not out.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Loosely couple components.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Build monolithic systems.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Use commercial database software.
@@ -682,7 +682,7 @@ Which of the following is a cloud architectural design principle?
 
 Which AWS service enables users to deploy infrastructure as code by automating the process of provisioning resources?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon GameLift.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon GameLift.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS CloudFormation.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Data Pipeline.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Glue.
@@ -700,7 +700,7 @@ Which AWS service enables users to deploy infrastructure as code by automating t
 
 Which of the following allows users to provision a dedicated network connection from their internal network to AWS?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS CloudHSM.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS CloudHSM.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Direct Connect.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS VPN.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Connect.
@@ -718,7 +718,7 @@ Which of the following allows users to provision a dedicated network connection 
 
 Which service would provide network connectivity in a hybrid architecture that includes the AWS Cloud?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon VPC.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon VPC.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Direct Connect.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Directory Service.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon API Gateway.
@@ -736,7 +736,7 @@ Which service would provide network connectivity in a hybrid architecture that i
 
 Which tool can be used to compare the costs of running a web application in a traditional hosting environment to running it on AWS?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Cost Explorer.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Cost Explorer.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Budgets.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Cost and Usage report.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Total Cost of Ownership (TCO) Calculator.
@@ -754,7 +754,7 @@ Which tool can be used to compare the costs of running a web application in a tr
 
 What is the benefit of elasticity in the AWS Cloud?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Ensure web traffic is automatically spread across multiple AWS Regions.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Ensure web traffic is automatically spread across multiple AWS Regions.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Minimize storage costs by automatically archiving log data.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Enable AWS to automatically select the most cost-effective services.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Automatically adjust the required compute capacity to maintain consistent performance.
@@ -772,7 +772,7 @@ What is the benefit of elasticity in the AWS Cloud?
 
 Which of the following are benefits of hosting infrastructure in the AWS Cloud? (Choose TWO)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. There are no upfront commitments.
+&nbsp;&nbsp;&nbsp;&nbsp;A. There are no upfront commitments.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS manages all security in the cloud.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Users have the ability to provision resources on demand.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Users have access to free and unlimited storage.
@@ -791,7 +791,7 @@ Which of the following are benefits of hosting infrastructure in the AWS Cloud? 
 
 Which AWS Cloud best practice uses the elasticity and agility of cloud computing?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Provision capacity based on past usage and theoretical peaks.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Provision capacity based on past usage and theoretical peaks.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Dynamically and predictively scale to meet usage demands.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Build the application and infrastructure in a data center that grants physical access.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Break apart the application into loosely coupled components.
@@ -809,7 +809,7 @@ Which AWS Cloud best practice uses the elasticity and agility of cloud computing
 
 Which method helps to optimize costs of users moving to the AWS Cloud?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Paying only for what is used.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Paying only for what is used.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Purchasing hardware before it is needed.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Manually provisioning cloud resources.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Purchasing for the maximum possible load.
@@ -827,7 +827,7 @@ Which method helps to optimize costs of users moving to the AWS Cloud?
 
 What is one of the core principles to follow when designing a highly available application in the AWS Cloud?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Design using a serverless architecture.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Design using a serverless architecture.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Assume that all components within an application can fail.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Design AWS Auto Scaling into every application.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Design all components using open-source code.
@@ -845,7 +845,7 @@ What is one of the core principles to follow when designing a highly available a
 
 Which of the AWS global infrastructure is used to cache copies of content for faster delivery to users across the globe?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Regions.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Regions.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Availability Zones.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Edge locations.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Data centers.
@@ -863,7 +863,7 @@ Which of the AWS global infrastructure is used to cache copies of content for fa
 
 A Cloud Practitioner is developing a disaster recovery plan and intends to replicate data between multiple geographic areas.
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Accounts.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Accounts.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. A. AWS Regions.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Availability Zones.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Edge locations.
@@ -881,7 +881,7 @@ A Cloud Practitioner is developing a disaster recovery plan and intends to repli
 
 The AWS Total Cost of Ownership (TCO) Calculator is used to:
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. receive reports that break down AWS Cloud compute costs by duration, resource, or tags.
+&nbsp;&nbsp;&nbsp;&nbsp;A. receive reports that break down AWS Cloud compute costs by duration, resource, or tags.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. estimate savings when comparing the AWS Cloud to an on-premises environment.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. estimate a monthly bill for the AWS Cloud resources that will be used.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. enable billing alerts to monitor actual AWS costs compared to estimated costs.
@@ -899,7 +899,7 @@ The AWS Total Cost of Ownership (TCO) Calculator is used to:
 
 A company has distributed its workload on both the AWS Cloud and some on-premises servers. What type of architecture is this?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Virtual private network.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Virtual private network.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Virtual private cloud.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Hybrid cloud.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Private cloud.
@@ -917,7 +917,7 @@ A company has distributed its workload on both the AWS Cloud and some on-premise
 
 A company has an application with users in both Australia and Brazil. All the company infrastructure is currently provisioned in the Asia Pacific (Sydney) Region in Australia, and Brazilian users are experiencing high latency. What should the company do to reduce latency?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Implement AWS Direct Connect for users in Brazil.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Implement AWS Direct Connect for users in Brazil.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Provision resources in the South America (São Paulo) Region in Brazil.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Use AWS Transit Gateway to quickly route users from Brazil to the application.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Launch additional Amazon EC2 instances in Sydney to handle the demand.
@@ -935,7 +935,7 @@ A company has an application with users in both Australia and Brazil. All the co
 
 An Amazon EC2 instance runs only when needed yet must remain active for the duration of the process. Which Amazon EC2 purchasing option will meet these requirements?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Dedicated Instances.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Dedicated Instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Spot Instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. On-Demand Instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Reserved Instances.
@@ -953,7 +953,7 @@ An Amazon EC2 instance runs only when needed yet must remain active for the dura
 
 What is an Availability Zone in AWS?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. One or more physical data centers.
+&nbsp;&nbsp;&nbsp;&nbsp;A. One or more physical data centers.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. A completely isolated geographic location.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. A data center location with a single source of power and networking.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. One or more edge locations based around the world.
@@ -971,7 +971,7 @@ What is an Availability Zone in AWS?
 
 Which AWS services can be used to gather information about AWS account activity? (Select TWO.)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon CloudFront.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon CloudFront.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Cloud9.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS CloudTrail.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS CloudHSM.
@@ -990,7 +990,7 @@ Which AWS services can be used to gather information about AWS account activity?
 
 Which of the following common IT tasks can AWS cover to free up company IT resources? (Select TWO.)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Patching databases software.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Patching databases software.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Testing application releases.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Backing up databases.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Creating database schema.
@@ -1009,7 +1009,7 @@ Which of the following common IT tasks can AWS cover to free up company IT resou
 
 In which scenario should Amazon EC2 Spot Instances be used?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. A company wants to move its main website to AWS from an on-premises web server.
+&nbsp;&nbsp;&nbsp;&nbsp;A. A company wants to move its main website to AWS from an on-premises web server.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. A company has a number of application services whose Service Level Agreement (SLA) requires 99.999% uptime.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. A company's heavily used legacy database is currently running on-premises.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. A company has a number of infrequent, interruptible jobs that are currently using On-Demand Instances.
@@ -1027,7 +1027,7 @@ In which scenario should Amazon EC2 Spot Instances be used?
 
 Which AWS feature should a customer leverage to achieve high availability of an application?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Direct Connect.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Direct Connect.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Availability Zones.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Data centers.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Virtual Private Cloud (Amazon VPC).
@@ -1045,7 +1045,7 @@ Which AWS feature should a customer leverage to achieve high availability of an 
 
 What can AWS edge locations be used for? (Select TWO.)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Hosting applications.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Hosting applications.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Delivering content closer to users.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Running NoSQL database caching services.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Reducing traffic on the server by caching responses.
@@ -1064,7 +1064,7 @@ What can AWS edge locations be used for? (Select TWO.)
 
 Which services use AWS edge locations? (Choose TWO.)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon CloudFront.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon CloudFront.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Shield.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon EC2.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon RDS.
@@ -1083,7 +1083,7 @@ Which services use AWS edge locations? (Choose TWO.)
 
 Which of the following AWS services can be used to manually launch instances based on resource requirements?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EBS.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EBS.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon S3.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon EC2.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon ECS.
@@ -1101,7 +1101,7 @@ Which of the following AWS services can be used to manually launch instances bas
 
 Which AWS Cloud benefit eliminates the need for users to try estimating future infrastructure usage?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Easy and fast deployment of applications in multiple Regions around the world.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Easy and fast deployment of applications in multiple Regions around the world.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Security of the AWS Cloud.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Elasticity of the AWS Cloud.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Lower variable costs due to massive economies of scale.
@@ -1119,7 +1119,7 @@ Which AWS Cloud benefit eliminates the need for users to try estimating future i
 
 Compared with costs in traditional and virtualized data centers, AWS has:
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Greater variable costs and greater upfront costs.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Greater variable costs and greater upfront costs.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Fixed usage costs and lower upfront costs.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Lower variable costs and greater upfront costs.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Lower variable costs and lower upfront costs.
@@ -1137,7 +1137,7 @@ Compared with costs in traditional and virtualized data centers, AWS has:
 
 A characteristic of edge locations is that they:
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Host Amazon EC2 instances closer to users.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Host Amazon EC2 instances closer to users.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Help lower latency and improve performance for users.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Cache frequently changing data without reaching the origin server.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Refresh data changes daily.
@@ -1155,7 +1155,7 @@ A characteristic of edge locations is that they:
 
 Which AWS feature will reduce the customer’s total cost of ownership (TCO)?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Shared responsibility security model.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Shared responsibility security model.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Single tenancy.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Elastic computing.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Encryption.
@@ -1173,7 +1173,7 @@ Which AWS feature will reduce the customer’s total cost of ownership (TCO)?
 
 Which of the following is a benefit of using the AWS Cloud?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Permissive security removes the administrative burden.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Permissive security removes the administrative burden.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Ability to focus on revenue-generating activities.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Control over cloud network hardware.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Choice of specific cloud hardware vendors.
@@ -1191,7 +1191,7 @@ Which of the following is a benefit of using the AWS Cloud?
 
 What is an AWS Cloud design best practice?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Tight coupling of components.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Tight coupling of components.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Single point of failure.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. High availability.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Overprovisioning of resources.
@@ -1209,7 +1209,7 @@ What is an AWS Cloud design best practice?
 
 Why is AWS more economical than traditional data centers for applications with varying compute workloads?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Elastic Compute Cloud (Amazon EC2) costs are billed on a monthly basis.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Elastic Compute Cloud (Amazon EC2) costs are billed on a monthly basis.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Customers retain full administrative access to their Amazon EC2 instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon EC2 instances can be launched on-demand when needed.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Customers can permanently run enough instances to handle peak workloads.
@@ -1227,7 +1227,7 @@ Why is AWS more economical than traditional data centers for applications with v
 
 Which AWS service or resource is serverless?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Lambda.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Lambda.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon EC2 instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Lightsail.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon ElastiCache.
@@ -1245,7 +1245,7 @@ Which AWS service or resource is serverless?
 
 Which of the following are advantages of the AWS Cloud? (Choose TWO)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS manages the maintenance of the cloud infrastructure.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS manages the maintenance of the cloud infrastructure.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS manages the security of applications built on AWS.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS manages capacity planning for physical servers.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS manages the development of applications on AWS.
@@ -1264,7 +1264,7 @@ Which of the following are advantages of the AWS Cloud? (Choose TWO)
 
 A user must meet compliance and software licensing requirements that state a workload must be hosted on a physical server. Which Amazon EC2 instance pricing option will meet these requirements?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Dedicated Hosts.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Dedicated Hosts.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Dedicated Instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Spot Instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Reserved Instances.
@@ -1282,7 +1282,7 @@ A user must meet compliance and software licensing requirements that state a wor
 
 A company is planning to migrate from on-premises to the AWS Cloud. Which AWS tool or service provides detailed reports on estimated cost savings after migration?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Total Cost of Ownership (TCO) Calculator.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Total Cost of Ownership (TCO) Calculator.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Cost Explorer.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Budgets.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Migration Hub.
@@ -1300,7 +1300,7 @@ A company is planning to migrate from on-premises to the AWS Cloud. Which AWS to
 
 What can assist in evaluating an application for migration to the cloud? (Choose TWO)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Trusted Advisor.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Trusted Advisor.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Professional Services.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Systems Manager.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Partner Network (APN).
@@ -1319,7 +1319,7 @@ What can assist in evaluating an application for migration to the cloud? (Choose
 
 Which AWS service is suitable for an event-driven workload?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EC2.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EC2.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Elastic Beanstalk.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Lambda.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Lumberyard.
@@ -1337,7 +1337,7 @@ Which AWS service is suitable for an event-driven workload?
 
 Which of the following is an example of how moving to the AWS Cloud reduces upfront cost?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. By replacing large variable costs with lower capital investments.
+&nbsp;&nbsp;&nbsp;&nbsp;A. By replacing large variable costs with lower capital investments.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. By replacing large capital investments with lower variable costs.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. By allowing the provisioning of compute and storage at a fixed level to meet peak demand.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. By replacing the repeated scaling of virtual servers with a simpler fixed-scale model.
@@ -1355,7 +1355,7 @@ Which of the following is an example of how moving to the AWS Cloud reduces upfr
 
 When designing a typical three-tier web application, which AWS services and/or features improve availability and reduce the impact failures? (Choose TWO)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Auto Scaling for Amazon EC2 instances.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Auto Scaling for Amazon EC2 instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS VPC subnet ACLs to check the health of a service.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Distributed resources across multiple Availability Zones.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Server Migration Service (AWS SMS) to move Amazon EC2 instances into a different Region.
@@ -1374,7 +1374,7 @@ When designing a typical three-tier web application, which AWS services and/or f
 
 Which cloud design principle aligns with AWS Cloud best practices?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Create fixed dependencies among application components.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Create fixed dependencies among application components.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Aggregate services on a single instance.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Deploy applications in a single Availability Zone.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Distribute the compute load across multiple resources.
@@ -1392,7 +1392,7 @@ Which cloud design principle aligns with AWS Cloud best practices?
 
 An application designed to span multiple Availability Zones is described as:
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. being highly available.
+&nbsp;&nbsp;&nbsp;&nbsp;A. being highly available.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. having global reach.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. using an economy of scale.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. having elasticity.
@@ -1410,7 +1410,7 @@ An application designed to span multiple Availability Zones is described as:
 
 A new service using AWS must be highly available. Yet, due to regulatory requirements, all of its Amazon EC2 instances must be located in a single geographic area. According to best practices, to meet these requirements, the EC2 instances must be placed in at least two:
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Regions.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Regions.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Availability Zones.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. subnets.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. placement groups.
@@ -1428,7 +1428,7 @@ A new service using AWS must be highly available. Yet, due to regulatory require
 
 Which AWS service or resource is serverless?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Lambda.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Lambda.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon EC2 instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Lightsail.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon ElastiCache.
@@ -1446,7 +1446,7 @@ Which AWS service or resource is serverless?
 
 A user deploys an Amazon RDS DB instance in multiple Availability Zones. This strategy involves which pillar of the AWS Well-Architected Framework?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Performance efficiency.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Performance efficiency.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Reliability.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Cost optimization.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Security.
@@ -1464,7 +1464,7 @@ A user deploys an Amazon RDS DB instance in multiple Availability Zones. This st
 
 Which element of the AWS global infrastructure consists of one or more discrete data centers, each with redundant power, networking, and connectivity, which are housed in separate facilities?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Regions.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Regions.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Availability Zones.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Edge locations.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon CloudFront.
@@ -1482,7 +1482,7 @@ Which element of the AWS global infrastructure consists of one or more discrete 
 
 Which AWS service can be used to automatically scale an application up and down without making capacity planning decisions?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon AutoScaling.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon AutoScaling.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon Redshift.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS CloudTrail.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Lambda.
@@ -1500,7 +1500,7 @@ Which AWS service can be used to automatically scale an application up and down 
 
 A company wants to expand from one AWS Region into a second AWS Region. What does the company need to do to start supporting the new Region?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Contact an AWS Account Manager to sign a new contract.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Contact an AWS Account Manager to sign a new contract.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Move an Availability Zone to the new Region.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Begin deploying resources in the second Region.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Download the AWS Management Console for the new Region.
@@ -1518,7 +1518,7 @@ A company wants to expand from one AWS Region into a second AWS Region. What doe
 
 Which AWS Cloud benefit eliminates the need for users to try estimating future infrastructure usage?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Easy and fast deployment of applications in multiple Regions around the world.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Easy and fast deployment of applications in multiple Regions around the world.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Security of the AWS Cloud.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Elasticity of the AWS Cloud.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Lower variable costs due to massive economies of scale.
@@ -1536,7 +1536,7 @@ Which AWS Cloud benefit eliminates the need for users to try estimating future i
 
 When comparing AWS Cloud with on-premises Total Cost of Ownership, which expenses must be considered?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Software development.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Software development.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Project management.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Storage hardware.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Physical servers.
@@ -1555,7 +1555,7 @@ When comparing AWS Cloud with on-premises Total Cost of Ownership, which expense
 
 Which scenarios represent the concept of elasticity on AWS? (Choose TWO)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Scaling the number of Amazon EC2 instances based on traffic.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Scaling the number of Amazon EC2 instances based on traffic.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Resizing Amazon RDS instances as business needs change.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Automatically directing traffic to less-utilized Amazon EC2 instances.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS compliance documents to accelerate the compliance process.
@@ -1574,7 +1574,7 @@ Which scenarios represent the concept of elasticity on AWS? (Choose TWO)
 
 When is it beneficial for a company to use a Spot Instance?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. When there is flexibility in when an application needs to run.
+&nbsp;&nbsp;&nbsp;&nbsp;A. When there is flexibility in when an application needs to run.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. When there are mission-critical workloads.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. When dedicated capacity is needed.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. When an instance should not be stopped.
@@ -1592,7 +1592,7 @@ When is it beneficial for a company to use a Spot Instance?
 
 Which design principle should be considered when architecting in the AWS Cloud?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Think of servers as non-disposable resources.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Think of servers as non-disposable resources.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Use synchronous integration of services.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Loose coupling.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Implement the least permissive rules for security groups.
@@ -1610,7 +1610,7 @@ Which design principle should be considered when architecting in the AWS Cloud?
 
 The continual reduction of AWS Cloud pricing is due to:
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Pay-as-you-go pricing.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Pay-as-you-go pricing.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. The AWS global infrastructure.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Economies of scale.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Reserved storage pricing.
@@ -1628,7 +1628,7 @@ The continual reduction of AWS Cloud pricing is due to:
 
 Which AWS Cloud best practice uses the elasticity and agility of cloud computing?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Provision capacity based on past usage and theoretical peaks.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Provision capacity based on past usage and theoretical peaks.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Dynamically and predictively scale to meet usage demands.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Build the application and infrastructure in a data center that grants physical access.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Break apart the application into loosely coupled components.
@@ -1646,7 +1646,7 @@ Which AWS Cloud best practice uses the elasticity and agility of cloud computing
 
 Performing operations as code is a design principle that supports which pillar of the AWS Well-Architected Framework?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Performance efficiency.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Performance efficiency.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Operational excellence.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Reliability.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Security.
@@ -1664,7 +1664,7 @@ Performing operations as code is a design principle that supports which pillar o
 
 Which design principle is achieved by following the reliability pillar of the AWS Well-Architected Framework?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Vertical scaling.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Vertical scaling.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Manual failure recovery.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Testing recovery procedures.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Changing infrastructure manually.
@@ -1682,7 +1682,7 @@ Which design principle is achieved by following the reliability pillar of the AW
 
 A user has underutilized on-premises resources. Which AWS Cloud concept can BEST address this issue?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. High availability.
+&nbsp;&nbsp;&nbsp;&nbsp;A. High availability.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Elasticity.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Security.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Loose coupling.
@@ -1700,7 +1700,7 @@ A user has underutilized on-premises resources. Which AWS Cloud concept can BEST
 
 Under the AWS shared responsibility model, which of the following is the customer's responsibility?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Patching guest OS and applications.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Patching guest OS and applications.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Patching and fixing flaws in the infrastructure.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Physical and environmental controls.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Configuration of AWS infrastructure devices.
@@ -1718,7 +1718,7 @@ Under the AWS shared responsibility model, which of the following is the custome
 
 A user has limited knowledge of AWS services, but wants to quickly deploy a scalable Node.js application in the AWS Cloud. Which service should be used to deploy the application?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS CloudFormation.
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS CloudFormation.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Elastic Beanstalk.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon EC2.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS OpsWorks.
@@ -1736,7 +1736,7 @@ A user has limited knowledge of AWS services, but wants to quickly deploy a scal
 
 What are the advantages of deploying an application with Amazon EC2 instances in multiple Availability Zones? (Choose TWO)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. All resources run using on-premises infrastructure.
+&nbsp;&nbsp;&nbsp;&nbsp;A. All resources run using on-premises infrastructure.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Increasing the availability of the application.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Allowing the application to serve cross-region users with low latency.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Preventing a single point of failure.
@@ -1755,7 +1755,7 @@ What are the advantages of deploying an application with Amazon EC2 instances in
 
 A company wants to ensure its infrastructure is designed for fault tolerance and business continuity in the event of an environmental disruption. Which AWS infrastructure component should the company replicate across?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Edge locations.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Edge locations.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Availability Zones.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Regions.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Route 53.
@@ -1773,7 +1773,7 @@ A company wants to ensure its infrastructure is designed for fault tolerance and
 
 Which AWS Cloud design principles can help increase reliability? (Choose TWO)
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Using monolithic architecture.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Using monolithic architecture.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Measuring overall efficiency.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Testing recovery procedures.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Adopting a consumption model.
@@ -1792,7 +1792,7 @@ Which AWS Cloud design principles can help increase reliability? (Choose TWO)
 
 Which cloud computing benefit does AWS demonstrate with its ability to offer lower variable costs as a result of high purchase volumes?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Pay-as-you-go pricing.
+&nbsp;&nbsp;&nbsp;&nbsp;A. Pay-as-you-go pricing.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. High availability.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Global reach.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Economies of scale.
@@ -1810,7 +1810,7 @@ Which cloud computing benefit does AWS demonstrate with its ability to offer low
 
 How can a company reduce its Total Cost of Ownership (TCO) using AWS?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. By minimizing large capital expenditures.
+&nbsp;&nbsp;&nbsp;&nbsp;A. By minimizing large capital expenditures.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. By having no responsibility for third-party license costs.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. By having no operational expenditures.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. By having AWS manage applications.
@@ -1832,7 +1832,7 @@ How can a company reduce its Total Cost of Ownership (TCO) using AWS?
 
 Which AWS Well-Architected Framework pillar focuses on the ability of a system to recover from disruptions?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Operational Excellence
+&nbsp;&nbsp;&nbsp;&nbsp;A. Operational Excellence
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Security
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Reliability
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Performance Efficiency
@@ -1850,7 +1850,7 @@ Which AWS Well-Architected Framework pillar focuses on the ability of a system t
 
 What is the main advantage of using multiple Availability Zones for an application?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Reduced latency for global users
+&nbsp;&nbsp;&nbsp;&nbsp;A. Reduced latency for global users
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Fault tolerance and high availability
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Lower storage costs
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Automatic scaling
@@ -1868,7 +1868,7 @@ What is the main advantage of using multiple Availability Zones for an applicati
 
 Which AWS service provides a fully managed relational database with Multi-AZ deployment capability?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon DynamoDB
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon DynamoDB
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon RDS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Redshift
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon ElastiCache
@@ -1886,7 +1886,7 @@ Which AWS service provides a fully managed relational database with Multi-AZ dep
 
 What does the AWS Well-Architected Framework's Performance Efficiency pillar focus on?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Protecting systems and data
+&nbsp;&nbsp;&nbsp;&nbsp;A. Protecting systems and data
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Using computing resources efficiently
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Running and monitoring systems
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Controlling costs
@@ -1904,7 +1904,7 @@ What does the AWS Well-Architected Framework's Performance Efficiency pillar foc
 
 Which principle helps reduce the blast radius of failures in cloud applications?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Tight coupling
+&nbsp;&nbsp;&nbsp;&nbsp;A. Tight coupling
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Monolithic architecture
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Loose coupling
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Vertical scaling
@@ -1922,7 +1922,7 @@ Which principle helps reduce the blast radius of failures in cloud applications?
 
 What is the benefit of the AWS global infrastructure for international applications?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Reduced compliance requirements
+&nbsp;&nbsp;&nbsp;&nbsp;A. Reduced compliance requirements
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Lower latency through regional deployment
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Single point of failure elimination
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Automatic cost optimization
@@ -1940,7 +1940,7 @@ What is the benefit of the AWS global infrastructure for international applicati
 
 Which AWS service allows automatic scaling of compute resources based on demand?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EC2
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EC2
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Auto Scaling
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon S3
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Lambda
@@ -1958,7 +1958,7 @@ Which AWS service allows automatic scaling of compute resources based on demand?
 
 What is the AWS shared responsibility model?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS manages everything
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS manages everything
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Customers manage everything
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS manages security OF the cloud, customers manage IN the cloud
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Equal split of all responsibilities
@@ -1976,7 +1976,7 @@ What is the AWS shared responsibility model?
 
 Which AWS service provides Infrastructure as Code (IaC)?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS CloudFormation
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS CloudFormation
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon CloudWatch
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Config
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Systems Manager
@@ -1994,7 +1994,7 @@ Which AWS service provides Infrastructure as Code (IaC)?
 
 What is the default durability of Amazon S3?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 99.9%
+&nbsp;&nbsp;&nbsp;&nbsp;A. 99.9%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 99.99%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 99.999999999%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 100%
@@ -2012,7 +2012,7 @@ What is the default durability of Amazon S3?
 
 Which AWS support plan includes a Technical Account Manager?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Basic
+&nbsp;&nbsp;&nbsp;&nbsp;A. Basic
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Developer
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Business
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Enterprise
@@ -2030,7 +2030,7 @@ Which AWS support plan includes a Technical Account Manager?
 
 What is the maximum number of Availability Zones in an AWS Region?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 2
+&nbsp;&nbsp;&nbsp;&nbsp;A. 2
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 3
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 6
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Unlimited
@@ -2048,7 +2048,7 @@ What is the maximum number of Availability Zones in an AWS Region?
 
 Which service provides content delivery with low latency worldwide?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Route 53
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Route 53
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Global Accelerator
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon CloudFront
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Direct Connect
@@ -2066,7 +2066,7 @@ Which service provides content delivery with low latency worldwide?
 
 What is the AWS Free Tier?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Always free services
+&nbsp;&nbsp;&nbsp;&nbsp;A. Always free services
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 12 months of limited free usage
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Both A and B
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Enterprise support
@@ -2084,7 +2084,7 @@ What is the AWS Free Tier?
 
 Which EC2 purchasing option provides the most significant discount?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. On-Demand
+&nbsp;&nbsp;&nbsp;&nbsp;A. On-Demand
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Reserved (3-year, All Upfront)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Spot
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Savings Plans
@@ -2102,7 +2102,7 @@ Which EC2 purchasing option provides the most significant discount?
 
 What is Amazon Machine Image (AMI)?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Operating system template for EC2
+&nbsp;&nbsp;&nbsp;&nbsp;A. Operating system template for EC2
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Storage volume
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Network configuration
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Security group
@@ -2120,7 +2120,7 @@ What is Amazon Machine Image (AMI)?
 
 Which service provides fully managed NoSQL database?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon RDS
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon RDS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon DynamoDB
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Redshift
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Aurora
@@ -2138,7 +2138,7 @@ Which service provides fully managed NoSQL database?
 
 What is the purpose of Amazon Route 53?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. CDN service
+&nbsp;&nbsp;&nbsp;&nbsp;A. CDN service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. DNS service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Load balancing
 &nbsp>&nbsp;&nbsp;&nbsp;D. VPN connection
@@ -2156,7 +2156,7 @@ What is the purpose of Amazon Route 53?
 
 Which storage class in S3 has the lowest cost?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Standard
+&nbsp;&nbsp;&nbsp;&nbsp;A. Standard
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Intelligent-Tiering
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Glacier Deep Archive
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. One Zone-IA
@@ -2174,7 +2174,7 @@ Which storage class in S3 has the lowest cost?
 
 What is Elastic Load Balancing (ELB)?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Distributes traffic across multiple targets
+&nbsp;&nbsp;&nbsp;&nbsp;A. Distributes traffic across multiple targets
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Scales storage automatically
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Manages database connections
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Provides DNS resolution
@@ -2192,7 +2192,7 @@ What is Elastic Load Balancing (ELB)?
 
 Which service is used for ETL (Extract, Transform, Load) jobs?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Glue
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Glue
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon EMR
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Batch
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Lambda
@@ -2210,7 +2210,7 @@ Which service is used for ETL (Extract, Transform, Load) jobs?
 
 What is the availability SLA for Amazon S3 Standard storage?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 99.9%
+&nbsp;&nbsp;&nbsp;&nbsp;A. 99.9%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 99.99%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 99.999999999%
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 100%
@@ -2228,7 +2228,7 @@ What is the availability SLA for Amazon S3 Standard storage?
 
 Which service provides real-time data streaming?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Kinesis
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon Kinesis
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon SQS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon SNS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon MQ
@@ -2246,7 +2246,7 @@ Which service provides real-time data streaming?
 
 What is AWS Artifact?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Compliance reports portal
+&nbsp;&nbsp;&nbsp;&nbsp;A. Compliance reports portal
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Cost management tool
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Security scanning service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Migration assessment tool
@@ -2264,7 +2264,7 @@ What is AWS Artifact?
 
 Which EC2 instance type is optimized for compute-intensive workloads?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. C5
+&nbsp;&nbsp;&nbsp;&nbsp;A. C5
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. M5
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. R5
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. T3
@@ -2282,7 +2282,7 @@ Which EC2 instance type is optimized for compute-intensive workloads?
 
 What is the purpose of AWS Trusted Advisor?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Real-time security scanning
+&nbsp;&nbsp;&nbsp;&nbsp;A. Real-time security scanning
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Best practice recommendations
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Automated backup service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Cost allocation tool
@@ -2300,7 +2300,7 @@ What is the purpose of AWS Trusted Advisor?
 
 Which service provides managed Kafka?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon MSK
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon MSK
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon MQ
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. AWS Batch
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Kinesis
@@ -2318,7 +2318,7 @@ Which service provides managed Kafka?
 
 What is Amazon EBS?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Object storage
+&nbsp;&nbsp;&nbsp;&nbsp;A. Object storage
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Block storage
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. File storage
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Archive storage
@@ -2336,7 +2336,7 @@ What is Amazon EBS?
 
 Which service is used for container orchestration?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon ECS
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon ECS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Fargate
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon EKS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All of the above
@@ -2354,7 +2354,7 @@ Which service is used for container orchestration?
 
 What is the maximum size of a single Amazon S3 object?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 1 GB
+&nbsp;&nbsp;&nbsp;&nbsp;A. 1 GB
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 5 TB
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 5 TB
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Unlimited
@@ -2372,7 +2372,7 @@ What is the maximum size of a single Amazon S3 object?
 
 Which AWS service provides serverless container management?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon ECS
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon ECS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Fargate
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon EKS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Batch
@@ -2390,7 +2390,7 @@ Which AWS service provides serverless container management?
 
 What is Amazon VPC?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Virtual Private Cloud
+&nbsp;&nbsp;&nbsp;&nbsp;A. Virtual Private Cloud
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Virtual Public Cloud
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Virtual Processing Cloud
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Virtual Performance Cloud
@@ -2408,7 +2408,7 @@ What is Amazon VPC?
 
 Which service provides machine learning without coding?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon SageMaker
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon SageMaker
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon Rekognition
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Lex
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Comprehend
@@ -2426,7 +2426,7 @@ Which service provides machine learning without coding?
 
 What is the billing granularity for Linux EC2 instances?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Per hour
+&nbsp;&nbsp;&nbsp;&nbsp;A. Per hour
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Per minute
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Per second
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Per month
@@ -2444,7 +2444,7 @@ What is the billing granularity for Linux EC2 instances?
 
 Which service provides global application acceleration?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon CloudFront
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon CloudFront
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Global Accelerator
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Route 53
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. AWS Direct Connect
@@ -2462,7 +2462,7 @@ Which service provides global application acceleration?
 
 What is AWS Shield?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. WAF service
+&nbsp;&nbsp;&nbsp;&nbsp;A. WAF service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. DDoS protection
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Encryption service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Backup service
@@ -2480,7 +2480,7 @@ What is AWS Shield?
 
 Which storage service provides shared file system for EC2?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EBS
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon EBS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon EFS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon S3
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Glacier
@@ -2498,7 +2498,7 @@ Which storage service provides shared file system for EC2?
 
 What is the default VPC CIDR block?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. 10.0.0.0/16
+&nbsp;&nbsp;&nbsp;&nbsp;A. 10.0.0.0/16
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. 172.31.0.0/16
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. 192.168.0.0/16
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. 100.64.0.0/10
@@ -2516,7 +2516,7 @@ What is the default VPC CIDR block?
 
 Which service provides push notifications?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon SNS
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon SNS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon SQS
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon SES
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Pinpoint
@@ -2534,7 +2534,7 @@ Which service provides push notifications?
 
 What is Amazon CloudWatch?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Monitoring and observability service
+&nbsp;&nbsp;&nbsp;&nbsp;A. Monitoring and observability service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Log management service
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Both A and B
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Security service
@@ -2552,7 +2552,7 @@ What is Amazon CloudWatch?
 
 Which EC2 instance type is burstable?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. M5
+&nbsp;&nbsp;&nbsp;&nbsp;A. M5
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. C5
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. T3
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. R5
@@ -2570,7 +2570,7 @@ Which EC2 instance type is burstable?
 
 What is AWS Config?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Resource configuration tracking
+&nbsp;&nbsp;&nbsp;&nbsp;A. Resource configuration tracking
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Compliance monitoring
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Both A and B
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Cost tracking
@@ -2588,7 +2588,7 @@ What is AWS Config?
 
 Which service provides fully managed PostgreSQL?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon RDS for PostgreSQL
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon RDS for PostgreSQL
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon Aurora PostgreSQL
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Both A and B
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon DynamoDB
@@ -2606,7 +2606,7 @@ Which service provides fully managed PostgreSQL?
 
 What is the AWS Well-Architected Tool?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Review service for best practices
+&nbsp;&nbsp;&nbsp;&nbsp;A. Review service for best practices
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Cost calculator
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Migration tool
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Security scanner
@@ -2624,7 +2624,7 @@ What is the AWS Well-Architected Tool?
 
 Which service provides API management?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon API Gateway
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon API Gateway
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS AppSync
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Both A and B
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Amazon Route 53
@@ -2642,7 +2642,7 @@ Which service provides API management?
 
 What is AWS Systems Manager?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Patch management
+&nbsp;&nbsp;&nbsp;&nbsp;A. Patch management
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Configuration management
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Session management
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All of the above
@@ -2660,7 +2660,7 @@ What is AWS Systems Manager?
 
 Which service provides serverless workflows?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Step Functions
+&nbsp;&nbsp;&nbsp;&nbsp;A. AWS Step Functions
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. AWS Lambda
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon States Language
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All of the above
@@ -2678,7 +2678,7 @@ Which service provides serverless workflows?
 
 What is the default internet access for EC2 in default VPC?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. No internet access
+&nbsp;&nbsp;&nbsp;&nbsp;A. No internet access
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Public IP assigned
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Private subnet only
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. NAT required
@@ -2696,7 +2696,7 @@ What is the default internet access for EC2 in default VPC?
 
 Which service provides business analytics?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon QuickSight
+&nbsp;&nbsp;&nbsp;&nbsp;A. Amazon QuickSight
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Amazon Athena
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Amazon Redshift
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. All of the above
@@ -2714,7 +2714,7 @@ Which service provides business analytics?
 
 What is the AWS Cloud Adoption Framework (CAF)?
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A. Migration methodology
+&nbsp;&nbsp;&nbsp;&nbsp;A. Migration methodology
 <br>&nbsp;&nbsp;&nbsp;&nbsp;B. Structured guidance for cloud adoption
 <br>&nbsp;&nbsp;&nbsp;&nbsp;C. Cost optimization tool
 <br>&nbsp;&nbsp;&nbsp;&nbsp;D. Security framework
