@@ -11,7 +11,12 @@ AWS allows users to manage their resources using a web based user interface. Wha
 &nbsp;&nbsp;&nbsp;&nbsp;C. AWS SDK.  
 &nbsp;&nbsp;&nbsp;&nbsp;D. AWS Management Console.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** D<br><br>**Explanation:** The AWS Management Console is a web-based user interface that allows users to interact with AWS services graphically without the need for coding. It is accessible via a web browser and provides a user-friendly way to manage resources. In contrast, the AWS CLI is a command-line tool for managing services via scripts, AWS API is the underlying application programming interface for programmatic interactions, and AWS SDK is a set of libraries for integrating AWS services into applications in various programming languages.</details>
+<details><summary>Click to reveal answer.</summary>
+
+**Correct Answer:** D
+
+**Explanation:** The AWS Management Console is a web-based user interface that allows users to interact with AWS services graphically without the need for coding. It is accessible via a web browser and provides a user-friendly way to manage resources. In contrast, the AWS CLI is a command-line tool for managing services via scripts, AWS API is the underlying application programming interface for programmatic interactions, and AWS SDK is a set of libraries for integrating AWS services into applications in various programming languages.
+</details>
 
 ---
 
@@ -24,7 +29,7 @@ Which of the following is an example of horizontal scaling in the AWS Cloud?
 &nbsp;&nbsp;&nbsp;&nbsp;C. Adding more RAM capacity to an EC2 instance.  
 &nbsp;&nbsp;&nbsp;&nbsp;D. Adding more EC2 instances of the same size to handle an increase in traffic.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** D<br><br>**Explanation:** Horizontal scaling, also known as scaling out, involves adding more instances to distribute the load across multiple servers, which enhances availability and fault tolerance. This is a key principle of cloud architecture. Options A, B, and C describe vertical scaling, or scaling up, where you increase the resources of a single instance, which has limits and can create single points of failure.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** D<br><br>**Explanation:** Horizontal scaling, also known as scaling out, involves adding more instances to distribute the load across multiple servers, which enhances availability and fault tolerance. This is a key principle of cloud architecture. Options A, B, and C describe vertical scaling, or scaling up, where you increase the resources of a single instance, which has limits and can create single points of failure.</details>
 
 ---
 
@@ -38,7 +43,7 @@ Which of the below options are related to the reliability of AWS? (Choose TWO)
 &nbsp;&nbsp;&nbsp;&nbsp;D. Providing compensation to customers if issues occur.  
 &nbsp;&nbsp;&nbsp;&nbsp;E. Ability to recover quickly from failures.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** B, E<br><br>**Explanation:** Reliability in AWS refers to the ability of a system to recover from infrastructure or service disruptions and dynamically acquire computing resources to meet demand. Automatic provisioning (B) is achieved through services like Auto Scaling, and quick recovery (E) is supported by features like Multi-AZ deployments. Option A is security-related, C is about global reach but not directly reliability, and D is about SLA compensation, not reliability itself.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** B, E<br><br>**Explanation:** Reliability in AWS refers to the ability of a system to recover from infrastructure or service disruptions and dynamically acquire computing resources to meet demand. Automatic provisioning (B) is achieved through services like Auto Scaling, and quick recovery (E) is supported by features like Multi-AZ deployments. Option A is security-related, C is about global reach but not directly reliability, and D is about SLA compensation, not reliability itself.</details>
 
 ---
 
@@ -51,7 +56,7 @@ Adjusting compute capacity dynamically to reduce cost is an implementation of wh
 &nbsp;&nbsp;&nbsp;&nbsp;C. Implement elasticity.  
 &nbsp;&nbsp;&nbsp;&nbsp;D. Adopt monolithic architecture.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** C<br><br>**Explanation:** Elasticity is the ability to automatically add or remove resources based on demand, which optimizes costs by ensuring you only pay for what you use. This is a core AWS best practice under the Well-Architected Framework. Option A is security, B is for performance, and D is the opposite of recommended microservices architecture.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** C<br><br>**Explanation:** Elasticity is the ability to automatically add or remove resources based on demand, which optimizes costs by ensuring you only pay for what you use. This is a core AWS best practice under the Well-Architected Framework. Option A is security, B is for performance, and D is the opposite of recommended microservices architecture.</details>
 
 ---
 
@@ -65,7 +70,7 @@ What are the benefits of having infrastructure hosted in AWS? (Choose TWO)
 &nbsp;&nbsp;&nbsp;&nbsp;D. Operating applications on behalf of customers.  
 &nbsp;&nbsp;&nbsp;&nbsp;E. All of the physical security and most of the data/network security are taken care of for you.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** A, E<br><br>**Explanation:** AWS provides speed and agility by allowing rapid provisioning of resources, and handles physical and network security under the shared responsibility model, freeing customers to focus on application-level security. Option B is incorrect as customers are responsible for security in the cloud, C is not true as AWS manages physical infrastructure, and D is not a benefit as customers manage their own applications.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** A, E<br><br>**Explanation:** AWS provides speed and agility by allowing rapid provisioning of resources, and handles physical and network security under the shared responsibility model, freeing customers to focus on application-level security. Option B is incorrect as customers are responsible for security in the cloud, C is not true as AWS manages physical infrastructure, and D is not a benefit as customers manage their own applications.</details>
 
 ---
 
@@ -78,7 +83,7 @@ What is the advantage of the AWS-recommended practice of "decoupling" applicatio
 &nbsp;&nbsp;&nbsp;&nbsp;C. Allows updates of any monolithic application quickly and easily.  
 &nbsp;&nbsp;&nbsp;&nbsp;D. Allows tracking of any API call made to any AWS service.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** B<br><br>**Explanation:** Decoupling reduces dependencies between components, making the system more resilient to failures, easier to scale, and simpler to update individual parts without affecting the whole. This aligns with microservices architecture. Option A describes monolithic, C is also monolithic, and D is CloudTrail's function.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** B<br><br>**Explanation:** Decoupling reduces dependencies between components, making the system more resilient to failures, easier to scale, and simpler to update individual parts without affecting the whole. This aligns with microservices architecture. Option A describes monolithic, C is also monolithic, and D is CloudTrail's function.</details>
 
 ---
 
@@ -91,7 +96,7 @@ One of the most important AWS best-practices to follow is the cloud architecture
 &nbsp;&nbsp;&nbsp;&nbsp;C. By reducing interdependencies between application components wherever possible.  
 &nbsp;&nbsp;&nbsp;&nbsp;D. By automatically provisioning the required AWS resources based on changes in demand.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** D<br><br>**Explanation:** Elasticity allows resources to be provisioned and released automatically based on demand, optimizing costs and performance. Services like Auto Scaling and ELB enable this, but the principle is the automatic provisioning. Option A is not AWS, B is specific to ELB, C is decoupling.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** D<br><br>**Explanation:** Elasticity allows resources to be provisioned and released automatically based on demand, optimizing costs and performance. Services like Auto Scaling and ELB enable this, but the principle is the automatic provisioning. Option A is not AWS, B is specific to ELB, C is decoupling.</details>
 
 ---
 
@@ -104,7 +109,7 @@ Which of the following does NOT belong to the AWS Cloud Computing models?
 &nbsp;&nbsp;&nbsp;&nbsp;C. Software as a Service (SaaS).  
 &nbsp;&nbsp;&nbsp;&nbsp;D. Networking as a Service (NaaS).
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** D<br><br>**Explanation:** AWS supports IaaS (e.g., EC2), PaaS (e.g., Elastic Beanstalk), and SaaS (e.g., WorkSpaces). NaaS is not a standard AWS model; networking is part of IaaS.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** D<br><br>**Explanation:** AWS supports IaaS (e.g., EC2), PaaS (e.g., Elastic Beanstalk), and SaaS (e.g., WorkSpaces). NaaS is not a standard AWS model; networking is part of IaaS.</details>
 
 ---
 
@@ -117,7 +122,7 @@ A global company with a large number of AWS accounts is seeking a way in which t
 &nbsp;&nbsp;&nbsp;&nbsp;C. IAM User Groups.  
 &nbsp;&nbsp;&nbsp;&nbsp;D. AWS Config.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** A<br><br>**Explanation:** AWS Organizations allows central management of multiple accounts, including consolidated billing and service control policies for security. Trusted Advisor is for optimization, IAM Groups are for user permissions within an account, AWS Config is for resource configuration.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** A<br><br>**Explanation:** AWS Organizations allows central management of multiple accounts, including consolidated billing and service control policies for security. Trusted Advisor is for optimization, IAM Groups are for user permissions within an account, AWS Config is for resource configuration.</details>
 
 ---
 
@@ -130,7 +135,7 @@ Which of the below is a best-practice when building applications on AWS?
 &nbsp;&nbsp;&nbsp;&nbsp;C. Automate wherever possible to make architectural experimentation easier.  
 &nbsp;&nbsp;&nbsp;&nbsp;D. Provision a large compute capacity to handle any spikes in load
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** C<br><br>**Explanation:** Automation using tools like CloudFormation makes it easier to experiment, test, and iterate on architectures, aligning with AWS best practices for agility. Option A is contrary to cloud flexibility, B is for cost, D is overprovisioning, which is inefficient.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** C<br><br>**Explanation:** Automation using tools like CloudFormation makes it easier to experiment, test, and iterate on architectures, aligning with AWS best practices for agility. Option A is contrary to cloud flexibility, B is for cost, D is overprovisioning, which is inefficient.</details>
 
 ---
 
@@ -144,7 +149,7 @@ The principle "design for failure and nothing will fail" is very important when 
 &nbsp;&nbsp;&nbsp;&nbsp;D. Penetration testing.  
 &nbsp;&nbsp;&nbsp;&nbsp;E. Vertical Scaling.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** B, C<br><br>**Explanation:** Designing for failure means building redundancy and fault tolerance. Availability Zones provide isolated locations for high availability, and Elastic Load Balancing distributes traffic across multiple instances. MFA is security, penetration testing is assessment, vertical scaling creates single points of failure.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** B, C<br><br>**Explanation:** Designing for failure means building redundancy and fault tolerance. Availability Zones provide isolated locations for high availability, and Elastic Load Balancing distributes traffic across multiple instances. MFA is security, penetration testing is assessment, vertical scaling creates single points of failure.</details>
 
 ---
 
@@ -157,7 +162,7 @@ Which of the following is equivalent to a user name and password and is used to 
 &nbsp;&nbsp;&nbsp;&nbsp;C. Access Keys.  
 &nbsp;&nbsp;&nbsp;&nbsp;D. MFA.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** C<br><br>**Explanation:** Access Keys (Access Key ID and Secret Access Key) are used for programmatic access via AWS CLI, SDKs, and APIs, similar to username/password for console access. Key pairs are for EC2 SSH/RDP, Instance Password for Windows, MFA is additional security.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** C<br><br>**Explanation:** Access Keys (Access Key ID and Secret Access Key) are used for programmatic access via AWS CLI, SDKs, and APIs, similar to username/password for console access. Key pairs are for EC2 SSH/RDP, Instance Password for Windows, MFA is additional security.</details>
 
 ---
 
@@ -171,7 +176,7 @@ Which of the following AWS services scale automatically without your interventio
 &nbsp;&nbsp;&nbsp;&nbsp;D. Amazon EMR.  
 &nbsp;&nbsp;&nbsp;&nbsp;E. Amazon EBS.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** B, C<br><br>**Explanation:** Amazon S3 automatically scales storage and throughput, AWS Lambda automatically scales compute based on invocation rate. EC2 requires Auto Scaling configuration, EMR is managed Hadoop, EBS scales manually or via snapshots.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** B, C<br><br>**Explanation:** Amazon S3 automatically scales storage and throughput, AWS Lambda automatically scales compute based on invocation rate. EC2 requires Auto Scaling configuration, EMR is managed Hadoop, EBS scales manually or via snapshots.</details>
 
 ---
 
@@ -184,7 +189,7 @@ Which of the following is one of the benefits of moving infrastructure from an o
 &nbsp;&nbsp;&nbsp;&nbsp;C. Reduced Capital Expenditure (CapEx).  
 &nbsp;&nbsp;&nbsp;&nbsp;D. AWS holds responsibility for managing customer applications.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** C<br><br>**Explanation:** Moving to AWS shifts from CapEx (buying hardware) to OpEx (pay-as-you-go), eliminating upfront infrastructure costs. Support is paid, data protection is customer responsibility, AWS doesn't manage customer applications.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** C<br><br>**Explanation:** Moving to AWS shifts from CapEx (buying hardware) to OpEx (pay-as-you-go), eliminating upfront infrastructure costs. Support is paid, data protection is customer responsibility, AWS doesn't manage customer applications.</details>
 
 ---
 
@@ -198,7 +203,7 @@ Which of the following are important design principles you should adopt when des
 &nbsp;&nbsp;&nbsp;&nbsp;D. Automate wherever possible.  
 &nbsp;&nbsp;&nbsp;&nbsp;E. Remove single points of failure.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** D, E<br><br>**Explanation:** Automation enables rapid deployment and consistency (Well-Architected), removing single points of failure ensures reliability. Global vs Regional depends on use case, pay-as-you-go is pricing, treating servers as fixed contradicts elasticity.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** D, E<br><br>**Explanation:** Automation enables rapid deployment and consistency (Well-Architected), removing single points of failure ensures reliability. Global vs Regional depends on use case, pay-as-you-go is pricing, treating servers as fixed contradicts elasticity.</details>
 
 ---
 
@@ -212,7 +217,7 @@ Which of the following are advantages of the AWS Cloud? (Choose TWO)
 &nbsp;&nbsp;&nbsp;&nbsp;D. AWS manages cost planning for virtual servers.  
 &nbsp;&nbsp;&nbsp;&nbsp;E. AWS manages the maintenance of the cloud infrastructure.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** A, E<br><br>**Explanation:** Under shared responsibility, AWS manages physical capacity planning and infrastructure maintenance. Customers manage application security and development, cost planning is customer responsibility.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** A, E<br><br>**Explanation:** Under shared responsibility, AWS manages physical capacity planning and infrastructure maintenance. Customers manage application security and development, cost planning is customer responsibility.</details>
 
 ---
 
@@ -225,7 +230,7 @@ Which of the following statements describes the AWS Cloud's agility?
 &nbsp;&nbsp;&nbsp;&nbsp;C. AWS allows you to pay for what you use with no long-term commitments.  
 &nbsp;&nbsp;&nbsp;&nbsp;D. AWS allows you to provision capacity on the fly.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** D<br><br>**Explanation:** Agility is the ability to rapidly provision and de-provision resources as needed. Low-cost networking is economy of scale, multi-region is global reach, pay-as-you-go is economic model.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** D<br><br>**Explanation:** Agility is the ability to rapidly provision and de-provision resources as needed. Low-cost networking is economy of scale, multi-region is global reach, pay-as-you-go is economic model.</details>
 
 ---
 
@@ -238,7 +243,7 @@ Which of the following does AWS provide to help reduce the complexity of managin
 &nbsp;&nbsp;&nbsp;&nbsp;C. AWS Organizations.  
 &nbsp;&nbsp;&nbsp;&nbsp;D. AWS IAM.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** C<br><br>**Explanation:** AWS Organizations centralizes management of multiple accounts with consolidated billing and policies. Trusted Advisor is optimization, Console is UI, IAM is within-account permissions.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** C<br><br>**Explanation:** AWS Organizations centralizes management of multiple accounts with consolidated billing and policies. Trusted Advisor is optimization, Console is UI, IAM is within-account permissions.</details>
 
 ---
 
@@ -252,7 +257,7 @@ Which of the following does the AWS Cloud provide to its customers? (Choose TWO)
 &nbsp;&nbsp;&nbsp;&nbsp;D. Multiple storage options.  
 &nbsp;&nbsp;&nbsp;&nbsp;E. Virtual storage.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** B, D<br><br>**Explanation:** AWS provides secure physical data centers and multiple storage options (S3, EBS, Glacier). Physical networking is abstracted, software firewalls and virtual storage are customer-managed.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** B, D<br><br>**Explanation:** AWS provides secure physical data centers and multiple storage options (S3, EBS, Glacier). Physical networking is abstracted, software firewalls and virtual storage are customer-managed.</details>
 
 ---
 
@@ -265,6 +270,6 @@ What are the benefits of using the AWS Cloud Adoption Framework (AWS CAF)?
 &nbsp;&nbsp;&nbsp;&nbsp;C. Provides a structured approach to help customers develop an agile methodology to move to the AWS Cloud.  
 &nbsp;&nbsp;&nbsp;&nbsp;D. Provides a structured framework for large enterprises to achieve better business outcomes.
 
-<details><summary>Click to reveal</summary><br>**Correct Answer:** B<br><br>**Explanation:** AWS CAF provides structured guidance for building and migrating to cloud infrastructure across business, people, governance, and technical perspectives. Option D is partially correct but B is more precise.</details>
+<details><summary>Click to reveal answer.</summary><br>**Correct Answer:** B<br><br>**Explanation:** AWS CAF provides structured guidance for building and migrating to cloud infrastructure across business, people, governance, and technical perspectives. Option D is partially correct but B is more precise.</details>
 
 ---
