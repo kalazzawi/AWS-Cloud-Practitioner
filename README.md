@@ -1,6 +1,6 @@
 # Karim Al-Azzawi's AWS Certified Cloud Practitioner (CLF-C02) Study Guide
 
-Welcome to my **AWS Certified Cloud Practitioner Study Guide**! This comprehensive resource is designed to help you ace the AWS Certified Cloud Practitioner exam (CLF-C02), a foundational certification validating your understanding of AWS Cloud concepts, services, security, and economics. Ideal for beginners with up to 6 months of AWS exposure, this guide aggregates data from official AWS resources, GitHub cheat sheets, Tutorials Dojo, Whizlabs, and more. As of October 18, 2025, CLF-C02 is the current exam version. Expect 20-40 study hours; aim for a 700/1000 passing score.
+Welcome to my **AWS Certified Cloud Practitioner Study Guide**! This comprehensive resource is designed to help you ace the AWS Certified Cloud Practitioner exam (CLF-C02), a foundational certification validating your understanding of AWS Cloud concepts, services, security, and economics. Ideal for beginners with up to 6 months of AWS exposure. As of October 18, 2025, CLF-C02 is the current exam version. Expect 20-40 study hours; aim for a 700/1000 passing score.
 
 ---
 
