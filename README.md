@@ -1,6 +1,6 @@
-# Ultimate AWS Certified Cloud Practitioner (CLF-C02) Study Guide
+# Karim Al-Azzawi's AWS Certified Cloud Practitioner (CLF-C02) Study Guide
 
-Welcome to the **Ultimate AWS Certified Cloud Practitioner Study Guide**! This comprehensive resource is designed to help you ace the AWS Certified Cloud Practitioner exam (CLF-C02), a foundational certification validating your understanding of AWS Cloud concepts, services, security, and economics. Ideal for beginners with up to 6 months of AWS exposure, this guide aggregates data from official AWS resources, GitHub cheat sheets, Tutorials Dojo, Whizlabs, and more. As of October 18, 2025, CLF-C02 is the current exam version. Expect 20-40 study hours; aim for a 700/1000 passing score.
+Welcome to my **AWS Certified Cloud Practitioner Study Guide**! This comprehensive resource is designed to help you ace the AWS Certified Cloud Practitioner exam (CLF-C02), a foundational certification validating your understanding of AWS Cloud concepts, services, security, and economics. Ideal for beginners with up to 6 months of AWS exposure, this guide aggregates data from official AWS resources, GitHub cheat sheets, Tutorials Dojo, Whizlabs, and more. As of October 18, 2025, CLF-C02 is the current exam version. Expect 20-40 study hours; aim for a 700/1000 passing score.
 
 ---
 
@@ -137,35 +137,9 @@ Aggregated from [official guide](https://d1.awsstatic.com/training-and-certifica
 
 ---
 
-## 5. Sample Practice Questions
-
-From [Tutorials Dojo](https://tutorialsdojo.com/aws-cloud-practitioner-clf-c02-exam-guide/) and others.
-
-**1. Domain 1:** Which pillar emphasizes maximizing utilization and adopting efficient hardware?  
-a) Reliability  
-b) **Sustainability**  
-c) Cost Optimization  
-d) Performance Efficiency  
-
-**2. Domain 2:** Who patches the guest OS on EC2?  
-a) AWS  
-b) **Customer**  
-c) Both  
-d) Neither  
-
-**3. Domain 3:** Which service is a managed NoSQL with seamless scalability?  
-a) RDS  
-b) **DynamoDB**  
-c) Redshift  
-d) ElastiCache  
-
-**4. Domain 4:** Which tool forecasts costs?  
-a) Budgets  
-b) **Cost Explorer**  
-c) Trusted Advisor  
 d) Health Dashboard  
 
-**5. Domain 3:** Primary benefit of multi-AZs?  
+**4. Domain 3:** Primary benefit of multi-AZs?  
 a) Latency reduction  
 b) Sovereignty  
 c) **HA/fault tolerance**  
@@ -177,7 +151,7 @@ More: [Tutorials Dojo](https://tutorialsdojo.com/aws-cloud-practitioner-clf-c02-
 
 ---
 
-## 6. Exam Day Tips
+## 5. Exam Day Tips
 
 - Sleep well; arrive early.
 - Read fully; eliminate options; flag/skip.
@@ -186,7 +160,7 @@ More: [Tutorials Dojo](https://tutorialsdojo.com/aws-cloud-practitioner-clf-c02-
 
 ---
 
-## 7. Why Get Certified? Career Benefits
+## 6. Why Get Certified? Career Benefits
 
 - Entry to AWS path (e.g., Solutions Architect).
 - 84% job increase; $90K-120K entry-level.
@@ -195,32 +169,3 @@ More: [Tutorials Dojo](https://tutorialsdojo.com/aws-cloud-practitioner-clf-c02-
 ---
 
 You've got this! Use this guide for success. Questions? Visit [AWS forums](https://www.reddit.com/r/AWSCertifications/). Good luck! 🚀
-```
-
-## Instructions for GitHub Setup:
-
-1. **Create the main file:** Save the above content as `README.md` in your repository root.
-
-2. **Create the Q&A file:** Create a new file called `questions-answers.md` in the same repository with the full practice questions and detailed explanations.
-
-**Example `questions-answers.md` structure:**
-```markdown
-# CLF-C02 Practice Questions & Answers
-
-## Detailed Explanations
-
-1. **Sustainability** – Well-Architected pillar focused on environmental impact through efficient hardware utilization.
-
-2. **Customer** – Shared responsibility model: Customer manages guest OS patching on EC2.
-
-[... continue with all 5 questions ...]
-```
-
-3. **File Structure:**
-```
-your-repo/
-├── README.md                 (this study guide)
-└── questions-answers.md      (full Q&A)
-```
-
-The link `[Questions and Answers Page](questions-answers.md)` will automatically work on GitHub and point to the detailed explanations file! 🎯
