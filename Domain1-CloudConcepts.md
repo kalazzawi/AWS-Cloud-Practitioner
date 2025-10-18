@@ -7,12 +7,12 @@
 ### Question 1
 
 Which of the following is an example of horizontal scaling in the AWS Cloud?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Replacing an existing EC2 instance with a larger, more powerful one.<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;A. Replacing an existing EC2 instance with a larger, more powerful one.
 &nbsp;&nbsp;&nbsp;&nbsp;B. Increasing the compute capacity of a single EC2 instance to address the growing demands of an application.
 &nbsp;&nbsp;&nbsp;&nbsp;C. Adding more RAM capacity to an EC2 instance.
 &nbsp;&nbsp;&nbsp;&nbsp;D. Adding more EC2 instances of the same size to handle an increase in traffic.
-
+<br>
 <details><summary>Click to reveal answer.</summary>
 <br>
 
